@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ai_undo_menu">Letzte Dateiänderungen rückgängig</string>
+    <string name="ai_undo_title">Dateiänderungen rückgängig machen</string>
+    <string name="ai_undo_action">Rückgängig</string>
+    <plurals name="ai_undo_message">
+        <item quantity="one">%1$d vom Assistenten für „%2$s“ geänderte Datei auf den vorherigen Inhalt zurücksetzen? Vom Assistenten erstellte Dateien werden gelöscht.</item>
+        <item quantity="other">%1$d vom Assistenten für „%2$s“ geänderte Dateien auf den vorherigen Inhalt zurücksetzen? Vom Assistenten erstellte Dateien werden gelöscht.</item>
+    </plurals>
+    <string name="ai_undo_done">%1$d Datei(en) wiederhergestellt, %2$d neue Datei(en) gelöscht.</string>
+    <string name="ai_undo_failed">Diese Dateien konnten nicht wiederhergestellt werden (zu groß oder nicht lesbar):%1$s</string>
+    <string name="ai_undo_nothing">Keine Dateiänderungen zum Rückgängigmachen.</string>
+</resources>

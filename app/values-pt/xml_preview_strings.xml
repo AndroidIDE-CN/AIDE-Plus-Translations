@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="xml_preview_title">Pré-visualizar gráfico XML</string>
+    <string name="xml_preview_zoom_in">Ampliar</string>
+    <string name="xml_preview_zoom_out">Reduzir</string>
+    <string name="xml_preview_fit">Ajustar à área</string>
+    <string name="xml_preview_background">Fundo da pré-visualização</string>
+    <string name="xml_preview_checker">Xadrez de transparência</string>
+    <string name="xml_preview_light">Claro</string>
+    <string name="xml_preview_dark">Escuro</string>
+    <string name="xml_preview_mask">Máscara do ícone</string>
+    <string name="xml_preview_circle">Círculo</string>
+    <string name="xml_preview_rounded">Quadrado arredondado</string>
+    <string name="xml_preview_loading">A renderizar a pré-visualização…</string>
+    <string name="xml_preview_error">Não foi possível renderizar a pré-visualização: %1$s</string>
+    <string name="xml_preview_too_large">O XML excede o limite de pré-visualização de 2 MiB</string>
+    <string name="xml_preview_busy">A pré-visualização está ocupada. Volte ao código-fonte e tente novamente.</string>
+    <string name="xml_preview_unspecified">Sem dimensões originais declaradas</string>
+    <string name="xml_preview_size">Dimensões originais: %1$s</string>
+    <string name="xml_preview_viewport">Área de visualização: %1$s</string>
+    <string name="xml_preview_default_state">Estado predefinido</string>
+    <string name="xml_preview_approximate">Pré-visualização aproximada: primeiro fotograma ou nível completo; a seleção dos qualificadores pode diferir do dispositivo.</string>
+    <string name="xml_preview_fallback">As cores não resolvidas são apresentadas a cinzento: %1$s</string>
+</resources>

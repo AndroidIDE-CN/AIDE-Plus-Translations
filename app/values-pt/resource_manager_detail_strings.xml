@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rm_details">Detalhes do recurso · %1$s</string>
+    <string name="rm_go_definition">Ir para a definição</string>
+    <string name="rm_open_designer">Abrir no designer de layout</string>
+    <string name="rm_find_usages">Encontrar utilizações</string>
+    <string name="rm_location">%1$s:%2$d:%3$d</string>
+    <string name="rm_stale_details">Os recursos foram alterados. Atualize e abra os detalhes novamente.</string>
+    <string name="rm_edit_xml_required">Este valor contém marcação ou não é um item de texto compatível. Edite no editor XML para preservar a estrutura.</string>
+    <string name="rm_unsaved_title">Alterações não guardadas no editor</string>
+    <string name="rm_unsaved_message">Este ficheiro tem alterações não guardadas. Guarde no editor e atualize os recursos antes de editar o valor. Nada foi sobrescrito.</string>
+    <string name="rm_reload_failed">O recurso foi guardado no disco, mas o editor não conseguiu recarregá-lo com segurança. Preserve as alterações não guardadas antes de recarregar.</string>
+    <string name="rm_usages_title">Utilizações · %1$s</string>
+    <string name="rm_usage_scanning">A pesquisar código-fonte e recursos do projeto…</string>
+    <string name="rm_usage_count">Referências encontradas: %1$d</string>
+    <string name="rm_usage_textual">A pesquisa textual inclui comentários e cadeias de texto, mas não resolve espaços de nomes dos recursos. Apenas ficheiros guardados são pesquisados. As linhas longas são abreviadas.</string>
+    <string name="rm_usage_truncated">Apenas as primeiras %1$d referências são apresentadas. Existem mais resultados.</string>
+    <string name="rm_usage_skipped">Ficheiros ilegíveis, demasiado grandes ou não compatíveis ignorados: %1$d</string>
+    <string name="rm_usage_empty">Nenhuma referência encontrada no código-fonte ou nos recursos do projeto.</string>
+    <string name="rm_invalid_value">Introduza um valor válido para este tipo de recurso.</string>
+    <string name="rm_open_failed">O editor não conseguiu abrir este ficheiro. Verifique se existe e pode ser lido.</string>
+</resources>

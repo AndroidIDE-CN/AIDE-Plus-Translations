@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rm_root_choose">Resource directory</string>
+    <string name="rm_root_search">Search modules, library coordinates or paths</string>
+    <string name="rm_root_all">All</string>
+    <string name="rm_root_modules">Modules</string>
+    <string name="rm_root_dependencies">Dependencies</string>
+    <string name="rm_root_empty">No matching directories. Change the search or filter.</string>
+    <string name="rm_root_project">Project module</string>
+    <string name="rm_root_dependency">Dependency</string>
+    <string name="rm_root_editable">Editable</string>
+    <string name="rm_root_summary">%1$s · %2$s</string>
+    <string name="rm_root_accessibility">Choose resource directory. Current: %1$s. %2$s.</string>
+    <string name="rm_root_current_row">Current directory: %1$s. %2$s.</string>
+    <string name="rm_root_row">%1$s. %2$s.</string>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dependency_ui_configure">配置并添加…</string>
+    <string name="dependency_ui_latest">最新版本：%1$s</string>
+    <string name="dependency_ui_version">版本</string>
+    <string name="dependency_ui_preview">声明预览</string>
+    <string name="dependency_ui_exclusions">排除项（group:module）</string>
+    <string name="dependency_ui_exclusions_hint">每行一个 group:module，仅对此依赖的引入路径生效。</string>
+    <string name="dependency_ui_exclude">排除…</string>
+    <string name="dependency_ui_exclude_transitive">排除传递依赖…</string>
+    <string name="dependency_ui_exclude_from">从某条顶层依赖中排除…</string>
+    <string name="dependency_ui_exclude_global">对整个模块全局排除…</string>
+    <string name="dependency_ui_choose_origin">选择引入它的顶层依赖</string>
+    <string name="dependency_ui_global_warning">从此模块的所有配置中排除 %1$s？这会影响其它引入路径，可能导致构建或运行错误。保存模块属性后草稿才会生效。</string>
+    <string name="dependency_ui_draft_updated">排除项已加入模块草稿，请保存模块属性使其生效。</string>
+    <string name="dependency_ui_inspection_hint">点击或长按传递依赖可排除。引入路径来自缓存 POM，不代表实时 Gradle 解析结果。</string>
+    <string name="dependency_ui_no_transitives">缓存中没有可选择的传递依赖，请先打开项目并完成依赖解析。</string>
+    <string name="dependency_ui_selected_exclusions">排除项：%1$d</string>
+    <string name="dependency_ui_results">搜索结果</string>
+    <string name="dependency_ui_excluded">此引入路径已排除</string>
+    <string name="dependency_ui_global_count">模块全局排除：%1$d 项</string>
+    <string name="dependency_ui_search_modules">搜索模块名称、ID 或路径</string>
+    <string name="dependency_ui_no_modules">没有匹配的模块</string>
+    <string name="dependency_ui_current_module">当前模块</string>
+    <string name="dependency_ui_select_dependencies">选择依赖</string>
+    <string name="dependency_ui_search_mode">搜索模式</string>
+    <string name="dependency_ui_mode_value">搜索模式：%1$s</string>
+    <string name="dependency_ui_add_selection">添加所选（%1$d）</string>
+    <plurals name="dependency_ui_selection_count">
+        <item quantity="one">已选 %1$d 项</item>
+        <item quantity="other">已选 %1$d 项</item>
+    </plurals>
+</resources>

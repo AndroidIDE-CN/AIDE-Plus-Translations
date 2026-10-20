@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="highlight_kind_editor_background">Editor background</string>
+    <string name="highlight_kind_editor_selection">Selected text background</string>
+    <string name="highlight_kind_plain">Text</string>
+    <string name="highlight_kind_keyword">Keywords</string>
+    <string name="highlight_kind_identifier">Identifiers</string>
+    <string name="highlight_kind_namespace_identifier">Package names</string>
+    <string name="highlight_kind_type_identifier">Type names</string>
+    <string name="highlight_kind_operator">Operators</string>
+    <string name="highlight_kind_separator">Brackets and punctuation</string>
+    <string name="highlight_kind_literal">Strings, numbers and booleans</string>
+    <string name="highlight_kind_comment">Comments</string>
+    <string name="highlight_kind_unused">Unused variables</string>
+    <string name="highlight_kind_argument_identifier">Parameters</string>
+    <string name="highlight_kind_delegate_identifier">Method names</string>
+    <string name="highlight_kind_doc_comment">Documentation comments</string>
+    <string name="highlight_kind_field">Fields</string>
+    <string name="highlight_kind_static_field">Static fields</string>
+    <string name="highlight_kind_constant">Constants (static final)</string>
+    <string name="highlight_kind_enum_constant">Enum constants</string>
+    <string name="highlight_kind_annotation">Annotations</string>
+    <string name="highlight_kind_local_variable">Local variables</string>
+</resources>

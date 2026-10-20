@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ai_mcp_category">IA e MCP</string>
+    <string name="ai_mcp_enable_title">Servidor MCP local</string>
+    <string name="ai_mcp_enable_summary">Disponibilizar MCP em 127.0.0.1 para que clientes de IA, como Claude Code ou Codex no Termux, inspecionem o projeto aberto, leiam ficheiros e obtenham os erros de código do AIDE+</string>
+    <string name="ai_mcp_writes_title">Permitir alterações de ficheiros</string>
+    <string name="ai_mcp_writes_summary">Permitir que clientes MCP chamem edit_file e write_file para alterar ficheiros do projeto</string>
+    <string name="ai_mcp_port_title">Porta</string>
+    <string name="ai_mcp_port_summary">Predefinição 8765; o servidor só escuta em 127.0.0.1</string>
+    <string name="ai_mcp_connection_title">Informações de ligação</string>
+    <string name="ai_mcp_connection_summary">Endereço, modo de autenticação e configuração do cliente</string>
+    <string name="ai_mcp_status_running">Estado: em execução · %1$s</string>
+    <string name="ai_mcp_status_stopped">Estado: parado</string>
+    <string name="ai_mcp_status_failed">Estado: falha ao iniciar (%1$s)</string>
+    <string name="ai_mcp_token_label">Token de acesso: %1$s</string>
+    <string name="ai_mcp_copy_config">Copiar configuração</string>
+    <string name="ai_mcp_copied">Configuração copiada</string>
+    <string name="ai_mcp_regenerate_token">Gerar novo token</string>
+    <string name="ai_mcp_token_regenerated">Token gerado de novo. Atualize a configuração dos clientes ligados.</string>
+    <string name="ai_mcp_require_token_title">Exigir token de acesso</string>
+    <string name="ai_mcp_require_token_summary">Recomendado. Desative apenas num dispositivo de confiança.</string>
+    <string name="ai_mcp_noauth_confirm_title">Desativar a autenticação MCP por token?</string>
+    <string name="ai_mcp_noauth_warning">Outras aplicações neste dispositivo que consigam ligar à porta local poderão aceder ao projeto aberto através das ferramentas MCP ativadas. O servidor continua local; as permissões de escrita e de execução mantêm-se separadas. Continue apenas num dispositivo de confiança.</string>
+    <string name="ai_mcp_disable_token">Desativar</string>
+    <string name="ai_mcp_noauth_status">Autenticação por token desativada (apenas local).</string>
+    <string name="ai_mcp_approval_title">Pedido de ferramenta MCP</string>
+    <string name="ai_mcp_approval_summary">Ferramenta: %1$s · Projeto: %2$s</string>
+    <string name="ai_mcp_approval_warning">Rede e subagentes podem enviar conteúdos do projeto, competências e memória para fora do dispositivo e gerar custos no modelo/API configurado. Alterações de tarefas e memória, incluindo memória global partilhada com a IA, também exigem confirmação. MCP tem tarefas próprias e não usa o histórico de conversas da IA. Verifique o caminho completo do projeto e os argumentos. Autorize apenas este pedido. Não existe isolamento do sistema de ficheiros: a shell pode usar acesso da aplicação/Shizuku e as compilações IDE podem instalar ou iniciar aplicações. Sair do ecrã, mudar de projeto ou esperar 45 segundos cancela a aprovação pendente. Tarefas aceites não são revertidas.</string>
+    <string name="ai_mcp_approval_once">Autorizar este pedido</string>
+    <string name="ai_mcp_approval_deny">Recusar</string>
+</resources>

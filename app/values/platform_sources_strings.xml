@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="sdk_xml_data_title">XML data from SDK platform</string>
+    <string name="sdk_xml_data_summary">Complete and check Android XML with the platform data of the project compileSdk (downloaded in SDK manager). Off: use the built-in data.</string>
+    <string name="sdk_xml_data_missing_badge">XML data missing</string>
+    <string name="sdk_xml_data_prompt_title">Platform XML data not downloaded</string>
+    <string name="sdk_xml_data_prompt_message">XML data for Android SDK %1$s (the project compileSdk) is not downloaded. Download it in SDK manager, or turn this feature off to use the built-in data.</string>
+    <string name="sdk_xml_data_prompt_download">Open SDK manager</string>
+    <string name="sdk_xml_data_prompt_disable">Turn off</string>
+    <string name="sdk_xml_data_prompt_later">Later</string>
+    <string name="library_sources_title">Go to library source code</string>
+    <string name="library_sources_summary">Download -sources.jar when resolving Maven dependencies and open the source (with documentation) instead of the class outline. Off: keep the class outline.</string>
+    <string name="library_doc_command">Show documentation</string>
+    <string name="library_doc_open">Go to declaration</string>
+    <string name="library_doc_none">No documentation comment.</string>
+    <string name="library_doc_no_source">No source code is available for this declaration, so there is no documentation to show.</string>
+    <string name="library_doc_enable_sources">Documentation for library classes needs their source code. Turn on Settings → Go to library source code.</string>
+    <string name="library_sources_not_found">Declaration not found</string>
+    <string name="library_sources_missing_title">Library source code not downloaded</string>
+    <string name="library_sources_missing_message">The source code of %1$s has not been downloaded. Download it now, show the class outline, or turn off going to library source code.</string>
+    <string name="library_sources_download">Download</string>
+    <string name="library_sources_download_failed">Source code could not be downloaded; the repositories may not publish sources for this library.</string>
+    <string name="library_sources_disable">Turn off</string>
+    <string name="library_sources_outline">Class outline</string>
+</resources>

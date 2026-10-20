@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="designer_view_needs_activity">%1$s 需要 Activity 上下文，预览无法提供；请在该代码处用 isInEditMode() 跳过。</string>
+    <string name="designer_view_failed">无法创建：%1$s</string>
+    <string name="designer_view_timeout">构造超过 %1$d 秒未完成（可能死循环），已跳过</string>
+    <string name="designer_view_callback_fault">%1$s 在回调中出错，已停止它的预览：%2$s</string>
+</resources>

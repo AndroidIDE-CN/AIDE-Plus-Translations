@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="new_class_location">In: %s</string>
+    <string name="new_class_language">Language:</string>
+    <string name="new_class_kind">Kind:</string>
+    <string name="new_class_kind_prompt">Select kind</string>
+    <string name="new_class_preview">Creates: %s</string>
+    <string name="new_class_error_empty">Enter a name</string>
+    <string name="new_class_error_identifier">Not a valid name (letters, digits, _; use a.b.Name for sub packages)</string>
+    <string name="new_class_error_keyword">Keywords cannot be used as names</string>
+    <string name="new_class_error_exists">%s already exists</string>
+    <string name="new_class_java">Java</string>
+    <string name="new_class_kotlin">Kotlin</string>
+    <string name="new_class_kind_java_class">Class</string>
+    <string name="new_class_kind_java_interface">Interface</string>
+    <string name="new_class_kind_java_abstract_class">Abstract class</string>
+    <string name="new_class_kind_java_enum">Enum</string>
+    <string name="new_class_kind_java_annotation">Annotation (@interface)</string>
+    <string name="new_class_kind_java_record">Record</string>
+    <string name="new_class_kind_kotlin_class">Class</string>
+    <string name="new_class_kind_kotlin_file">File</string>
+    <string name="new_class_kind_kotlin_data_class">Data class</string>
+    <string name="new_class_kind_kotlin_interface">Interface</string>
+    <string name="new_class_kind_kotlin_abstract_class">Abstract class</string>
+    <string name="new_class_kind_kotlin_sealed_class">Sealed class</string>
+    <string name="new_class_kind_kotlin_sealed_interface">Sealed interface</string>
+    <string name="new_class_kind_kotlin_enum_class">Enum class</string>
+    <string name="new_class_kind_kotlin_object">Object</string>
+    <string name="new_class_kind_kotlin_annotation_class">Annotation class</string>
+</resources>

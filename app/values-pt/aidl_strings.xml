@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="aidl_diag_missing_package">Falta a declaração package</string>
+    <string name="aidl_diag_package_mismatch">O pacote “%1$s” não corresponde à pasta (esperado “%2$s”)</string>
+    <string name="aidl_diag_no_declaration">Esperada uma declaração interface, parcelable, enum ou union</string>
+    <string name="aidl_diag_bad_method">Declaração de método inválida: esperado “tipoRetorno nome(parâmetros);”</string>
+    <string name="aidl_diag_bad_parameter">Parâmetro inválido: esperado “[in|out|inout] Tipo nome”</string>
+    <string name="aidl_diag_overload">O AIDL não suporta sobrecarga de métodos: “%1$s” está declarado mais de uma vez</string>
+    <string name="aidl_diag_oneway_return">O método oneway “%1$s” deve retornar void</string>
+    <string name="aidl_diag_oneway_out">O método oneway “%1$s” não pode ter parâmetros out ou inout</string>
+    <string name="aidl_diag_primitive_direction">O parâmetro primitivo “%1$s” só pode ser in</string>
+    <string name="aidl_diag_missing_direction">O parâmetro “%1$s” precisa de uma direção: in, out ou inout</string>
+    <string name="aidl_diag_unknown_type">Não foi possível resolver o tipo “%1$s”: importe-o ou declare-o como parcelable</string>
+    <string name="aidl_diag_unmatched">“%1$s” sem correspondência</string>
+    <string name="aidl_diag_unclosed">“%1$s” não está fechado</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="aidl_diag_missing_package">缺少 package 声明</string>
+    <string name="aidl_diag_package_mismatch">包名“%1$s”与所在目录不符（应为“%2$s”）</string>
+    <string name="aidl_diag_no_declaration">此处应为 interface、parcelable、enum 或 union 声明</string>
+    <string name="aidl_diag_bad_method">无效的方法声明：应为“返回类型 名称(参数);”</string>
+    <string name="aidl_diag_bad_parameter">无效的参数：应为“[in|out|inout] 类型 名称”</string>
+    <string name="aidl_diag_overload">AIDL 不支持方法重载：“%1$s”重复声明</string>
+    <string name="aidl_diag_oneway_return">oneway 方法“%1$s”必须返回 void</string>
+    <string name="aidl_diag_oneway_out">oneway 方法“%1$s”不能有 out 或 inout 参数</string>
+    <string name="aidl_diag_primitive_direction">基本类型参数“%1$s”只能是 in</string>
+    <string name="aidl_diag_missing_direction">参数“%1$s”需要方向标记：in、out 或 inout</string>
+    <string name="aidl_diag_unknown_type">无法解析类型“%1$s”：请导入或声明为 parcelable</string>
+    <string name="aidl_diag_unmatched">多余的“%1$s”</string>
+    <string name="aidl_diag_unclosed">“%1$s”未闭合</string>
+</resources>

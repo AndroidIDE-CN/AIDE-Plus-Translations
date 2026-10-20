@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="build_verbose_output_title">构建流程显示详细信息</string>
+    <string name="build_verbose_output_summary">在构建任务列表中显示更多细节：逐个依赖库的 DEX 转换、D8 命令、DEX 分组合并及耗时</string>
+    <string name="build_progress_remaining">%1$d/%2$d · 剩余 %3$d</string>
+    <string name="build_progress_bucket">第 %1$d/%2$d 组 · %3$d 个库 · %4$s</string>
+    <string name="build_progress_bucket_reused">第 %1$d/%2$d 组未变化</string>
+    <string name="build_core_library_desugaring">编译核心库脱糖运行时（L8）</string>
+</resources>

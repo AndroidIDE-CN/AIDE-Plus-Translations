@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">AIDE+</string>
+    <string name="trainer_language">en</string>
+    <string name="zeroaicy_settings">ZeroAicyExtensionSettings</string>
+    <string name="command_files_open_aide_termux">Open in terminal</string>
+    <string name="command_run_from_gradle">RunGradle</string>
+    <string name="refresh_maven_repository_tips">Tips</string>
+    <string name="refresh_maven_repository_tips_message">Are you sure you want to refresh Maven warehouse?</string>
+    <string name="commit_options_menu_select_all">SelectAll</string>
+    <string name="commit_options_menu_inverse">Inverse</string>
+    <string name="command_share_logs">Share AIDE+ Logs</string>
+    <string name="command_files_goto_res">Goto Res Folder</string>
+    <string name="command_files_goto_dir">Goto Dir</string>
+    <string name="command_files_goto_java">Goto Java Folder</string>
+    <string name="command_files_icon_manager">Resource Manager</string>
+    <string name="command_run_aapt">run aapt</string>
+    <string name="create_project_loading">Creating Project ...</string>
+    <string name="command_files_open_library_project">Open this Android Library Project</string>
+    <string name="preference_title_keystore_password">Set custom signature key password</string>
+    <string name="start_server">Start socat</string>
+    <string name="stop_server">Stop socat</string>
+    <string name="server_stopped">socat is not running</string>
+    <string name="server_starting">Starting socat</string>
+    <string name="server_connecting">Connecting session...</string>
+    <string name="server_running">socat is running</string>
+    <string name="server_stopping">Stopping socat</string>
+    <string name="command_hint">Enter a command to send to Termux</string>
+    <string name="send_command">Send command</string>
+    <string name="interrupt_command">Interrupt command</string>
+    <string name="output_hint">Execution results will appear here</string>
+    <string name="qqgroup" >QQ group %s</string>
+    <string name="terminal_environment_title">Terminal environments</string>
+    <string name="terminal_environment_summary">Manage Termux packages, Linux distributions and system shells</string>
+</resources>

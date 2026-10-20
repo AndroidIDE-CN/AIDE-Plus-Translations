@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="build_menu_default">Default build</string>
+    <string name="build_menu_gradle">Gradle</string>
+    <string name="build_menu_custom_more">Custom commands…</string>
+    <string name="build_menu_edit_commands">Edit build commands…</string>
+    <string name="build_menu_environment">Container: %1$s</string>
+    <string name="build_commands_title">Custom build commands</string>
+    <string name="build_commands_empty">No custom commands yet. Commands run with sh in the project directory of the chosen terminal environment; $AIDE_PROJECT_DIR is available.</string>
+    <string name="build_commands_add">Add command</string>
+    <string name="build_command_edit">Edit command</string>
+    <string name="build_command_name_hint">Name (optional)</string>
+    <string name="build_command_script_hint">sh command, e.g. ./gradlew assembleDebug</string>
+    <string name="build_command_delete">Delete command</string>
+    <string name="build_command_delete_confirm">Delete command “%1$s”?</string>
+    <string name="build_environment_title">Build container</string>
+    <string name="build_environment_follow_terminal">Terminal default environment</string>
+    <string name="build_no_project">No project is open</string>
+    <string name="pref_build_commands_summary">sh commands listed in the run button menu</string>
+    <string name="build_gradle_command_title">Gradle command build</string>
+    <string name="build_gradle_command_summary">The run button asks how to build: default, Gradle tasks or custom sh commands, started in the chosen container (Termux bootstrap, Linux distribution or system shell)</string>
+    <string name="build_variables_title">Environment variables</string>
+    <string name="build_variables_message">Exported before every build command, one KEY=VALUE per line (for example JAVA_HOME, ANDROID_HOME, GRADLE_OPTS). Values may use existing variables such as $PATH.</string>
+    <string name="build_variables_hint">JAVA_HOME=/usr/lib/jvm/java-17\nPATH=$JAVA_HOME/bin:$PATH</string>
+    <string name="build_variables_none">None</string>
+    <string name="build_menu_gradle_other">Other tasks…</string>
+    <string name="build_gradle_tasks_hint">Tasks and options, e.g. :app:assembleRelease --stacktrace</string>
+    <string name="build_run">Run</string>
+</resources>

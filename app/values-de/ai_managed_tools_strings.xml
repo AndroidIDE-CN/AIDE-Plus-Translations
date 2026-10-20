@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ai_managed_tools">Werkzeuge</string>
+    <string name="ai_managed_c">C/C++ · installiertes Clang</string>
+    <string name="ai_managed_aapt2">aapt2 · integriertes Android-Werkzeug</string>
+    <string name="ai_managed_custom">Befehlswerkzeug</string>
+    <string name="ai_managed_commands">Befehlswerkzeuge</string>
+    <string name="ai_managed_name">Werkzeugname (custom_…)</string>
+    <string name="ai_managed_executable">Programm (@aapt2, @clang oder absoluter Pfad)</string>
+    <string name="ai_managed_prefix">Feste Argumente (JSON-Zeichenkettenliste)</string>
+    <string name="ai_managed_hint">Lokale Werkzeugschalter gelten für KI-Assistent und lokales MCP. Ausführungswerkzeuge und neue Befehle sind zunächst deaktiviert. Aktivieren erteilt keine Ausführungsgenehmigung. Argumente sind wörtlich, keine Shell-Skripte; es gibt KEINE Dateisystem-Sandbox. Befehle nutzen die App-UID; Shell/Shizuku bleiben getrennt. @aapt2 nutzt das integrierte Programm; @clang benötigt ein installiertes Android-NDK. Ziel, Sysroot, Ein- und Ausgabe ausdrücklich angeben; Clang allein baut kein APK. Deaktivieren stoppt keine angenommenen Aufträge. Die KI-Liste wird bei der nächsten Nachricht aktualisiert, MCP bei der nächsten Listenabfrage. MCP-Ausführung erfordert für jede Anfrage eine Bestätigung im sichtbaren AIDE+, unabhängig von Datei- und Automatikfreigaben. Gemeinsame Nur-Lesen-/Verbotsregeln gelten; ohne sichtbaren Bildschirm, bei Zeitablauf, Pause oder Projektwechsel werden ausstehende Anfragen abgelehnt. Konfigurierte Erweiterungen erscheinen ebenfalls hier. Schalter gelten für KI und Unteragenten; Nur-Lesen schließt Planungs-/Speicheränderungen aus. Suche mit höchstens 100 Zeilen pro Seite. Aktivierte Erweiterungen sind auch über lokales MCP verfügbar. Netzwerk, Delegation sowie Speicher-/Planänderungen erfordern Einzelbestätigung, auch bei Unteragenten. Modell/API-Nutzung kann Kosten verursachen und Projektdaten übertragen. MCP-Aufgaben sind von KI-Chats getrennt und werden bei Projektwechsel oder Dienstneustart geleert. Direkte Proxy-Schleifen zum eigenen MCP-Port werden blockiert.</string>
+    <string name="ai_managed_execution">Ausführung · eigene Bestätigung</string>
+    <string name="ai_managed_local">Lokale Projektfunktion</string>
+    <string name="ai_managed_invalid">Ungültige Werkzeugkonfiguration. Bis zur Reparatur sind alle lokalen Werkzeuge deaktiviert.</string>
+    <string name="ai_managed_reset">Ungültige Werkzeugkonfiguration zurücksetzen</string>
+    <string name="ai_managed_reset_warning">Werkzeugschalter und Befehle zurücksetzen? Sicherheitsregeln, Skills und Gespräche bleiben erhalten.</string>
+    <string name="ai_managed_prefix_invalid">Eine JSON-Liste nur mit Zeichenketten verwenden.</string>
+    <string name="ai_managed_duplicate">Dieser Werkzeugname existiert bereits.</string>
+    <string name="ai_managed_invalid_command">Eindeutigen custom_-Namen, @aapt2 / @clang / absoluten Programmpfad und JSON-Zeichenkettenliste verwenden (höchstens 128 Argumente, 16384 Zeichen, 32 Werkzeuge).</string>
+    <string name="ai_managed_add">Befehlswerkzeug hinzufügen</string>
+    <string name="ai_managed_extensions">Konfigurierte Erweiterungen</string>
+    <string name="ai_managed_extension_summary">Erweiterung · übergeordnete Einstellungen gelten</string>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="module_android_resources_title">Recursos Android (androidResources)</string>
+    <string name="module_android_resources_readonly">As declarações antigas, qualificadas ou complexas são só de leitura. Edite diretamente o ficheiro Gradle.</string>
+    <string name="module_android_resources_unset">Não declarado</string>
+    <string name="module_android_resources_empty_extension">Extensão vazia (todos os ficheiros sem compressão)</string>
+    <string name="module_android_resources_no_compress_note">Extensões sem ponto inicial. Um item vazio desativa a compressão de todos os ficheiros; eliminar todos os itens remove a declaração.</string>
+    <string name="module_android_resources_locales_note">Qualificadores de idioma dos recursos, por exemplo en, zh-rCN ou b+sr+Latn.</string>
+    <string name="module_android_resources_locale_invalid">Introduza um qualificador de idioma válido, por exemplo en, zh-rCN ou b+sr+Latn.</string>
+    <string name="module_android_resources_parameters_note">Argumentos adicionais de aapt2 link. Adicione cada argumento separadamente; a opção e o valor ficam em itens distintos.</string>
+    <string name="module_android_resources_ignore_note">Separe os padrões aapt com : (sem distinguir maiúsculas). ! suprime mensagens; &lt;dir&gt;/&lt;file&gt; limita o tipo; * no início/fim corresponde ao sufixo/prefixo. Uma cadeia vazia desativa a filtragem. Predefinição AGP: %1$s</string>
+    <string name="module_android_resources_default">Restaurar predefinição / não declarado</string>
+    <string name="module_android_resources_empty_pattern">Cadeia vazia (sem filtragem de assets)</string>
+    <string name="module_android_resources_locale_config_note">Quando ativo, res/resources.properties tem de declarar unqualifiedResLocale (por exemplo en-US).</string>
+    <string name="module_android_resources_inactive_note">Guardado apenas por compatibilidade; esta opção não tem efeito em aapt2/AIDE+.</string>
+    <string name="module_android_resources_add">Adicionar item</string>
+    <string name="module_android_resources_create">Criar resources.properties</string>
+    <string name="module_android_resources_open_locale">Abrir resources.properties</string>
+    <string name="module_android_resources_default_locale">Idioma predefinido (BCP 47)</string>
+    <string name="module_android_resources_default_locale_invalid">Introduza uma etiqueta de idioma BCP 47 válida, por exemplo en-US.</string>
+    <string name="module_android_resources_created">%1$s criado. Utilize Abrir para editar o ficheiro.</string>
+    <string name="module_android_resources_literal_invalid">Utilize um valor literal numa só linha. Só noCompress permite itens vazios; os valores Kotlin com $ não podem ser relidos de forma idêntica pelo analisador.</string>
+</resources>

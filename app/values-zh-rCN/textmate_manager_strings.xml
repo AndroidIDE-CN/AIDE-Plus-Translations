@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="tm_title">TextMate 语法管理</string>
+    <string name="tm_summary">管理文件映射，导入本地 JSON 或 XML plist 语法</string>
+    <string name="tm_import">导入语法</string>
+    <string name="tm_add_mapping">新增文件映射</string>
+    <string name="tm_refresh">重新加载配置</string>
+    <string name="tm_help">帮助</string>
+    <string name="tm_group_builtin">内置语法</string>
+    <string name="tm_group_external">外部语法</string>
+    <string name="tm_group_mappings">文件映射</string>
+    <string name="tm_filter">搜索 scope、名称或文件映射</string>
+    <string name="tm_loading">正在处理…</string>
+    <string name="tm_saved">已保存，下次分析时生效。新增文件类型请刷新项目以注册。</string>
+    <string name="tm_idle">点按语法或文件映射进行编辑。</string>
+    <string name="tm_error">操作失败（%1$s）。配置冲突后请重新加载，格式与限额请查看帮助。</string>
+    <string name="tm_scope">语法 scope</string>
+    <string name="tm_patterns">文件映射</string>
+    <string name="tm_patterns_help">每行填写精确文件名或 *.后缀。Java、Kotlin 等原有语义语言保持保护。</string>
+    <string name="tm_sample">预览样例</string>
+    <string name="tm_preview">验证并预览</string>
+    <string name="tm_confirm_import">导入已审核语法</string>
+    <string name="tm_replace_import">替换并导入</string>
+    <string name="tm_conflicts">将替换已有的语法 scope 或所选文件映射；保留其它设置和内置 assets。</string>
+    <string name="tm_missing">缺少本地 include：%1$s。不会自动下载。</string>
+    <string name="tm_enabled">启用</string>
+    <string name="tm_disabled">停用</string>
+    <string name="tm_empty">没有匹配项</string>
+    <string name="tm_details">详情</string>
+    <string name="tm_remove">卸载外部语法</string>
+    <string name="tm_restore">恢复内置语法</string>
+    <string name="tm_remove_confirm">移除此外部语法？仅在没有对应内置语法时，才移除其文件映射。</string>
+    <string name="tm_restore_mapping">重置文件映射</string>
+    <string name="tm_refresh_project">刷新项目</string>
+    <string name="tm_refresh_confirm">刷新当前项目（%1$s）以注册变更的文件类型？此操作使用原有项目重载和依赖检查。</string>
+    <string name="tm_refresh_started">已请求刷新项目。</string>
+    <string name="tm_no_project">当前没有可刷新的项目。</string>
+    <string name="tm_discard">放弃预览</string>
+    <string name="tm_discard_confirm">放弃此次未保存的导入预览？</string>
+    <string name="tm_cancel_task">取消操作</string>
+    <string name="tm_count">%1$s · %2$d</string>
+    <string name="tm_choose_scope">选择语法 scope</string>
+    <string name="tm_notice">只导入可信来源的语法。正则引擎存在差异，并非所有 TextMate/VS Code 语法均兼容；时间预算不能强制中止所有慢正则。导入内容复制到应用私有目录，不写入项目或内置 assets；未知 include 不会触发下载。语法开关只影响其文件高亮，不阻断其它语法对它的 include。原有 TextMate 全局开关仍然有效，保存不会自动重载项目。</string>
+    <string name="tm_limits">支持 UTF-8 JSON 和 XML plist，不支持二进制 plist、YAML 或 ZIP。输入不超过 512 KiB，规范化语法不超过 1 MiB；最多 32 个外部语法、256 个映射，语法存储总量 8 MiB。预览最多 4096 字符、20 行、每行 512 字符，软时间预算 1 秒。配置冲突不会覆盖较新的修改。</string>
+    <string name="tm_draft_lost">进程已重启，请重新选择语法文件以恢复未保存的预览。</string>
+</resources>

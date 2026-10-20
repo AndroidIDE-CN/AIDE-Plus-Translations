@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="module_android_resources_title">Android 资源（androidResources）</string>
+    <string name="module_android_resources_readonly">旧写法、单行限定写法或复杂声明为只读，请直接编辑 Gradle 文件。</string>
+    <string name="module_android_resources_unset">未声明</string>
+    <string name="module_android_resources_empty_extension">空扩展名（全部不压缩）</string>
+    <string name="module_android_resources_no_compress_note">扩展名不带开头的点。留空项表示全部不压缩；删除全部项则移除声明。</string>
+    <string name="module_android_resources_locales_note">资源语言限定符，例如 en、zh-rCN 或 b+sr+Latn。</string>
+    <string name="module_android_resources_locale_invalid">请输入有效的资源语言限定符，例如 en、zh-rCN 或 b+sr+Latn。</string>
+    <string name="module_android_resources_parameters_note">aapt2 link 额外参数。每项填写一个参数；选项及其值分成两项。</string>
+    <string name="module_android_resources_ignore_note">aapt 模式以 : 分隔，不区分大小写。! 表示静默；&lt;dir&gt;/&lt;file&gt; 限定类型；开头/结尾 * 匹配后缀/前缀。空字符串禁用过滤。AGP 默认值：%1$s</string>
+    <string name="module_android_resources_default">恢复默认 / 未声明</string>
+    <string name="module_android_resources_empty_pattern">空字符串（不过滤 assets）</string>
+    <string name="module_android_resources_locale_config_note">开启时需要在 res/resources.properties 中声明 unqualifiedResLocale（例如 en-US）。</string>
+    <string name="module_android_resources_inactive_note">仅保存以保持兼容；此选项在 aapt2/AIDE+ 中不生效。</string>
+    <string name="module_android_resources_add">添加项</string>
+    <string name="module_android_resources_create">创建 resources.properties</string>
+    <string name="module_android_resources_open_locale">打开 resources.properties</string>
+    <string name="module_android_resources_default_locale">默认语言（BCP 47）</string>
+    <string name="module_android_resources_default_locale_invalid">请输入有效的 BCP 47 语言标签，例如 en-US。</string>
+    <string name="module_android_resources_created">已创建 %1$s，可通过“打开”编辑文件。</string>
+    <string name="module_android_resources_literal_invalid">请输入单行字面量。仅 noCompress 允许空项；含 $ 的 Kotlin 值无法由构建解析器一致读回。</string>
+</resources>

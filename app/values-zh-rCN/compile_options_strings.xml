@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="module_properties_compile_options">编译选项</string>
+    <string name="module_properties_packaging_resources">打包与资源</string>
+    <string name="gradle_kotlin_options_moved">Kotlin 选项：构建 → 编译选项。</string>
+    <string name="gradle_compile_target_mismatch">Java %1$s / Kotlin %2$s：请统一 JVM 目标。</string>
+</resources>

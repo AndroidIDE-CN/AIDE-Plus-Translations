@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="sdk_catalog_search_hint">Search API or platform version</string>
+    <string name="sdk_catalog_refresh">Refresh version list</string>
+    <string name="sdk_catalog_installed_only">Downloaded only</string>
+    <string name="sdk_catalog_loading">Loading version list…</string>
+    <string name="sdk_catalog_count">%1$d stable versions · tap for details and license</string>
+    <string name="sdk_catalog_refresh_failed">Could not refresh. Cached versions remain available. %1$s</string>
+    <string name="sdk_catalog_empty">No matching platforms. Clear the filter or refresh.</string>
+    <string name="sdk_catalog_version">SDK platform %1$s</string>
+    <string name="sdk_catalog_installed">Downloaded</string>
+    <string name="sdk_catalog_available">Available</string>
+    <string name="sdk_catalog_recommended">%1$s · current project</string>
+    <string name="sdk_catalog_view_details">View SDK %1$s details</string>
+    <string name="sdk_catalog_download_version">Download SDK %1$s</string>
+    <string name="sdk_catalog_local_details">SDK %1$s is downloaded. A custom android.jar still takes priority.</string>
+    <string name="sdk_catalog_details">SDK %1$s · revision %2$d · %3$s\n%4$s\nOnly android.jar and framework value resources are installed; no JDK or SDK executables. Read the license below before downloading.</string>
+    <string name="sdk_catalog_license_missing">This version has no readable license. Refresh the list before downloading.</string>
+    <string name="sdk_catalog_accept">Accept and download</string>
+    <string name="sdk_catalog_preparing">Preparing SDK %1$s…</string>
+    <string name="sdk_catalog_downloading">SDK %1$s · %2$s / %3$s</string>
+    <string name="sdk_catalog_extracting">Installing SDK %1$s…</string>
+    <string name="sdk_catalog_installed_message">SDK %1$s downloaded. Open projects will refresh.</string>
+    <string name="sdk_catalog_cancelling">Cancelling…</string>
+    <string name="sdk_catalog_cancelled">Download cancelled. You can retry from the version list.</string>
+    <string name="sdk_catalog_failed">SDK download failed: %1$s</string>
+    <string name="sdk_catalog_interrupted">Download interrupted. Retry from the version list.</string>
+    <string name="sdk_catalog_ready">Choose a version to pre-download; no open project is required.</string>
+    <string name="sdk_sources_installed">Sources: installed (used by “Go to library source”)</string>
+    <string name="sdk_sources_unavailable">Sources: not published for this version</string>
+    <string name="sdk_sources_available">Sources: available (%1$s), used by “Go to library source”</string>
+    <string name="sdk_sources_download">Download sources</string>
+    <string name="sdk_sources_missing_message">Sources for Android SDK %1$s are not downloaded. Open the SDK manager and download them from the platform details to jump into android.jar sources.</string>
+    <string name="sdk_sources_open_manager">SDK manager</string>
+</resources>

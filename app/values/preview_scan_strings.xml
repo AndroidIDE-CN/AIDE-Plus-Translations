@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="preview_scan_title">Custom view code check</string>
+    <string name="preview_scan_message">These custom views run inside AIDE+ during preview, with its permissions and data. Their code contains calls that may be risky:\n\n%1$s\n\nRun them only if you trust this code. Otherwise they are shown as placeholders.</string>
+    <string name="preview_scan_allow">Run preview</string>
+    <string name="preview_scan_block">Show placeholders</string>
+    <string name="preview_scan_blocked_reason">Not run: the code check found %1$s</string>
+    <string name="preview_risk_separator">", "</string>
+    <string name="preview_risk_exec">system commands</string>
+    <string name="preview_risk_native">native library loading</string>
+    <string name="preview_risk_dynamic_code">loading external code</string>
+    <string name="preview_risk_file_write">writing or deleting files</string>
+    <string name="preview_risk_network">network access</string>
+    <string name="preview_risk_app_data">app data access or starting components</string>
+    <string name="preview_risk_process">ending the process</string>
+    <string name="preview_risk_system_data">changing system data or sending SMS</string>
+    <string name="preview_risk_reflection">access to system internals</string>
+</resources>

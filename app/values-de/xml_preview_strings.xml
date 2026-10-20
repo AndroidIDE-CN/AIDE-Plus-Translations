@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="xml_preview_title">XML-Grafik anzeigen</string>
+    <string name="xml_preview_zoom_in">Vergrößern</string>
+    <string name="xml_preview_zoom_out">Verkleinern</string>
+    <string name="xml_preview_fit">An Fläche anpassen</string>
+    <string name="xml_preview_background">Vorschauhintergrund</string>
+    <string name="xml_preview_checker">Schachbrett für Transparenz</string>
+    <string name="xml_preview_light">Hell</string>
+    <string name="xml_preview_dark">Dunkel</string>
+    <string name="xml_preview_mask">Symbolmaske</string>
+    <string name="xml_preview_circle">Kreis</string>
+    <string name="xml_preview_rounded">Abgerundetes Quadrat</string>
+    <string name="xml_preview_loading">Vorschau wird gerendert…</string>
+    <string name="xml_preview_error">Vorschau kann nicht gerendert werden: %1$s</string>
+    <string name="xml_preview_too_large">XML überschreitet das Vorschau-Limit von 2 MiB</string>
+    <string name="xml_preview_busy">Vorschau ist ausgelastet. Zum Quelltext zurückkehren und erneut versuchen.</string>
+    <string name="xml_preview_unspecified">Keine Originalgröße angegeben</string>
+    <string name="xml_preview_size">Originalgröße: %1$s</string>
+    <string name="xml_preview_viewport">Ansichtsbereich: %1$s</string>
+    <string name="xml_preview_default_state">Standardzustand</string>
+    <string name="xml_preview_approximate">Ungefähre Vorschau: erstes Bild oder volle Stufe; die Qualifier-Auswahl kann vom Gerät abweichen.</string>
+    <string name="xml_preview_fallback">Nicht aufgelöste Farben werden grau dargestellt: %1$s</string>
+</resources>

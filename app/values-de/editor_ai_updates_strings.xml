@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="editor_mcp_discover">Lokale MCP-Dienste suchen</string>
+    <string name="editor_mcp_discover_help">Prüft nur Loopback-Adressen und die angegebenen Ports, höchstens sechs Sekunden lang. Erkannte HTTP/SSE-Endpunkte werden vor dem Hinzufügen geprüft. Dienste mit Anmeldung, eigene Pfade und andere Geräte müssen eventuell manuell eingerichtet werden. An unbekannte Dienste wird kein Token gesendet.</string>
+    <string name="editor_mcp_ports">Lokale Ports (höchstens 24)</string>
+    <string name="editor_mcp_scan">Suchen</string>
+    <string name="editor_mcp_invalid_ports">1 bis 24 Portnummern von 1 bis 65535 eingeben.</string>
+    <string name="editor_mcp_none">Kein erreichbarer MCP-Dienst gefunden. Port, Pfad und Berechtigung prüfen oder manuell hinzufügen.</string>
+    <string name="editor_quick_actions">Editoraktionen in der Symbolleiste</string>
+    <string name="editor_quick_actions_help">Rückgängig, Wiederholen und Speichern in der neuen Symbolleiste anzeigen; die ursprünglichen Editorbefehle bleiben erhalten.</string>
+    <string name="editor_hide_menu_actions">Editoraktionen im oberen Menü ausblenden</string>
+    <string name="editor_hide_menu_actions_help">Blendet Rückgängig, Wiederholen und Speichern oben nur aus, wenn diese Aktionen in der neuen Symbolleiste aktiviert sind. Der Trainermodus bleibt unverändert.</string>
+    <string name="editor_move_left">Nach links bewegen; zum Wiederholen gedrückt halten</string>
+    <string name="editor_move_right">Nach rechts bewegen; zum Wiederholen gedrückt halten</string>
+    <string name="editor_move_up">Nach oben bewegen; zum Wiederholen gedrückt halten</string>
+    <string name="editor_move_down">Nach unten bewegen; zum Wiederholen gedrückt halten</string>
+    <string name="editor_move_home">Zum Zeilenanfang; zum Wiederholen gedrückt halten</string>
+    <string name="editor_move_end">Zum Zeilenende; zum Wiederholen gedrückt halten</string>
+    <string name="editor_key_tab">Tab</string>
+    <string name="editor_ai_project_switching">Projektwechsel: bisherigen Dialog speichern und neuen vorbereiten…</string>
+</resources>

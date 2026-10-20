@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="new_class_location">位置：%s</string>
+    <string name="new_class_language">语言：</string>
+    <string name="new_class_kind">种类：</string>
+    <string name="new_class_kind_prompt">选择种类</string>
+    <string name="new_class_preview">将创建：%s</string>
+    <string name="new_class_error_empty">请输入名称</string>
+    <string name="new_class_error_identifier">名称不合法（字母、数字、下划线；子包可写成 a.b.Name）</string>
+    <string name="new_class_error_keyword">不能使用关键字作为名称</string>
+    <string name="new_class_error_exists">%s 已存在</string>
+    <string name="new_class_java">Java</string>
+    <string name="new_class_kotlin">Kotlin</string>
+    <string name="new_class_kind_java_class">类</string>
+    <string name="new_class_kind_java_interface">接口</string>
+    <string name="new_class_kind_java_abstract_class">抽象类</string>
+    <string name="new_class_kind_java_enum">枚举</string>
+    <string name="new_class_kind_java_annotation">注解（@interface）</string>
+    <string name="new_class_kind_java_record">记录类（record）</string>
+    <string name="new_class_kind_kotlin_class">类（class）</string>
+    <string name="new_class_kind_kotlin_file">文件（仅 package）</string>
+    <string name="new_class_kind_kotlin_data_class">数据类（data class）</string>
+    <string name="new_class_kind_kotlin_interface">接口（interface）</string>
+    <string name="new_class_kind_kotlin_abstract_class">抽象类（abstract class）</string>
+    <string name="new_class_kind_kotlin_sealed_class">密封类（sealed class）</string>
+    <string name="new_class_kind_kotlin_sealed_interface">密封接口（sealed interface）</string>
+    <string name="new_class_kind_kotlin_enum_class">枚举类（enum class）</string>
+    <string name="new_class_kind_kotlin_object">单例对象（object）</string>
+    <string name="new_class_kind_kotlin_annotation_class">注解类（annotation class）</string>
+</resources>

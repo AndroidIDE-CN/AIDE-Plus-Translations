@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="toml_diag_unexpected">Conteúdo inesperado: era esperada uma chave, um cabeçalho [tabela] ou um comentário</string>
+    <string name="toml_diag_bad_table_header">Cabeçalho de tabela inválido</string>
+    <string name="toml_diag_unclosed_table_header">Falta o colchete de fecho no cabeçalho da tabela</string>
+    <string name="toml_diag_duplicate_table">A tabela [%1$s] está definida mais de uma vez</string>
+    <string name="toml_diag_bad_key">Chave inválida</string>
+    <string name="toml_diag_expected_equals">Esperado “=” após a chave</string>
+    <string name="toml_diag_missing_value">Valor em falta</string>
+    <string name="toml_diag_duplicate_key">A chave “%1$s” está definida mais de uma vez</string>
+    <string name="toml_diag_bad_value">Valor inválido “%1$s”: as strings devem estar entre aspas</string>
+    <string name="toml_diag_unclosed_string">A string não está fechada</string>
+    <string name="toml_diag_unclosed_array">Falta o “]” de fecho do array</string>
+    <string name="toml_diag_expected_comma">Esperada “,” entre os itens</string>
+    <string name="toml_diag_unclosed_inline_table">A tabela inline deve terminar com “}” na mesma linha</string>
+    <string name="toml_diag_trailing_content">Conteúdo inesperado após o valor</string>
+    <string name="toml_diag_catalog_top_level_key">“%1$s” deve estar numa secção como [versions] ou [libraries]</string>
+    <string name="toml_diag_catalog_unknown_section">Secção [%1$s] desconhecida no catálogo de versões; esperado versions, libraries, bundles ou plugins</string>
+    <string name="toml_diag_catalog_bad_alias">Alias inválido “%1$s”: comece com uma letra e use apenas letras, dígitos, “-”, “_” e “.”</string>
+    <string name="toml_diag_catalog_reserved_alias">O alias de biblioteca “%1$s” não pode começar com o nome reservado “%2$s”</string>
+    <string name="toml_diag_catalog_duplicate_alias">O alias “%1$s” colide com “%2$s” (“-”, “_” e “.” são equivalentes)</string>
+    <string name="toml_diag_catalog_bad_coordinate">Notação de biblioteca inválida “%1$s”: esperado group:artifact ou group:artifact:version</string>
+    <string name="toml_diag_catalog_library_type">A biblioteca “%1$s” deve ser uma string ou uma tabela inline</string>
+    <string name="toml_diag_catalog_module_and_group">Use module ou group e name, não ambos</string>
+    <string name="toml_diag_catalog_bad_module">module inválido “%1$s”: esperado group:artifact</string>
+    <string name="toml_diag_catalog_missing_module">A biblioteca “%1$s” precisa de module, ou de group e name</string>
+    <string name="toml_diag_catalog_bad_plugin">Notação de plugin inválida “%1$s”: esperado id:version</string>
+    <string name="toml_diag_catalog_plugin_type">O plugin “%1$s” deve ser uma string ou uma tabela inline</string>
+    <string name="toml_diag_catalog_missing_plugin_id">O plugin “%1$s” precisa de um id</string>
+    <string name="toml_diag_catalog_version_and_ref">Use version ou version.ref, não ambos</string>
+    <string name="toml_diag_catalog_version_type">A versão deve ser uma string ou uma tabela de versão detalhada</string>
+    <string name="toml_diag_catalog_unknown_version">A versão “%1$s” não está declarada em [versions]</string>
+    <string name="toml_diag_catalog_bundle_type">O bundle “%1$s” deve ser um array de aliases de bibliotecas</string>
+    <string name="toml_diag_catalog_bundle_item">Os itens do bundle devem ser strings com aliases de bibliotecas</string>
+    <string name="toml_diag_catalog_unknown_library">A biblioteca “%1$s” não está declarada em [libraries]</string>
+    <string name="toml_diag_catalog_unknown_key">Chave desconhecida “%1$s”</string>
+    <string name="toml_diag_catalog_unused_version">A versão “%1$s” não é usada</string>
+    <string name="toml_diag_catalog_update_available">Há uma versão mais recente de %1$s: %2$s</string>
+    <string name="toml_completion_section">Secção do catálogo de versões</string>
+    <string name="toml_completion_latest">Versão mais recente</string>
+    <string name="toml_update_check_title">Verificar atualizações do catálogo de versões</string>
+    <string name="toml_update_check_summary">Em libs.versions.toml, procurar em segundo plano versões mais recentes no Google Maven, Maven Central e Gradle Plugin Portal e marcar bibliotecas e plugins desatualizados</string>
+</resources>

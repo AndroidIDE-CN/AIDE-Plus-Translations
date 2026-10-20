@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="file_browser_item_size_title">File list item size</string>
+    <string name="file_browser_item_size_summary">%s</string>
+    <string name="file_browser_item_size_compact">Compact</string>
+    <string name="file_browser_item_size_standard">Standard</string>
+    <string name="file_browser_item_size_comfortable">Comfortable</string>
+    <string-array name="file_browser_item_size_entries">
+        <item>@string/file_browser_item_size_compact</item>
+        <item>@string/file_browser_item_size_standard</item>
+        <item>@string/file_browser_item_size_comfortable</item>
+    </string-array>
+</resources>

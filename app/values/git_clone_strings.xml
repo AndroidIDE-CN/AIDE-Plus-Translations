@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="git_clone_title">Clone Git repository</string>
+    <string name="git_clone_action">Clone</string>
+    <string name="git_clone_location">Location:</string>
+    <string name="git_clone_url">Repository URL:</string>
+    <string name="git_clone_directory">Directory name:</string>
+    <string name="git_clone_shallow">Shallow clone (default branch only)</string>
+    <string name="git_clone_depth">History depth</string>
+    <string name="git_clone_depth_error">Enter a whole number from 1 to 2147483647.</string>
+    <string name="git_clone_ssh_user">Specify a username in the SSH URL, for example: %1$s</string>
+    <string name="git_clone_progress_title">Cloning Git repository</string>
+    <string name="git_clone_connecting">Connecting…</string>
+    <string name="git_clone_hide">Hide</string>
+    <string name="git_clone_complete">Git repository cloned successfully.</string>
+    <string name="git_clone_progress_known">%1$s — %2$d%% (%3$d/%4$d)</string>
+    <string name="git_clone_progress_count">%1$s — completed: %2$d</string>
+    <string name="git_clone_default_branch_error">Cannot determine the remote default branch for a shallow clone.</string>
+</resources>

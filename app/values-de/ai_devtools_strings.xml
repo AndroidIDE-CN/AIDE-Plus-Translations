@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ai_devtools_latest">Zur neuesten Nachricht</string>
+    <string name="ai_devtools_message_actions">Nachrichtenaktionen</string>
+    <string name="ai_devtools_status">Status</string>
+    <string name="ai_devtools_error">Fehler</string>
+    <string name="ai_devtools_environment">Android-Entwicklungsumgebung</string>
+    <string name="ai_devtools_shizuku_authorize">Shizuku autorisieren</string>
+    <string name="ai_devtools_shizuku_unavailable">Zuerst Shizuku starten und AIDE+ die Berechtigung erteilen.</string>
+    <string name="ai_devtools_help">Der Assistent kann IDE-Fehler lesen, den aktuellen Build starten und verfolgen, einzelne Java-/Kotlin-Dateien kompilieren und nicht interaktive Shell-Befehle ausführen. Compiler- und Shell-Aufträge liefern eine ID zur Abfrage oder Abbruchanforderung.\n\nDie App-Shell nutzt die App-UID. Shizuku benötigt eine eigene Berechtigung; die Shell-UID ist nicht root und kann keine privaten App-Dateien lesen. Kein automatischer Rechtewechsel. Compiler-Ausgaben sind isoliert; einzelne Kompilierung ist kein APK-Build. Compiler-Abbruch erfolgt kooperativ. Auftrags-IDs gehen beim Ende des App-Prozesses verloren.</string>
+    <string name="ai_devtools_execution_warning">Dieses Werkzeug führt Code aus oder steuert einen Build, statt nur Dateien zu bearbeiten. Shell-Befehle können auf alles zugreifen, was die gewählte UID erlaubt; das Projekt-Arbeitsverzeichnis ist keine Dateisystem-Sandbox. Ein IDE-Build kann das aktuelle Projekt installieren oder starten. Befehl, Rechtequelle und Parameter vor der Freigabe prüfen. „Dateiänderungen immer erlauben“ autorisiert dieses Werkzeug nicht.</string>
+</resources>

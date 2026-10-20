@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="tx_settings">Motor de tradução</string>
+    <string name="tx_settings_summary">Escolher perfil de modelo ou serviço HTTP JSON para recursos, competências e o tradutor configurado do editor/conclusão.</string>
+    <string name="tx_configured_engine">Tradutor configurado</string>
+    <string name="tx_mode">Motor</string>
+    <string name="tx_follow_ai">Seguir o modelo de IA atual</string>
+    <string name="tx_saved_profile">Perfil de modelo guardado</string>
+    <string name="tx_http_json">HTTP JSON personalizado</string>
+    <string name="tx_choose_profile">Escolher perfil de modelo</string>
+    <string name="tx_no_profile">Nenhum perfil selecionado</string>
+    <string name="tx_profile_empty">Guarde primeiro um perfil nas definições do assistente de IA.</string>
+    <string name="tx_search_profile">Pesquisar perfis de modelo</string>
+    <string name="tx_endpoint">URL do pedido</string>
+    <string name="tx_headers">Cabeçalhos (Nome: Valor por linha)</string>
+    <string name="tx_template">Modelo do pedido JSON</string>
+    <string name="tx_pointer">JSON Pointer da resposta</string>
+    <string name="tx_http_help">POST JSON. {{text}}, {{source}} e {{target}} são substituídos dentro de valores de texto. O modelo predefinido usa o formato LibreTranslate e /translatedText como caminho de resposta. O serviço tem de devolver texto e manter marcadores protegidos. Sem redirecionamentos ou repetições automáticas.</string>
+    <string name="tx_notice">A tradução envia o texto selecionado ao serviço e pode gerar custos no modelo/API. A tradução automática de conclusões pode enviar identificadores automaticamente. Guardar não envia pedidos de teste.</string>
+    <string name="tx_insecure_notice">HTTP não é cifrado: cabeçalhos e texto podem ser visíveis na rede. Use apenas um destino de confiança.</string>
+    <string name="tx_invalid">Definições de tradução inválidas. Verifique URL, cabeçalhos, modelo JSON e caminho da resposta.</string>
+    <string name="tx_unconfigured">Configure primeiro um modelo de IA, escolha um perfil existente ou configure o serviço HTTP.</string>
+    <string name="tx_changed">O motor ou o texto mudou. O resultado anterior foi descartado; tente novamente.</string>
+    <string name="tx_failed">O pedido de tradução falhou. O texto original não foi substituído.</string>
+    <string name="tx_http_failed">O serviço devolveu HTTP %1$d. O texto original não foi substituído.</string>
+    <string name="tx_invalid_response">A tradução recebida é inválida ou incompleta. O texto original não foi substituído.</string>
+    <string name="tx_too_large">O texto ou a resposta excede o limite. Reduza o pedido.</string>
+    <string name="tx_cancelled">Tradução cancelada.</string>
+    <string name="tx_open_settings">Configurar motor de tradução</string>
+    <string name="tx_profile_selected">Perfil: %1$s</string>
+</resources>

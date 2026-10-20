@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="sdk_catalog_search_hint">API oder Plattformversion suchen</string>
+    <string name="sdk_catalog_refresh">Versionsliste aktualisieren</string>
+    <string name="sdk_catalog_installed_only">Nur heruntergeladene</string>
+    <string name="sdk_catalog_loading">Versionsliste wird geladen…</string>
+    <string name="sdk_catalog_count">%1$d stabile Versionen · Details und Lizenz antippen</string>
+    <string name="sdk_catalog_refresh_failed">Aktualisierung fehlgeschlagen. Gespeicherte Versionen bleiben verfügbar. %1$s</string>
+    <string name="sdk_catalog_empty">Keine passende Plattform. Filter löschen oder aktualisieren.</string>
+    <string name="sdk_catalog_version">SDK-Plattform %1$s</string>
+    <string name="sdk_catalog_installed">Heruntergeladen</string>
+    <string name="sdk_catalog_available">Verfügbar</string>
+    <string name="sdk_catalog_recommended">%1$s · aktuelles Projekt</string>
+    <string name="sdk_catalog_view_details">Details zu SDK %1$s anzeigen</string>
+    <string name="sdk_catalog_download_version">SDK %1$s herunterladen</string>
+    <string name="sdk_catalog_local_details">SDK %1$s ist heruntergeladen. Eine eigene android.jar hat weiterhin Vorrang.</string>
+    <string name="sdk_catalog_details">SDK %1$s · Revision %2$d · %3$s\n%4$s\nNur android.jar und Wertressourcen des Frameworks werden installiert, kein JDK und keine SDK-Programme. Vor dem Download die Lizenz unten lesen.</string>
+    <string name="sdk_catalog_license_missing">Für diese Version fehlt eine lesbare Lizenz. Vor dem Download die Liste aktualisieren.</string>
+    <string name="sdk_catalog_accept">Akzeptieren und laden</string>
+    <string name="sdk_catalog_preparing">SDK %1$s wird vorbereitet…</string>
+    <string name="sdk_catalog_downloading">SDK %1$s · %2$s / %3$s</string>
+    <string name="sdk_catalog_extracting">SDK %1$s wird installiert…</string>
+    <string name="sdk_catalog_installed_message">SDK %1$s heruntergeladen. Offene Projekte werden aktualisiert.</string>
+    <string name="sdk_catalog_cancelling">Wird abgebrochen…</string>
+    <string name="sdk_catalog_cancelled">Download abgebrochen. Erneut über die Versionsliste versuchen.</string>
+    <string name="sdk_catalog_failed">SDK-Download fehlgeschlagen: %1$s</string>
+    <string name="sdk_catalog_interrupted">Download unterbrochen. Erneut über die Versionsliste versuchen.</string>
+    <string name="sdk_catalog_ready">Version vorab herunterladen; kein geöffnetes Projekt erforderlich.</string>
+    <string name="sdk_sources_installed">Quellen: installiert (für „Zur Bibliotheksquelle springen“)</string>
+    <string name="sdk_sources_unavailable">Quellen: für diese Version nicht veröffentlicht</string>
+    <string name="sdk_sources_available">Quellen: verfügbar (%1$s), für „Zur Bibliotheksquelle springen“</string>
+    <string name="sdk_sources_download">Quellen herunterladen</string>
+    <string name="sdk_sources_missing_message">Die Quellen für Android SDK %1$s sind nicht heruntergeladen. Öffne den SDK-Manager und lade sie in den Plattformdetails herunter, um in die Quellen von android.jar zu springen.</string>
+    <string name="sdk_sources_open_manager">SDK-Manager</string>
+</resources>

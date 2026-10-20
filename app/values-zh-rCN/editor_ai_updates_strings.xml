@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="editor_mcp_discover">查找本地 MCP 服务</string>
+    <string name="editor_mcp_discover_help">仅探测本机回环地址及所列端口，最多六秒。识别 HTTP/SSE 服务后先预览再添加。需授权的服务、自定义路径和其他设备可能需要手动配置；不会向未知服务发送令牌。</string>
+    <string name="editor_mcp_ports">本地端口（最多 24 个）</string>
+    <string name="editor_mcp_scan">查找</string>
+    <string name="editor_mcp_invalid_ports">请输入 1 至 24 个端口号，范围为 1 至 65535。</string>
+    <string name="editor_mcp_none">未找到可访问的 MCP 服务。请检查端口、路径和授权，或手动添加。</string>
+    <string name="editor_quick_actions">符号栏编辑操作</string>
+    <string name="editor_quick_actions_help">在新版符号栏显示撤销、重做和保存，复用原编辑器命令。</string>
+    <string name="editor_hide_menu_actions">隐藏顶部菜单的编辑操作</string>
+    <string name="editor_hide_menu_actions_help">仅在新版符号栏编辑操作开启时隐藏顶部撤销、重做和保存；不影响 Trainer 模式。</string>
+    <string name="editor_move_left">向左移动；按住连续移动</string>
+    <string name="editor_move_right">向右移动；按住连续移动</string>
+    <string name="editor_move_up">向上移动；按住连续移动</string>
+    <string name="editor_move_down">向下移动；按住连续移动</string>
+    <string name="editor_move_home">移到行首；按住连续移动</string>
+    <string name="editor_move_end">移到行尾；按住连续移动</string>
+    <string name="editor_key_tab">Tab</string>
+    <string name="editor_ai_project_switching">正在切换项目：保存旧对话并准备新对话…</string>
+</resources>

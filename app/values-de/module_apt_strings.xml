@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="module_apt_title">Java-Annotationsprozessoren (ECJ)</string>
+    <string name="module_apt_enabled">Annotationsprozessoren vor dem Kompilieren ausführen</string>
+    <string name="module_apt_switch_note">AIDE+-Einstellung nur für dieses Modul; wird als Kommentar im Skript gespeichert. Das Gradle-Verhalten bleibt unverändert.</string>
+    <string name="module_apt_kapt_title">Kotlin-Quellen und kapt</string>
+    <string name="module_apt_kapt_note">kapt ist für Kotlin-Quellen vorgesehen. AIDE+ ECJ verarbeitet nur Java-Quellen; verwenden Sie KSP für Kotlin-Quellen.</string>
+    <string name="module_apt_lombok">Lombok benötigt einen Compiler-Agenten, der mit ECJ auf ART nicht ausgeführt werden kann. Annotationen wie @Data bleiben wirkungslos.</string>
+    <string name="module_apt_butterknife">ButterKnife benötigt interne javac-APIs und funktioniert nicht mit ECJ. Verwenden Sie stattdessen ViewBinding.</string>
+    <string name="module_apt_unconfigured">Nicht konfiguriert · Prozessor hinzufügen</string>
+    <string name="module_apt_add">Prozessor hinzufügen</string>
+    <string name="module_apt_arguments">Prozessorargumente (-A)</string>
+    <string name="module_apt_complex">Komplexe Argumente · Skript ansehen (schreibgeschützt)</string>
+    <string name="module_apt_arguments_unconfigured">Nicht konfiguriert · Argument hinzufügen</string>
+    <string name="module_apt_argument_add">Argument hinzufügen</string>
+    <string name="module_apt_key">Argumentschlüssel</string>
+    <string name="module_apt_value">Argumentwert</string>
+    <string name="module_apt_invalid_key">Geben Sie einen eindeutigen Java-Bezeichner oder durch Punkte getrennte Bezeichner ein.</string>
+</resources>

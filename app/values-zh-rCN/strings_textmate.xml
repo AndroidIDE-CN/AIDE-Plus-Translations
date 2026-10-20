@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="textmate_highlight_title">TextMate 语法高亮</string>
+    <string name="textmate_highlight_summary">使用 TextMate 高亮 C/C++、CMake、Markdown 等支持的语言，失败时回退原高亮。更改后重新打开文件生效。</string>
+</resources>

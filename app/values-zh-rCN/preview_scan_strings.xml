@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="preview_scan_title">自定义 View 代码检查</string>
+    <string name="preview_scan_message">以下自定义 View 在预览时会以 AIDE+ 的身份（权限与数据）在 AIDE+ 内运行，代码中发现可能有风险的调用：\n\n%1$s\n\n只有信任这些代码时才运行；否则以占位块显示。</string>
+    <string name="preview_scan_allow">运行预览</string>
+    <string name="preview_scan_block">以占位显示</string>
+    <string name="preview_scan_blocked_reason">未运行：代码检查发现%1$s</string>
+    <string name="preview_risk_separator">"、"</string>
+    <string name="preview_risk_exec">执行系统命令</string>
+    <string name="preview_risk_native">加载本地库</string>
+    <string name="preview_risk_dynamic_code">加载外部代码</string>
+    <string name="preview_risk_file_write">写入或删除文件</string>
+    <string name="preview_risk_network">访问网络</string>
+    <string name="preview_risk_app_data">读写应用数据或启动组件</string>
+    <string name="preview_risk_process">结束进程</string>
+    <string name="preview_risk_system_data">修改系统数据或发送短信</string>
+    <string name="preview_risk_reflection">访问系统内部</string>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="module_android_resources_title">Android-Ressourcen (androidResources)</string>
+    <string name="module_android_resources_readonly">Alte, qualifizierte oder komplexe Deklarationen sind schreibgeschützt. Bearbeiten Sie die Gradle-Datei direkt.</string>
+    <string name="module_android_resources_unset">Nicht deklariert</string>
+    <string name="module_android_resources_empty_extension">Leere Erweiterung (alle Dateien unkomprimiert)</string>
+    <string name="module_android_resources_no_compress_note">Dateierweiterungen ohne führenden Punkt. Ein leerer Eintrag deaktiviert die Komprimierung aller Dateien; ohne Einträge wird die Deklaration entfernt.</string>
+    <string name="module_android_resources_locales_note">Sprachqualifizierer für Ressourcen, zum Beispiel en, zh-rCN oder b+sr+Latn.</string>
+    <string name="module_android_resources_locale_invalid">Geben Sie einen gültigen Sprachqualifizierer ein, zum Beispiel en, zh-rCN oder b+sr+Latn.</string>
+    <string name="module_android_resources_parameters_note">Zusätzliche Argumente für aapt2 link. Jedes Argument einzeln hinzufügen; Option und Wert in getrennten Einträgen.</string>
+    <string name="module_android_resources_ignore_note">aapt-Muster mit : trennen (Groß-/Kleinschreibung wird ignoriert). ! unterdrückt Meldungen; &lt;dir&gt;/&lt;file&gt; begrenzt den Typ; * am Anfang/Ende passt auf Suffix/Präfix. Eine leere Zeichenfolge deaktiviert die Filterung. AGP-Standard: %1$s</string>
+    <string name="module_android_resources_default">Standard wiederherstellen / nicht deklariert</string>
+    <string name="module_android_resources_empty_pattern">Leere Zeichenfolge (keine Asset-Filterung)</string>
+    <string name="module_android_resources_locale_config_note">Bei Aktivierung muss res/resources.properties unqualifiedResLocale deklarieren (zum Beispiel en-US).</string>
+    <string name="module_android_resources_inactive_note">Nur zur Kompatibilität gespeichert; diese Option ist in aapt2/AIDE+ wirkungslos.</string>
+    <string name="module_android_resources_add">Eintrag hinzufügen</string>
+    <string name="module_android_resources_create">resources.properties erstellen</string>
+    <string name="module_android_resources_open_locale">resources.properties öffnen</string>
+    <string name="module_android_resources_default_locale">Standardsprache (BCP 47)</string>
+    <string name="module_android_resources_default_locale_invalid">Geben Sie ein gültiges BCP-47-Sprachtag ein, zum Beispiel en-US.</string>
+    <string name="module_android_resources_created">%1$s erstellt. Die Datei kann über Öffnen bearbeitet werden.</string>
+    <string name="module_android_resources_literal_invalid">Verwenden Sie ein einzeiliges Literal. Leere Einträge sind nur für noCompress erlaubt; Kotlin-Werte mit $ lassen sich nicht unverändert einlesen.</string>
+</resources>

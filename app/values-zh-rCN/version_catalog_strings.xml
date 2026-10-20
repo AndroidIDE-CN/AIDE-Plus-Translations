@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="vc_title">版本目录</string>
+    <string name="vc_loading">正在读取版本目录…</string>
+    <string name="vc_versions">版本</string>
+    <string name="vc_libraries">库</string>
+    <string name="vc_bundles">依赖组合</string>
+    <string name="vc_plugins">插件</string>
+    <string name="vc_search">搜索别名和内容</string>
+    <string name="vc_empty">没有匹配的条目</string>
+    <string name="vc_add">新增</string>
+    <string name="vc_save">保存</string>
+    <string name="vc_edit">编辑条目</string>
+    <string name="vc_alias">别名</string>
+    <string name="vc_toml_value">TOML 值</string>
+    <string name="vc_edit_note">原始 TOML 可保留丰富版本约束。直接版本留空可由 BOM 提供版本。更改在保存文件前只保留为草稿。</string>
+    <string name="vc_module">模块（group:name）</string>
+    <string name="vc_version_mode">版本方式</string>
+    <string name="vc_raw_mode">使用原始 TOML 值</string>
+    <string name="vc_direct_version">直接版本</string>
+    <string name="vc_version_ref">版本引用（version.ref）</string>
+    <string name="vc_version_value">版本号或版本别名</string>
+    <string name="vc_apply">应用到草稿</string>
+    <string name="vc_delete">删除</string>
+    <string name="vc_delete_confirm">删除 %1$s？不会修改模块及其它目录条目中对此条目的引用。</string>
+    <string name="vc_duplicate">该别名或其 accessor 已存在。</string>
+    <string name="vc_unknown_ref">请选择已有的版本别名。</string>
+    <string name="vc_invalid">条目无效：%1$s</string>
+    <string name="vc_saving">正在保存…</string>
+    <string name="vc_saved">版本目录已保存，项目和文件浏览器已刷新。</string>
+    <string name="vc_conflict">文件已被面板外的操作修改。请重新加载后再保存；草稿尚未写入。</string>
+    <string name="vc_conflict_path">外部更改 · %1$s</string>
+    <string name="vc_unsaved_path">未保存草稿 · %1$s</string>
+    <string name="vc_path">文件 · %1$s</string>
+    <string name="vc_error">无法读取或保存版本目录：%1$s</string>
+    <string name="vc_reload">重新加载</string>
+    <string name="vc_reload_confirm">重新加载文件并放弃当前草稿？</string>
+    <string name="vc_leave_confirm">离开前保存版本目录的更改？</string>
+    <string name="vc_discard">放弃更改</string>
+    <string name="vc_all">全部</string>
+    <string name="vc_choose_file">选择版本目录</string>
+    <string name="vc_search_files">搜索目录名称或路径</string>
+    <string name="vc_no_files">没有匹配的版本目录文件</string>
+    <string name="vc_current_file">当前版本目录</string>
+    <string name="vc_entry_details">条目详情</string>
+    <string name="vc_clear_search">清除搜索</string>
+    <string name="vc_section_count">%1$s %2$d</string>
+    <string name="vc_unresolved">引用未解析 · 查看详情</string>
+    <string name="vc_rich_summary">丰富版本约束</string>
+    <string name="vc_reference_summary">%1$s · 引用 %2$s</string>
+    <string name="vc_pair">%1$s · %2$s</string>
+    <string name="vc_choose_section">选择条目类型</string>
+    <string name="vc_switch_confirm">切换文件前保存当前版本目录的更改？</string>
+    <string name="vc_unsaved">未保存草稿</string>
+    <string name="vc_ready">文件已保存</string>
+    <string name="vc_catalog_help">版本目录文件</string>
+    <string name="vc_file_hint">列出项目 gradle 目录中的本地 TOML 文件，以及 settings 中 from(files(...)) 明确引用的文件；不执行动态脚本或解析远程发布的目录。编辑文件不会自动注册目录，也不会为依赖检查器增加自定义 accessor。长按文件可查看完整路径。</string>
+    <plurals name="vc_entry_count"><item quantity="one">%1$d 个条目</item><item quantity="other">%1$d 个条目</item></plurals>
+    <plurals name="vc_members"><item quantity="one">%1$d 个库</item><item quantity="other">%1$d 个库</item></plurals>
+</resources>

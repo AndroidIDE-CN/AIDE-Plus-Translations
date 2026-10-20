@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ai_history_manage">Manage conversations</string>
+    <string name="ai_history_cancel_selection">Cancel selection</string>
+    <string name="ai_history_select_results">Select search results</string>
+    <string name="ai_history_export_selected">Export selected conversations</string>
+    <string name="ai_history_delete_selected">Delete selected conversations</string>
+    <string name="ai_history_selection_hint">Long-press a conversation to select multiple</string>
+    <string name="ai_history_selected_count">Selected: %1$d · In search results: %2$d</string>
+    <string name="ai_history_working">Working…</string>
+    <string name="ai_history_store_unavailable">History storage is unavailable</string>
+    <string name="ai_history_current_title">%1$s · Current</string>
+    <string name="ai_history_select_named">Select %1$s</string>
+    <string name="ai_history_row_summary">%1$s · %2$s</string>
+    <plurals name="ai_history_delete_confirm">
+        <item quantity="one">Delete %1$d selected conversation? This cannot be undone.</item>
+        <item quantity="other">Delete %1$d selected conversations? This cannot be undone.</item>
+    </plurals>
+    <plurals name="ai_history_delete_stop_confirm">
+        <item quantity="one">Stop the current task and delete %1$d selected conversation? This cannot be undone.</item>
+        <item quantity="other">Stop the current task and delete %1$d selected conversations? This cannot be undone.</item>
+    </plurals>
+    <plurals name="ai_history_deleted">
+        <item quantity="one">Deleted %1$d conversation.</item>
+        <item quantity="other">Deleted %1$d conversations.</item>
+    </plurals>
+    <string name="ai_history_deleting_notice">Deleting confirmed conversations… Closing this window does not cancel the deletion.</string>
+</resources>

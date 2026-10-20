@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dependency_ui_configure">Configurar e adicionar…</string>
+    <string name="dependency_ui_latest">Versão mais recente: %1$s</string>
+    <string name="dependency_ui_version">Versão</string>
+    <string name="dependency_ui_preview">Pré-visualização da declaração</string>
+    <string name="dependency_ui_exclusions">Exclusões (group:module)</string>
+    <string name="dependency_ui_exclusions_hint">Um group:module por linha. As exclusões aplicam-se apenas a este caminho de dependência.</string>
+    <string name="dependency_ui_exclude">Excluir…</string>
+    <string name="dependency_ui_exclude_transitive">Excluir dependências transitivas…</string>
+    <string name="dependency_ui_exclude_from">Excluir de uma dependência direta…</string>
+    <string name="dependency_ui_exclude_global">Excluir em todo o módulo…</string>
+    <string name="dependency_ui_choose_origin">Escolher a dependência que a introduz</string>
+    <string name="dependency_ui_global_warning">Excluir %1$s de todas as configurações deste módulo? Isto pode afetar outros caminhos de dependência e causar erros de compilação ou execução. Guarde as propriedades do módulo para aplicar o rascunho.</string>
+    <string name="dependency_ui_draft_updated">Exclusões adicionadas ao rascunho do módulo. Guarde as propriedades do módulo para as aplicar.</string>
+    <string name="dependency_ui_inspection_hint">Toque ou mantenha premida uma dependência transitiva para a excluir. Os caminhos baseiam-se em POMs em cache, não numa resolução atual do Gradle.</string>
+    <string name="dependency_ui_no_transitives">Não há dependências transitivas selecionáveis em cache. Abra o projeto e resolva primeiro as dependências.</string>
+    <string name="dependency_ui_selected_exclusions">Exclusões: %1$d</string>
+    <string name="dependency_ui_results">Resultados da pesquisa</string>
+    <string name="dependency_ui_excluded">Excluída neste caminho</string>
+    <string name="dependency_ui_global_count">Exclusões em todo o módulo: %1$d</string>
+    <string name="dependency_ui_search_modules">Pesquisar nome, ID ou caminho do módulo</string>
+    <string name="dependency_ui_no_modules">Nenhum módulo correspondente</string>
+    <string name="dependency_ui_current_module">Módulo atual</string>
+    <string name="dependency_ui_select_dependencies">Selecionar dependências</string>
+    <string name="dependency_ui_search_mode">Modo de pesquisa</string>
+    <string name="dependency_ui_mode_value">Modo de pesquisa: %1$s</string>
+    <string name="dependency_ui_add_selection">Adicionar seleção (%1$d)</string>
+    <plurals name="dependency_ui_selection_count">
+        <item quantity="one">%1$d selecionada</item>
+        <item quantity="other">%1$d selecionadas</item>
+    </plurals>
+</resources>

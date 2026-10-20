@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="build_verbose_output_title">Detailed build steps</string>
+    <string name="build_verbose_output_summary">Show more details in the build task list: each dependency converted to DEX, D8 commands, DEX merge groups and timings</string>
+    <string name="build_progress_remaining">%1$d/%2$d · %3$d remaining</string>
+    <string name="build_progress_bucket">Group %1$d/%2$d · %3$d libraries · %4$s</string>
+    <string name="build_progress_bucket_reused">Group %1$d/%2$d unchanged</string>
+    <string name="build_core_library_desugaring">Compiling the core library desugaring runtime (L8)</string>
+</resources>

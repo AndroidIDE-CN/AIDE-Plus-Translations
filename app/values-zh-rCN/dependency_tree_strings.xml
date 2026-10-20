@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dependency_tree_info">依赖信息</string>
+    <string name="dependency_tree_search">搜索依赖或文件路径</string>
+    <string name="dependency_tree_expand_all">展开全部</string>
+    <string name="dependency_tree_collapse_all">收起全部</string>
+    <string name="dependency_tree_expand">展开分组或依赖</string>
+    <string name="dependency_tree_collapse">收起分组或依赖</string>
+    <string name="dependency_tree_local">本地文件</string>
+    <string name="dependency_tree_repeated">（已列出）</string>
+    <string name="dependency_tree_empty">没有匹配的依赖</string>
+    <string name="dependency_tree_hint">基于缓存 POM 展示。默认展开直接 Maven 依赖的下一层；计数为直接依赖行数与树条目数（含重复引用），不是去重后的库数量。点按展开，信息图标查看来源，行尾图标排除；保存模块属性后生效。</string>
+    <string name="dependency_tree_source">声明文件：%1$s</string>
+    <string name="dependency_tree_declaration">声明：%1$s</string>
+    <string name="dependency_tree_introduced">引入路径：%1$s</string>
+    <string name="dependency_tree_pom">POM 路径：%1$s</string>
+    <string name="dependency_tree_no_pom">POM 尚未缓存，传递依赖可能不完整。</string>
+    <string name="dependency_tree_requested">声明版本：%1$s</string>
+    <string name="dependency_tree_resolved">缓存解析版本：%1$s</string>
+    <string name="dependency_tree_unresolved">无项目解析记录，显示声明或 BOM 管理版本。</string>
+    <string name="dependency_tree_file">文件路径：%1$s</string>
+    <string name="dependency_tree_versionless">由平台管理 / 未指定</string>
+    <string name="dependency_tree_exclude_warning">从 %2$s 排除 %1$s？其他路径不变，保存模块属性后生效。</string>
+    <string name="dependency_tree_copy">复制坐标或路径</string>
+    <string name="dependency_tree_script">脚本表达式，检查器不执行求值。</string>
+    <string name="dependency_tree_missing">文件或模块未找到</string>
+    <string name="dependency_tree_limit">检查达到上限，请查看单条依赖。</string>
+    <string name="dependency_tree_cycle">循环引用，停止展开</string>
+    <string name="dependency_tree_pom_error">无法读取缓存 POM</string>
+    <string name="dependency_tree_group_count">%1$s · %2$d</string>
+    <string name="dependency_tree_group_counts">%1$s · 直接 %2$d · 条目 %3$d</string>
+    <string name="dependency_tree_category_androidx">AndroidX</string>
+    <string name="dependency_tree_category_network">网络</string>
+    <string name="dependency_tree_category_images">图片</string>
+    <string name="dependency_tree_category_database">数据库</string>
+    <string name="dependency_tree_category_processors">注解处理器</string>
+    <string name="dependency_tree_category_other">其他库</string>
+    <string name="dependency_tree_latest_tag">最新 %1$s</string>
+    <string name="dependency_tree_bom_count">管理的坐标：%1$d</string>
+    <string name="dependency_tree_inheritance">父 POM 或导入的 BOM 可能声明额外依赖；此处展示本地 POM 中的关系，版本优先采用项目解析缓存。</string>
+    <string name="dependency_tree_actions">依赖树操作</string>
+    <string name="dependency_tree_clear_search">清除搜索</string>
+    <string name="dependency_tree_locate_reference">定位首次出现的位置</string>
+    <string name="dependency_tree_visible_count">已显示 %1$d / %2$d 个树条目</string>
+    <string name="dependency_tree_via">由 %1$s 引入</string>
+    <string name="dependency_tree_row_summary">%1$s · %2$s</string>
+</resources>

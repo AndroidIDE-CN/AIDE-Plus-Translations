@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="tx_settings">Translation engine</string>
+    <string name="tx_settings_summary">Choose a model profile or HTTP JSON service for resources, skills and the configured editor/completion engine.</string>
+    <string name="tx_configured_engine">Configured translator</string>
+    <string name="tx_mode">Engine</string>
+    <string name="tx_follow_ai">Follow current AI model</string>
+    <string name="tx_saved_profile">Saved model profile</string>
+    <string name="tx_http_json">Custom HTTP JSON</string>
+    <string name="tx_choose_profile">Choose model profile</string>
+    <string name="tx_no_profile">No profile selected</string>
+    <string name="tx_profile_empty">Create a model profile in the AI assistant settings first.</string>
+    <string name="tx_search_profile">Search model profiles</string>
+    <string name="tx_endpoint">Request URL</string>
+    <string name="tx_headers">Request headers (one Name: Value per line)</string>
+    <string name="tx_template">JSON request template</string>
+    <string name="tx_pointer">Response JSON Pointer</string>
+    <string name="tx_http_help">POST JSON. Variables {{text}}, {{source}} and {{target}} are substituted inside string values. The default template uses LibreTranslate format; the response path defaults to /translatedText. The service must return text and retain protected markers. No redirects or automatic retries.</string>
+    <string name="tx_notice">Translation sends the selected text to the chosen service and may incur model/API charges. Selecting this engine for automatic completion can send identifiers automatically. Saving settings does not send a test request.</string>
+    <string name="tx_insecure_notice">HTTP is unencrypted: headers and text may be visible on the network. Use only a trusted endpoint.</string>
+    <string name="tx_invalid">Invalid translation settings. Check the endpoint, headers, JSON template and response path.</string>
+    <string name="tx_unconfigured">Configure an AI model, choose an existing profile or configure the HTTP service first.</string>
+    <string name="tx_changed">The translation engine or input changed. The old result was discarded; retry.</string>
+    <string name="tx_failed">The translation request failed. The original text was not replaced.</string>
+    <string name="tx_http_failed">Translation service returned HTTP %1$d. The original text was not replaced.</string>
+    <string name="tx_invalid_response">The service returned an invalid or incomplete translation. The original text was not replaced.</string>
+    <string name="tx_too_large">The text or response exceeds the translation limit. Narrow the request.</string>
+    <string name="tx_cancelled">Translation cancelled.</string>
+    <string name="tx_open_settings">Configure translation engine</string>
+    <string name="tx_profile_selected">Profile: %1$s</string>
+</resources>

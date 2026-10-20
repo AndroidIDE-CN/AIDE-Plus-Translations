@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ai_history_manage">Gerir conversas</string>
+    <string name="ai_history_cancel_selection">Cancelar seleção</string>
+    <string name="ai_history_select_results">Selecionar resultados da pesquisa</string>
+    <string name="ai_history_export_selected">Exportar conversas selecionadas</string>
+    <string name="ai_history_delete_selected">Eliminar conversas selecionadas</string>
+    <string name="ai_history_selection_hint">Prima uma conversa continuamente para selecionar várias</string>
+    <string name="ai_history_selected_count">Selecionadas: %1$d · Nesta pesquisa: %2$d</string>
+    <string name="ai_history_working">A processar…</string>
+    <string name="ai_history_store_unavailable">O armazenamento do histórico está indisponível</string>
+    <string name="ai_history_current_title">%1$s · Atual</string>
+    <string name="ai_history_select_named">Selecionar %1$s</string>
+    <string name="ai_history_row_summary">%1$s · %2$s</string>
+    <plurals name="ai_history_delete_confirm">
+        <item quantity="one">Eliminar %1$d conversa selecionada? Não é possível anular esta ação.</item>
+        <item quantity="other">Eliminar %1$d conversas selecionadas? Não é possível anular esta ação.</item>
+    </plurals>
+    <plurals name="ai_history_delete_stop_confirm">
+        <item quantity="one">Parar a tarefa atual e eliminar %1$d conversa selecionada? Não é possível anular esta ação.</item>
+        <item quantity="other">Parar a tarefa atual e eliminar %1$d conversas selecionadas? Não é possível anular esta ação.</item>
+    </plurals>
+    <plurals name="ai_history_deleted">
+        <item quantity="one">%1$d conversa eliminada.</item>
+        <item quantity="other">%1$d conversas eliminadas.</item>
+    </plurals>
+    <string name="ai_history_deleting_notice">A eliminar as conversas confirmadas… Fechar esta janela não cancela a eliminação.</string>
+</resources>

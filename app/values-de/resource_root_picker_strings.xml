@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rm_root_choose">Ressourcenordner</string>
+    <string name="rm_root_search">Module, Bibliothekskoordinaten oder Pfade suchen</string>
+    <string name="rm_root_all">Alle</string>
+    <string name="rm_root_modules">Module</string>
+    <string name="rm_root_dependencies">Abhängigkeiten</string>
+    <string name="rm_root_empty">Keine passenden Verzeichnisse. Suche oder Filter ändern.</string>
+    <string name="rm_root_project">Projektmodul</string>
+    <string name="rm_root_dependency">Abhängigkeit</string>
+    <string name="rm_root_editable">Bearbeitbar</string>
+    <string name="rm_root_summary">%1$s · %2$s</string>
+    <string name="rm_root_accessibility">Ressourcenverzeichnis wählen. Aktuell: %1$s. %2$s.</string>
+    <string name="rm_root_current_row">Aktuelles Verzeichnis: %1$s. %2$s.</string>
+    <string name="rm_root_row">%1$s. %2$s.</string>
+</resources>

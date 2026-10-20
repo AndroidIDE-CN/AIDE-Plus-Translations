@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="sdk_xml_data_title">使用 SDK 平台的 XML 数据</string>
+    <string name="sdk_xml_data_summary">按项目 compileSdk 使用对应平台的数据（在 SDK 管理器下载）补全和检查 Android XML；关闭时使用内置数据。</string>
+    <string name="sdk_xml_data_missing_badge">缺少 XML 数据</string>
+    <string name="sdk_xml_data_prompt_title">平台 XML 数据未下载</string>
+    <string name="sdk_xml_data_prompt_message">项目 compileSdk 对应的 Android SDK %1$s 的 XML 数据尚未下载。可以在 SDK 管理器中下载，或关闭此功能改用内置数据。</string>
+    <string name="sdk_xml_data_prompt_download">打开 SDK 管理器</string>
+    <string name="sdk_xml_data_prompt_disable">关闭此功能</string>
+    <string name="sdk_xml_data_prompt_later">稍后</string>
+    <string name="library_sources_title">跳转到库源代码</string>
+    <string name="library_sources_summary">解析 Maven 依赖时下载 -sources.jar，跳转到库中的类时打开源代码（含注释文档），而不是类结构概要；关闭时保持原来的类结构概要。</string>
+    <string name="library_doc_command">注释预览</string>
+    <string name="library_doc_open">跳转到声明</string>
+    <string name="library_doc_none">没有文档注释。</string>
+    <string name="library_doc_no_source">该声明没有可用的源代码，无法显示文档。</string>
+    <string name="library_doc_enable_sources">库中类的文档需要其源代码。请在设置中开启“跳转到库源代码”。</string>
+    <string name="library_sources_not_found">未找到声明</string>
+    <string name="library_sources_missing_title">库源代码未下载</string>
+    <string name="library_sources_missing_message">%1$s 的源代码尚未下载。可以立即下载、仅显示类结构概要，或关闭“跳转到库源代码”。</string>
+    <string name="library_sources_download">下载</string>
+    <string name="library_sources_download_failed">无法下载源代码，仓库中可能没有发布该库的源代码。</string>
+    <string name="library_sources_disable">关闭此功能</string>
+    <string name="library_sources_outline">显示类结构</string>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="highlight_kind_editor_background">编辑器背景颜色</string>
+    <string name="highlight_kind_editor_selection">已选文字背景颜色</string>
+    <string name="highlight_kind_plain">文字颜色</string>
+    <string name="highlight_kind_keyword">关键字颜色</string>
+    <string name="highlight_kind_identifier">标识符颜色</string>
+    <string name="highlight_kind_namespace_identifier">包名颜色</string>
+    <string name="highlight_kind_type_identifier">类型标识符颜色</string>
+    <string name="highlight_kind_operator">操作符颜色</string>
+    <string name="highlight_kind_separator">括号、标点颜色</string>
+    <string name="highlight_kind_literal">字符串、数字、布尔值颜色</string>
+    <string name="highlight_kind_comment">代码注释颜色</string>
+    <string name="highlight_kind_unused">未使用变量颜色</string>
+    <string name="highlight_kind_argument_identifier">参数标识符颜色</string>
+    <string name="highlight_kind_delegate_identifier">方法名颜色</string>
+    <string name="highlight_kind_doc_comment">文档注释颜色</string>
+    <string name="highlight_kind_field">字段颜色</string>
+    <string name="highlight_kind_static_field">静态字段颜色</string>
+    <string name="highlight_kind_constant">常量（static final）颜色</string>
+    <string name="highlight_kind_enum_constant">枚举常量颜色</string>
+    <string name="highlight_kind_annotation">注解颜色</string>
+    <string name="highlight_kind_local_variable">局部变量颜色</string>
+</resources>

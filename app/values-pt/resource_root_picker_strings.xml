@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rm_root_choose">Pasta de recursos</string>
+    <string name="rm_root_search">Pesquisar módulos, coordenadas de bibliotecas ou caminhos</string>
+    <string name="rm_root_all">Tudo</string>
+    <string name="rm_root_modules">Módulos</string>
+    <string name="rm_root_dependencies">Dependências</string>
+    <string name="rm_root_empty">Nenhum diretório corresponde. Altere a pesquisa ou o filtro.</string>
+    <string name="rm_root_project">Módulo do projeto</string>
+    <string name="rm_root_dependency">Dependência</string>
+    <string name="rm_root_editable">Editável</string>
+    <string name="rm_root_summary">%1$s · %2$s</string>
+    <string name="rm_root_accessibility">Escolher diretório de recursos. Atual: %1$s. %2$s.</string>
+    <string name="rm_root_current_row">Diretório atual: %1$s. %2$s.</string>
+    <string name="rm_root_row">%1$s. %2$s.</string>
+</resources>

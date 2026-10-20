@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ai_mcp_category">AI 与 MCP</string>
+    <string name="ai_mcp_enable_title">本机 MCP 服务</string>
+    <string name="ai_mcp_enable_summary">在 127.0.0.1 上提供 MCP，供 Termux 中的 Claude Code、Codex 等 AI 客户端查看当前项目、读取文件、获取 AIDE+ 的代码错误</string>
+    <string name="ai_mcp_writes_title">允许修改文件</string>
+    <string name="ai_mcp_writes_summary">允许 MCP 客户端调用 edit_file、write_file 修改项目文件</string>
+    <string name="ai_mcp_port_title">端口</string>
+    <string name="ai_mcp_port_summary">默认 8765；服务只监听 127.0.0.1</string>
+    <string name="ai_mcp_connection_title">连接信息</string>
+    <string name="ai_mcp_connection_summary">地址、认证模式和客户端配置</string>
+    <string name="ai_mcp_status_running">状态：运行中 · %1$s</string>
+    <string name="ai_mcp_status_stopped">状态：未运行</string>
+    <string name="ai_mcp_status_failed">状态：启动失败（%1$s）</string>
+    <string name="ai_mcp_token_label">访问令牌：%1$s</string>
+    <string name="ai_mcp_copy_config">复制配置</string>
+    <string name="ai_mcp_copied">已复制配置</string>
+    <string name="ai_mcp_regenerate_token">重新生成令牌</string>
+    <string name="ai_mcp_token_regenerated">令牌已更新，请同步更新已连接客户端的配置。</string>
+    <string name="ai_mcp_require_token_title">要求访问令牌</string>
+    <string name="ai_mcp_require_token_summary">建议开启，仅在可信设备上关闭。</string>
+    <string name="ai_mcp_noauth_confirm_title">关闭 MCP 令牌认证？</string>
+    <string name="ai_mcp_noauth_warning">本机其他能连接此端口的应用将可能通过已启用的 MCP 工具访问当前项目。服务仍仅监听本机；文件写入权限和执行审批仍独立控制。请仅在可信设备上继续。</string>
+    <string name="ai_mcp_disable_token">关闭</string>
+    <string name="ai_mcp_noauth_status">令牌认证已关闭（仅本机服务）。</string>
+    <string name="ai_mcp_approval_title">MCP 工具请求</string>
+    <string name="ai_mcp_approval_summary">工具：%1$s · 项目：%2$s</string>
+    <string name="ai_mcp_approval_warning">联网与子代理可能将项目、技能、记忆内容发送到设备外，并产生所配置模型/API 的费用。待办、记忆写入（包括与 AI 共享的全局记忆）也需确认。MCP 待办独立，且不读取 AI 聊天历史。请检查下方完整项目路径和参数，仅批准本次请求。执行不提供文件系统沙箱；Shell 可使用应用/Shizuku 权限，IDE 构建可能安装或启动应用。离开此页面、切换项目或等待 45 秒会取消待批准请求；已接受的任务不会被回滚。</string>
+    <string name="ai_mcp_approval_once">允许本次请求</string>
+    <string name="ai_mcp_approval_deny">拒绝</string>
+</resources>

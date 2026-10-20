@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rm_details">Ressourcendetails · %1$s</string>
+    <string name="rm_go_definition">Zur Definition wechseln</string>
+    <string name="rm_open_designer">Im Layout-Designer öffnen</string>
+    <string name="rm_find_usages">Verwendungen suchen</string>
+    <string name="rm_location">%1$s:%2$d:%3$d</string>
+    <string name="rm_stale_details">Die Ressourcen wurden geändert. Aktualisieren und die Details erneut öffnen.</string>
+    <string name="rm_edit_xml_required">Dieser Wert enthält Markup oder ist kein unterstützter Texteintrag. Im XML-Editor bearbeiten, um die Struktur zu erhalten.</string>
+    <string name="rm_unsaved_title">Nicht gespeicherte Editoränderungen</string>
+    <string name="rm_unsaved_message">Diese Datei enthält nicht gespeicherte Änderungen. Zuerst im Editor speichern und die Ressourcen aktualisieren, dann den Wert bearbeiten. Es wurde nichts überschrieben.</string>
+    <string name="rm_reload_failed">Die Ressource wurde auf Datenträger gespeichert, konnte aber nicht sicher im Editor neu geladen werden. Nicht gespeicherte Editoränderungen vor dem Neuladen sichern.</string>
+    <string name="rm_usages_title">Verwendungen · %1$s</string>
+    <string name="rm_usage_scanning">Projektquellcode und Ressourcen werden durchsucht…</string>
+    <string name="rm_usage_count">Passende Referenzen: %1$d</string>
+    <string name="rm_usage_textual">Die Textsuche umfasst Kommentare und Zeichenketten, löst aber keine Ressourcen-Namensräume auf. Nur gespeicherte Dateien werden durchsucht. Lange Zeilen werden gekürzt.</string>
+    <string name="rm_usage_truncated">Nur die ersten %1$d Referenzen werden angezeigt. Weitere Treffer sind vorhanden.</string>
+    <string name="rm_usage_skipped">Übersprungene unlesbare, zu große oder nicht unterstützte Dateien: %1$d</string>
+    <string name="rm_usage_empty">Keine passenden Referenzen im Projektquellcode oder in den Ressourcen.</string>
+    <string name="rm_invalid_value">Einen gültigen Wert für diesen Ressourcentyp eingeben.</string>
+    <string name="rm_open_failed">Der Editor konnte diese Datei nicht öffnen. Prüfen, ob sie vorhanden und lesbar ist.</string>
+</resources>

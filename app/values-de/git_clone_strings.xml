@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="git_clone_title">Git-Repository klonen</string>
+    <string name="git_clone_action">Klonen</string>
+    <string name="git_clone_location">Speicherort:</string>
+    <string name="git_clone_url">Repository-URL:</string>
+    <string name="git_clone_directory">Verzeichnisname:</string>
+    <string name="git_clone_shallow">Flacher Klon (nur Standardbranch)</string>
+    <string name="git_clone_depth">Historientiefe</string>
+    <string name="git_clone_depth_error">Eine ganze Zahl von 1 bis 2147483647 eingeben.</string>
+    <string name="git_clone_ssh_user">Benutzernamen in der SSH-URL angeben, zum Beispiel: %1$s</string>
+    <string name="git_clone_progress_title">Git-Repository wird geklont</string>
+    <string name="git_clone_connecting">Verbindung wird hergestellt…</string>
+    <string name="git_clone_hide">Ausblenden</string>
+    <string name="git_clone_complete">Git-Repository erfolgreich geklont.</string>
+    <string name="git_clone_progress_known">%1$s — %2$d%% (%3$d/%4$d)</string>
+    <string name="git_clone_progress_count">%1$s — abgeschlossen: %2$d</string>
+    <string name="git_clone_default_branch_error">Der Standardbranch des Remote-Repositorys kann für einen flachen Klon nicht bestimmt werden.</string>
+</resources>

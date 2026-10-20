@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="git_clone_title">Clonar repositório Git</string>
+    <string name="git_clone_action">Clonar</string>
+    <string name="git_clone_location">Localização:</string>
+    <string name="git_clone_url">URL do repositório:</string>
+    <string name="git_clone_directory">Nome do diretório:</string>
+    <string name="git_clone_shallow">Clone superficial (apenas ramo padrão)</string>
+    <string name="git_clone_depth">Profundidade do histórico</string>
+    <string name="git_clone_depth_error">Introduza um número inteiro entre 1 e 2147483647.</string>
+    <string name="git_clone_ssh_user">Indique um nome de utilizador no URL SSH, por exemplo: %1$s</string>
+    <string name="git_clone_progress_title">A clonar repositório Git</string>
+    <string name="git_clone_connecting">A estabelecer ligação…</string>
+    <string name="git_clone_hide">Ocultar</string>
+    <string name="git_clone_complete">Repositório Git clonado com sucesso.</string>
+    <string name="git_clone_progress_known">%1$s — %2$d%% (%3$d/%4$d)</string>
+    <string name="git_clone_progress_count">%1$s — concluído: %2$d</string>
+    <string name="git_clone_default_branch_error">Não é possível determinar o ramo padrão remoto para um clone superficial.</string>
+</resources>

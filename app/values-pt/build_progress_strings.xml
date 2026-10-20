@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="build_verbose_output_title">Passos de compilação detalhados</string>
+    <string name="build_verbose_output_summary">Mostrar mais detalhes na lista de tarefas de compilação: cada dependência convertida para DEX, comandos D8, grupos de união de DEX e tempos</string>
+    <string name="build_progress_remaining">%1$d/%2$d · faltam %3$d</string>
+    <string name="build_progress_bucket">Grupo %1$d/%2$d · %3$d bibliotecas · %4$s</string>
+    <string name="build_progress_bucket_reused">Grupo %1$d/%2$d sem alterações</string>
+    <string name="build_core_library_desugaring">A compilar o runtime de desugaring da biblioteca principal (L8)</string>
+</resources>

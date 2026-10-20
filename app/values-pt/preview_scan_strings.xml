@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="preview_scan_title">Verificação do código de views personalizadas</string>
+    <string name="preview_scan_message">Estas views personalizadas são executadas dentro do AIDE+ durante a pré-visualização, com as permissões e os dados dele. O código contém chamadas possivelmente perigosas:\n\n%1$s\n\nExecute-as apenas se confiar neste código. Caso contrário, são mostradas como marcadores.</string>
+    <string name="preview_scan_allow">Executar pré-visualização</string>
+    <string name="preview_scan_block">Mostrar marcadores</string>
+    <string name="preview_scan_blocked_reason">Não executado: a verificação encontrou %1$s</string>
+    <string name="preview_risk_separator">", "</string>
+    <string name="preview_risk_exec">comandos do sistema</string>
+    <string name="preview_risk_native">carregamento de bibliotecas nativas</string>
+    <string name="preview_risk_dynamic_code">carregamento de código externo</string>
+    <string name="preview_risk_file_write">escrita ou eliminação de ficheiros</string>
+    <string name="preview_risk_network">acesso à rede</string>
+    <string name="preview_risk_app_data">acesso a dados da aplicação ou início de componentes</string>
+    <string name="preview_risk_process">terminação do processo</string>
+    <string name="preview_risk_system_data">alteração de dados do sistema ou envio de SMS</string>
+    <string name="preview_risk_reflection">acesso a componentes internos do sistema</string>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="module_flavors_title">构建变种</string>
+    <string name="module_flavors_keep_script">复杂变种声明：保留脚本。请打开构建文件编辑。</string>
+    <string name="module_flavors_gradle_note">Gradle 按构建变种应用配置；AIDE 原生构建尚不支持全部变种选项。</string>
+    <string name="module_flavors_empty">未声明构建变种。</string>
+    <string name="module_flavor_add_dimension">新增维度</string>
+    <string name="module_flavor_edit_dimension">编辑维度</string>
+    <string name="module_dimension_in_use">此维度正在被变种使用，请先修改对应变种。</string>
+    <string name="module_flavor_add">新增变种</string>
+    <string name="module_flavor_edit">编辑</string>
+    <string name="module_flavor_name">变种名称</string>
+    <string name="module_flavor_invalid_name">请输入以字母或下划线开头的不重复名称。</string>
+    <string name="module_flavor_dimension_required">请新增维度并为变种选择对应维度。</string>
+    <string name="module_flavor_delete_confirm">删除此变种及其配置？</string>
+    <string name="module_integer_required">%1$s 必须为非负整数；已有脚本表达式可以保留。</string>
+    <string name="module_boolean_required">请选择 true、false 或未声明。</string>
+    <string name="module_installed_select">选择已安装的 %1$s</string>
+    <string name="module_installed_title">已安装版本</string>
+    <string name="module_installed_empty">没有完整安装的版本。请到 NDK / CMake 管理安装，或继续手动输入版本。</string>
+    <string name="module_toolchain_manage">NDK / CMake 管理</string>
+    <string name="module_cmake_version">CMake 版本</string>
+    <string name="module_dependency_exclusions">排除：%1$d</string>
+    <string name="module_kotlin_effective_target">AIDE+ JVM 目标：%1$s</string>
+    <string name="module_dependency_maven">Maven 依赖</string>
+    <string name="module_dependency_script">脚本表达式</string>
+</resources>

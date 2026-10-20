@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ai_devtools_latest">Go to latest message</string>
+    <string name="ai_devtools_message_actions">Message actions</string>
+    <string name="ai_devtools_status">Status</string>
+    <string name="ai_devtools_error">Error</string>
+    <string name="ai_devtools_environment">Android developer environment</string>
+    <string name="ai_devtools_shizuku_authorize">Authorize Shizuku</string>
+    <string name="ai_devtools_shizuku_unavailable">Start Shizuku first, then grant AIDE+ permission.</string>
+    <string name="ai_devtools_help">The assistant can inspect IDE errors, request and monitor the current build, compile individual Java/Kotlin sources, and run non-interactive Shell commands. Compiler and Shell jobs return IDs to check or cancel.\n\nApp Shell uses the app UID. Shizuku requires separate permission; shell UID is not root and cannot read app-private data. No automatic privilege fallback. Compiler outputs are isolated; individual compilation is not an APK build. Compiler cancellation is cooperative. Jobs do not survive app process death.</string>
+    <string name="ai_devtools_execution_warning">This tool executes code or controls a build, not just a file edit. Shell commands can access everything allowed to the chosen UID; the project working directory is not a filesystem sandbox. A managed build may install or launch the current project. Review the exact command, backend and arguments before allowing. “Always allow file changes” does not approve this tool.</string>
+</resources>

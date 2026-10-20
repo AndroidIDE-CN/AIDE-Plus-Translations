@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ai_managed_tools">Ferramentas</string>
+    <string name="ai_managed_c">C/C++ · Clang instalado</string>
+    <string name="ai_managed_aapt2">aapt2 · ferramenta Android integrada</string>
+    <string name="ai_managed_custom">Ferramenta de comando</string>
+    <string name="ai_managed_commands">Ferramentas de comando</string>
+    <string name="ai_managed_name">Nome da ferramenta (custom_…)</string>
+    <string name="ai_managed_executable">Executável (@aapt2, @clang ou caminho absoluto)</string>
+    <string name="ai_managed_prefix">Argumentos fixos (lista JSON de textos)</string>
+    <string name="ai_managed_hint">Os interruptores locais são partilhados pelo assistente de IA e MCP local. Ferramentas de execução e novos comandos começam desativados. Ativar não autoriza executar. Os argumentos são literais, não scripts shell; NÃO existe isolamento do sistema de ficheiros. Os comandos usam o UID da aplicação; shell/Shizuku permanecem separados. @aapt2 usa o binário integrado; @clang exige um NDK Android instalado. Especifique destino, sysroot, entradas e saída; Clang sozinho não cria um APK. Desativar não cancela tarefas aceites. A IA atualiza a lista na próxima mensagem; MCP na próxima consulta. A execução MCP exige confirmação de cada pedido num ecrã AIDE+ visível, independentemente das permissões de escrita e aprovação automática. Aplicam-se as políticas comuns de leitura/recusa; sem ecrã visível, com expiração, pausa ou mudança de projeto, os pedidos pendentes são recusados. As extensões configuradas também aparecem aqui. Os interruptores limitam a IA e subagentes; o modo de leitura exclui alterações a planos/memória. A pesquisa apresenta até 100 linhas por página. As extensões ativadas também estão disponíveis no MCP local. Rede, delegação e escrita de memória/tarefas exigem confirmação por pedido, incluindo execução de subagentes. Modelos/APIs delegados podem cobrar e enviar dados do projeto para fora do dispositivo. Tarefas MCP são separadas da IA e limpas ao mudar de projeto ou reiniciar o serviço. Ciclos de proxy diretos para a porta deste MCP são bloqueados.</string>
+    <string name="ai_managed_execution">Execução · aprovação separada</string>
+    <string name="ai_managed_local">Capacidade do projeto local</string>
+    <string name="ai_managed_invalid">Configuração inválida. Todas as ferramentas locais estão desativadas até ser reparada.</string>
+    <string name="ai_managed_reset">Repor configuração inválida</string>
+    <string name="ai_managed_reset_warning">Repor interruptores e comandos? As políticas de segurança, competências e conversas são mantidas.</string>
+    <string name="ai_managed_prefix_invalid">Use uma lista JSON que contenha apenas textos.</string>
+    <string name="ai_managed_duplicate">Este nome já existe.</string>
+    <string name="ai_managed_invalid_command">Use um nome custom_ único, @aapt2 / @clang / caminho absoluto e uma lista JSON de textos (máximo de 128 argumentos, 16384 caracteres e 32 ferramentas).</string>
+    <string name="ai_managed_add">Adicionar ferramenta de comando</string>
+    <string name="ai_managed_extensions">Extensões configuradas</string>
+    <string name="ai_managed_extension_summary">Extensão · aplicam-se as definições da função</string>
+</resources>

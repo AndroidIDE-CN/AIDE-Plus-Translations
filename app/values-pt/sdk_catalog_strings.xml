@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="sdk_catalog_search_hint">Pesquisar API ou versão da plataforma</string>
+    <string name="sdk_catalog_refresh">Atualizar lista de versões</string>
+    <string name="sdk_catalog_installed_only">Apenas transferidas</string>
+    <string name="sdk_catalog_loading">A carregar lista de versões…</string>
+    <string name="sdk_catalog_count">%1$d versões estáveis · toque para detalhes e licença</string>
+    <string name="sdk_catalog_refresh_failed">Falha ao atualizar. As versões em cache continuam disponíveis. %1$s</string>
+    <string name="sdk_catalog_empty">Nenhuma plataforma corresponde. Limpe o filtro ou atualize.</string>
+    <string name="sdk_catalog_version">Plataforma SDK %1$s</string>
+    <string name="sdk_catalog_installed">Transferida</string>
+    <string name="sdk_catalog_available">Disponível</string>
+    <string name="sdk_catalog_recommended">%1$s · projeto atual</string>
+    <string name="sdk_catalog_view_details">Ver detalhes do SDK %1$s</string>
+    <string name="sdk_catalog_download_version">Transferir SDK %1$s</string>
+    <string name="sdk_catalog_local_details">O SDK %1$s foi transferido. Um android.jar personalizado continua a ter prioridade.</string>
+    <string name="sdk_catalog_details">SDK %1$s · revisão %2$d · %3$s\n%4$s\nApenas android.jar e recursos de valores do framework são instalados; sem JDK nem programas do SDK. Leia a licença abaixo antes de transferir.</string>
+    <string name="sdk_catalog_license_missing">Esta versão não tem uma licença legível. Atualize a lista antes de transferir.</string>
+    <string name="sdk_catalog_accept">Aceitar e transferir</string>
+    <string name="sdk_catalog_preparing">A preparar SDK %1$s…</string>
+    <string name="sdk_catalog_downloading">SDK %1$s · %2$s / %3$s</string>
+    <string name="sdk_catalog_extracting">A instalar SDK %1$s…</string>
+    <string name="sdk_catalog_installed_message">SDK %1$s transferido. Os projetos abertos serão atualizados.</string>
+    <string name="sdk_catalog_cancelling">A cancelar…</string>
+    <string name="sdk_catalog_cancelled">Transferência cancelada. Pode tentar novamente na lista de versões.</string>
+    <string name="sdk_catalog_failed">Falha na transferência do SDK: %1$s</string>
+    <string name="sdk_catalog_interrupted">Transferência interrompida. Tente novamente na lista de versões.</string>
+    <string name="sdk_catalog_ready">Escolha uma versão para transferir antecipadamente; não precisa de um projeto aberto.</string>
+    <string name="sdk_sources_installed">Código-fonte: instalado (usado por “Ir para o código-fonte da biblioteca”)</string>
+    <string name="sdk_sources_unavailable">Código-fonte: não publicado para esta versão</string>
+    <string name="sdk_sources_available">Código-fonte: disponível (%1$s), usado por “Ir para o código-fonte da biblioteca”</string>
+    <string name="sdk_sources_download">Transferir código-fonte</string>
+    <string name="sdk_sources_missing_message">O código-fonte do Android SDK %1$s não foi transferido. Abra o gestor de SDK e transfira-o nos detalhes da plataforma para ir para o código-fonte do android.jar.</string>
+    <string name="sdk_sources_open_manager">Gestor de SDK</string>
+</resources>

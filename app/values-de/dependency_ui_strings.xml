@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dependency_ui_configure">Konfigurieren und hinzufügen…</string>
+    <string name="dependency_ui_latest">Neueste Version: %1$s</string>
+    <string name="dependency_ui_version">Version</string>
+    <string name="dependency_ui_preview">Vorschau der Deklaration</string>
+    <string name="dependency_ui_exclusions">Ausschlüsse (group:module)</string>
+    <string name="dependency_ui_exclusions_hint">Ein group:module pro Zeile. Ausschlüsse gelten nur für diesen Abhängigkeitspfad.</string>
+    <string name="dependency_ui_exclude">Ausschließen…</string>
+    <string name="dependency_ui_exclude_transitive">Transitive Abhängigkeiten ausschließen…</string>
+    <string name="dependency_ui_exclude_from">Aus einer direkten Abhängigkeit ausschließen…</string>
+    <string name="dependency_ui_exclude_global">Im gesamten Modul ausschließen…</string>
+    <string name="dependency_ui_choose_origin">Einführende Abhängigkeit auswählen</string>
+    <string name="dependency_ui_global_warning">%1$s aus allen Konfigurationen dieses Moduls ausschließen? Dies kann andere Abhängigkeitspfade betreffen und zu Build- oder Laufzeitfehlern führen. Zum Anwenden den Entwurf in den Moduleigenschaften speichern.</string>
+    <string name="dependency_ui_draft_updated">Ausschlüsse zum Modulentwurf hinzugefügt. Zum Anwenden die Moduleigenschaften speichern.</string>
+    <string name="dependency_ui_inspection_hint">Eine transitive Abhängigkeit antippen oder gedrückt halten, um sie auszuschließen. Die Pfade stammen aus zwischengespeicherten POMs, nicht aus einer aktuellen Gradle-Auflösung.</string>
+    <string name="dependency_ui_no_transitives">Keine auswählbaren transitiven Abhängigkeiten im Cache. Zuerst das Projekt öffnen und die Abhängigkeiten auflösen.</string>
+    <string name="dependency_ui_selected_exclusions">Ausschlüsse: %1$d</string>
+    <string name="dependency_ui_results">Suchergebnisse</string>
+    <string name="dependency_ui_excluded">Auf diesem Pfad ausgeschlossen</string>
+    <string name="dependency_ui_global_count">Modulweite Ausschlüsse: %1$d</string>
+    <string name="dependency_ui_search_modules">Modulname, ID oder Pfad suchen</string>
+    <string name="dependency_ui_no_modules">Keine passenden Module</string>
+    <string name="dependency_ui_current_module">Aktuelles Modul</string>
+    <string name="dependency_ui_select_dependencies">Abhängigkeiten auswählen</string>
+    <string name="dependency_ui_search_mode">Suchmodus</string>
+    <string name="dependency_ui_mode_value">Suchmodus: %1$s</string>
+    <string name="dependency_ui_add_selection">Auswahl hinzufügen (%1$d)</string>
+    <plurals name="dependency_ui_selection_count">
+        <item quantity="one">%1$d ausgewählt</item>
+        <item quantity="other">%1$d ausgewählt</item>
+    </plurals>
+</resources>

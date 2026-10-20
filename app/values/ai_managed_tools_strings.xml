@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ai_managed_tools">Tools</string>
+    <string name="ai_managed_c">C/C++ · installed Clang</string>
+    <string name="ai_managed_aapt2">aapt2 · bundled Android tool</string>
+    <string name="ai_managed_custom">Command tool</string>
+    <string name="ai_managed_commands">Command tools</string>
+    <string name="ai_managed_name">Tool name (custom_…)</string>
+    <string name="ai_managed_executable">Executable (@aapt2, @clang or absolute path)</string>
+    <string name="ai_managed_prefix">Fixed arguments (JSON string array)</string>
+    <string name="ai_managed_hint">Local tool switches are shared by the AI assistant and local MCP. Heavy execution tools and new command tools start disabled. Switches do not grant execution approval. Command arguments are literal, not a shell script, but are NOT filesystem-sandboxed. Commands use the app UID; existing shell/Shizuku tools remain separate. @aapt2 uses the bundled binary; @clang needs an installed Android NDK. Configure target, sysroot, inputs and output explicitly: a raw Clang invocation is not an APK build. Disable affects later calls, not already accepted jobs. AI refreshes its advertised list on the next message; MCP on the next list request. MCP execution requires confirmation for each request in a visible AIDE+ screen, independently of file-write and automatic approval settings. Shared read-only/deny policies still apply; no visible screen, timeout, pause or a project change rejects pending requests. Configured extensions also appear here. Switches gate AI and child-agent calls; read-only mode excludes planning/memory writes. Search is paged at 100 rows. Enabled extensions are also available through local MCP. Network/delegation and planning/memory writes require per-request approval, including child execution. Delegated model/API usage may incur charges and send project data off-device. MCP planning is separate from AI chats and clears on project changes or service restarts. Direct self-proxy loops to this MCP listener are blocked.</string>
+    <string name="ai_managed_execution">Execution · separate approval</string>
+    <string name="ai_managed_local">Local project capability</string>
+    <string name="ai_managed_invalid">Invalid tool configuration. All local tools are disabled until repaired.</string>
+    <string name="ai_managed_reset">Reset invalid tool configuration</string>
+    <string name="ai_managed_reset_warning">Reset tool switches and command definitions to defaults? Existing security policies, skills and conversations are retained.</string>
+    <string name="ai_managed_prefix_invalid">Use a JSON array containing only strings.</string>
+    <string name="ai_managed_duplicate">This tool name already exists.</string>
+    <string name="ai_managed_invalid_command">Use a unique custom_ name, @aapt2 / @clang / absolute executable path, and a JSON string array (at most 128 arguments, 16384 characters; 32 tools).</string>
+    <string name="ai_managed_add">Add command tool</string>
+    <string name="ai_managed_extensions">Configured extensions</string>
+    <string name="ai_managed_extension_summary">Extension · parent settings apply</string>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="editor_mcp_discover">Procurar serviços MCP locais</string>
+    <string name="editor_mcp_discover_help">Verifica apenas endereços de loopback e as portas indicadas, durante até seis segundos. Os endpoints HTTP/SSE reconhecidos são apresentados para revisão antes de adicionar. Serviços com autenticação, caminhos personalizados e outros dispositivos podem exigir configuração manual. Nenhum token é enviado a serviços desconhecidos.</string>
+    <string name="editor_mcp_ports">Portas locais (até 24)</string>
+    <string name="editor_mcp_scan">Procurar</string>
+    <string name="editor_mcp_invalid_ports">Introduza entre 1 e 24 números de porta, de 1 a 65535.</string>
+    <string name="editor_mcp_none">Nenhum serviço MCP acessível encontrado. Verifique a porta, o caminho e a autorização ou adicione manualmente.</string>
+    <string name="editor_quick_actions">Ações do editor na barra de símbolos</string>
+    <string name="editor_quick_actions_help">Mostrar anular, refazer e guardar na nova barra de símbolos, usando os comandos originais do editor.</string>
+    <string name="editor_hide_menu_actions">Ocultar ações do editor no menu superior</string>
+    <string name="editor_hide_menu_actions_help">Ocultar anular, refazer e guardar no menu superior apenas enquanto estas ações estiverem ativas na nova barra de símbolos. O modo Trainer não muda.</string>
+    <string name="editor_move_left">Mover à esquerda; manter premido para repetir</string>
+    <string name="editor_move_right">Mover à direita; manter premido para repetir</string>
+    <string name="editor_move_up">Mover para cima; manter premido para repetir</string>
+    <string name="editor_move_down">Mover para baixo; manter premido para repetir</string>
+    <string name="editor_move_home">Ir ao início da linha; manter premido para repetir</string>
+    <string name="editor_move_end">Ir ao fim da linha; manter premido para repetir</string>
+    <string name="editor_key_tab">Tab</string>
+    <string name="editor_ai_project_switching">A mudar de projeto: a guardar a conversa anterior e a preparar uma nova…</string>
+</resources>

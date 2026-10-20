@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ai_calls_title">Chamadas de ferramentas (%1$d)</string>
+    <string name="ai_calls_counts">%1$d concluídas · %2$d em execução · %3$d com falha · %4$d interrompidas</string>
+    <string name="ai_calls_open">Ver chamadas de ferramentas</string>
+    <string name="ai_calls_search">Pesquisar ferramentas ou destinos</string>
+    <string name="ai_calls_empty">Nenhuma chamada correspondente</string>
+    <string name="ai_calls_running">Em execução</string>
+    <string name="ai_calls_failed">Falha</string>
+    <string name="ai_calls_interrupted">Interrompida</string>
+    <string name="ai_calls_completed">Concluída</string>
+    <string name="ai_calls_no_result">Ainda não há resultado disponível</string>
+    <string name="ai_calls_empty_value">Vazio</string>
+    <string name="ai_calls_page">%1$d / %2$d</string>
+    <string name="ai_calls_previous">Página anterior</string>
+    <string name="ai_calls_next">Próxima página</string>
+    <string name="ai_calls_copy_section">Copiar secção completa</string>
+    <string name="ai_calls_item_summary">%1$s · %2$s</string>
+    <string name="ai_calls_copy_failed">Não foi possível copiar o conteúdo. Pode continuar a ler todas as páginas.</string>
+</resources>

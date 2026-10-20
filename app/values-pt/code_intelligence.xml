@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="sdk_project_title">Plataformas do Android SDK</string>
+    <string name="sdk_project_summary">Pesquise e transfira versões estáveis sem abrir um projeto. O compileSdk apenas recomenda uma versão; um android.jar personalizado tem prioridade.</string>
+    <string name="sdk_project_unknown">Não foi encontrado um compileSdk estável explícito no módulo atual. Resolva primeiro variáveis ou definições de SDK de pré-visualização.</string>
+    <string name="sdk_project_confirm">Descarregar SDK Platform %1$d da Google? Apenas o arquivo da plataforma será descarregado, sem instalar um JDK. Ao continuar, aceita a licença do Android SDK. Um android.jar personalizado continua a ter prioridade.</string>
+    <string name="sdk_license">Licença SDK</string>
+    <string name="sdk_download">Aceitar e descarregar</string>
+    <string name="sdk_downloading">A descarregar SDK Platform %1$d…</string>
+    <string name="sdk_downloaded">SDK Platform %1$d instalado. A análise do projeto será atualizada.</string>
+    <string name="sdk_download_failed">Falha ao descarregar o SDK: %1$s</string>
+    <string name="kotlin_fix_import">Importar %1$s</string>
+</resources>

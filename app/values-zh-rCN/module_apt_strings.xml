@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="module_apt_title">Java 注解处理器（ECJ）</string>
+    <string name="module_apt_enabled">编译前运行注解处理器</string>
+    <string name="module_apt_switch_note">仅影响本模块的 AIDE+ 编译；随脚本保存为注释，不改变 Gradle 行为。</string>
+    <string name="module_apt_kapt_title">Kotlin 源码与 kapt</string>
+    <string name="module_apt_kapt_note">kapt 适用于 Kotlin 源码。AIDE+ ECJ 仅处理 Java 源码；Kotlin 源码请改用 KSP。</string>
+    <string name="module_apt_lombok">Lombok 需要编译器代理，ART 上的 ECJ 无法加载；@Data 等注解不会生效。</string>
+    <string name="module_apt_butterknife">ButterKnife 依赖 javac 内部 API，无法在 ECJ 下运行；请改用 ViewBinding。</string>
+    <string name="module_apt_unconfigured">未配置 · 添加处理器</string>
+    <string name="module_apt_add">添加处理器</string>
+    <string name="module_apt_arguments">处理器参数（-A）</string>
+    <string name="module_apt_complex">复杂参数 · 查看脚本（只读）</string>
+    <string name="module_apt_arguments_unconfigured">未配置 · 添加参数</string>
+    <string name="module_apt_argument_add">添加参数</string>
+    <string name="module_apt_key">参数键</string>
+    <string name="module_apt_value">参数值</string>
+    <string name="module_apt_invalid_key">请输入不重复的 Java 标识符或点分隔标识符。</string>
+</resources>

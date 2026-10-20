@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ai_undo_menu">撤销上一轮的文件修改</string>
+    <string name="ai_undo_title">撤销文件修改</string>
+    <string name="ai_undo_action">撤销</string>
+    <plurals name="ai_undo_message">
+        <item quantity="other">将助手为“%2$s”修改的 %1$d 个文件恢复到修改前的内容？助手新建的文件会被删除。</item>
+    </plurals>
+    <string name="ai_undo_done">已恢复 %1$d 个文件，删除 %2$d 个新建文件。</string>
+    <string name="ai_undo_failed">以下文件无法恢复（过大或无法读取）：%1$s</string>
+    <string name="ai_undo_nothing">没有可撤销的文件修改。</string>
+</resources>

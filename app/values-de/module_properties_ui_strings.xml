@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="module_ui_settings">Einstellungen</string>
+    <string name="module_ui_configured">Konfiguriert</string>
+    <string name="module_ui_not_configured">Nicht konfiguriert</string>
+    <string name="module_ui_read_only">Schreibgeschützt</string>
+    <string name="module_ui_draft">Entwurf</string>
+    <string name="module_ui_declaration">Deklaration</string>
+    <string name="module_ui_help">Hilfe</string>
+    <string name="module_ui_info_title">Details</string>
+    <string name="module_ui_add">Hinzufügen</string>
+    <string name="module_ui_info">Informationen zu %1$s</string>
+    <string name="module_ui_actions">Aktionen für %1$s</string>
+    <string name="module_ui_edit">%1$s bearbeiten</string>
+    <string name="module_ui_delete_confirm">Diesen Eintrag aus dem Entwurf löschen? Das Skript wird erst beim Speichern geändert.</string>
+    <plurals name="module_ui_item_count">
+        <item quantity="one">%1$d Eintrag</item>
+        <item quantity="other">%1$d Einträge</item>
+    </plurals>
+    <plurals name="module_ui_flavor_count">
+        <item quantity="one">%1$d Variante</item>
+        <item quantity="other">%1$d Varianten</item>
+    </plurals>
+    <string name="module_common_undeclared">Nicht deklariert</string>
+    <string name="module_common_enabled">Aktiviert</string>
+    <string name="module_common_disabled">Deaktiviert</string>
+    <string name="module_common_desugar_help">Core-Library-Desugaring benötigt die Abhängigkeit %1$s in der Konfiguration coreLibraryDesugaring. Sie kann unten hinzugefügt werden; erst beim Speichern wird der Entwurf übernommen.</string>
+    <string name="module_common_desugar_add">Desugaring-Abhängigkeit hinzufügen</string>
+    <string name="module_common_desugar_added">Desugaring-Abhängigkeit zum Entwurf hinzugefügt. Zum Übernehmen speichern.</string>
+    <string name="module_common_desugar_present">Eine Desugaring-Abhängigkeit ist bereits deklariert. Ihre Version bleibt unverändert.</string>
+    <string name="module_common_dsl_help">Nur die ausgewählten DSL-Deklarationen bearbeiten. buildConfigField verwendet vollständige Aufrufe; manifestPlaceholders unterstützt Map-Zuweisungen oder einzelne Schlüssel. ABI-Filter verwenden Werte in Anführungszeichen in Groovy und setOf(...) in Kotlin DSL. Andere Anweisungen und Kommentare am Zeilenende bleiben erhalten.</string>
+    <string name="module_common_only_declarations">Nur %1$s-Deklarationen sind zulässig.</string>
+</resources>

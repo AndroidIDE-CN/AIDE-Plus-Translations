@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="tx_settings">翻译引擎</string>
+    <string name="tx_settings_summary">为资源、技能及编辑器/补全中的“配置的翻译器”选择模型配置或 HTTP JSON 服务。</string>
+    <string name="tx_configured_engine">配置的翻译器</string>
+    <string name="tx_mode">引擎</string>
+    <string name="tx_follow_ai">跟随当前 AI 模型</string>
+    <string name="tx_saved_profile">已保存的模型配置</string>
+    <string name="tx_http_json">自定义 HTTP JSON</string>
+    <string name="tx_choose_profile">选择模型配置</string>
+    <string name="tx_no_profile">未选择配置</string>
+    <string name="tx_profile_empty">请先在 AI 助手设置中保存模型配置。</string>
+    <string name="tx_search_profile">搜索模型配置</string>
+    <string name="tx_endpoint">请求 URL</string>
+    <string name="tx_headers">请求头（每行 名称: 值）</string>
+    <string name="tx_template">JSON 请求模板</string>
+    <string name="tx_pointer">响应 JSON Pointer 路径</string>
+    <string name="tx_http_help">使用 POST JSON。{{text}}、{{source}}、{{target}} 在字符串值内替换。默认模板采用 LibreTranslate 格式，响应路径默认为 /translatedText。服务须返回文本并保留受保护标记。不自动重定向或重试。</string>
+    <string name="tx_notice">翻译会把所选文本发送到选定服务，可能产生模型/API 费用。将此引擎用于自动补全翻译时，标识符可能被自动发送。保存设置不会发送测试请求。</string>
+    <string name="tx_insecure_notice">HTTP 不加密：请求头和文本可能在网络中可见。仅使用可信端点。</string>
+    <string name="tx_invalid">翻译设置无效，请检查地址、请求头、JSON 模板和响应路径。</string>
+    <string name="tx_unconfigured">请先配置 AI 模型、选择现有模型配置，或配置 HTTP 服务。</string>
+    <string name="tx_changed">翻译引擎或输入已变化，旧结果已丢弃，请重试。</string>
+    <string name="tx_failed">翻译请求失败，未替换原文。</string>
+    <string name="tx_http_failed">翻译服务返回 HTTP %1$d，未替换原文。</string>
+    <string name="tx_invalid_response">服务返回的译文无效或不完整，未替换原文。</string>
+    <string name="tx_too_large">文本或响应超出翻译限制，请缩小范围。</string>
+    <string name="tx_cancelled">已取消翻译。</string>
+    <string name="tx_open_settings">配置翻译引擎</string>
+    <string name="tx_profile_selected">配置：%1$s</string>
+</resources>

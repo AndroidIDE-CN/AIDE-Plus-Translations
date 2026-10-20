@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="toml_diag_unexpected">Unexpected content: expected a key, a [table] header or a comment</string>
+    <string name="toml_diag_bad_table_header">Invalid table header</string>
+    <string name="toml_diag_unclosed_table_header">Table header is missing the closing bracket</string>
+    <string name="toml_diag_duplicate_table">Table [%1$s] is defined more than once</string>
+    <string name="toml_diag_bad_key">Invalid key</string>
+    <string name="toml_diag_expected_equals">Expected “=” after the key</string>
+    <string name="toml_diag_missing_value">Missing value</string>
+    <string name="toml_diag_duplicate_key">Key “%1$s” is defined more than once</string>
+    <string name="toml_diag_bad_value">Invalid value “%1$s”: strings must be quoted</string>
+    <string name="toml_diag_unclosed_string">String is not closed</string>
+    <string name="toml_diag_unclosed_array">Array is missing the closing “]”</string>
+    <string name="toml_diag_expected_comma">Expected “,” between items</string>
+    <string name="toml_diag_unclosed_inline_table">Inline table must end with “}” on the same line</string>
+    <string name="toml_diag_trailing_content">Unexpected content after the value</string>
+    <string name="toml_diag_catalog_top_level_key">“%1$s” must be inside a section such as [versions] or [libraries]</string>
+    <string name="toml_diag_catalog_unknown_section">Unknown version catalog section [%1$s]; expected versions, libraries, bundles or plugins</string>
+    <string name="toml_diag_catalog_bad_alias">Invalid alias “%1$s”: start with a letter and use only letters, digits, “-”, “_” and “.”</string>
+    <string name="toml_diag_catalog_reserved_alias">Library alias “%1$s” cannot start with the reserved name “%2$s”</string>
+    <string name="toml_diag_catalog_duplicate_alias">Alias “%1$s” clashes with “%2$s” (separators “-”, “_” and “.” are equivalent)</string>
+    <string name="toml_diag_catalog_bad_coordinate">Invalid library notation “%1$s”: expected group:artifact or group:artifact:version</string>
+    <string name="toml_diag_catalog_library_type">Library “%1$s” must be a string or an inline table</string>
+    <string name="toml_diag_catalog_module_and_group">Use either module or group and name, not both</string>
+    <string name="toml_diag_catalog_bad_module">Invalid module “%1$s”: expected group:artifact</string>
+    <string name="toml_diag_catalog_missing_module">Library “%1$s” needs module, or group and name</string>
+    <string name="toml_diag_catalog_bad_plugin">Invalid plugin notation “%1$s”: expected id:version</string>
+    <string name="toml_diag_catalog_plugin_type">Plugin “%1$s” must be a string or an inline table</string>
+    <string name="toml_diag_catalog_missing_plugin_id">Plugin “%1$s” needs an id</string>
+    <string name="toml_diag_catalog_version_and_ref">Use either version or version.ref, not both</string>
+    <string name="toml_diag_catalog_version_type">Version must be a string or a rich version table</string>
+    <string name="toml_diag_catalog_unknown_version">Version “%1$s” is not declared in [versions]</string>
+    <string name="toml_diag_catalog_bundle_type">Bundle “%1$s” must be an array of library aliases</string>
+    <string name="toml_diag_catalog_bundle_item">Bundle items must be library alias strings</string>
+    <string name="toml_diag_catalog_unknown_library">Library “%1$s” is not declared in [libraries]</string>
+    <string name="toml_diag_catalog_unknown_key">Unknown key “%1$s”</string>
+    <string name="toml_diag_catalog_unused_version">Version “%1$s” is not used</string>
+    <string name="toml_diag_catalog_update_available">A newer version of %1$s is available: %2$s</string>
+    <string name="toml_completion_section">Version catalog section</string>
+    <string name="toml_completion_latest">Latest version</string>
+    <string name="toml_update_check_title">Check version catalog updates</string>
+    <string name="toml_update_check_summary">In libs.versions.toml, look up newer library and plugin versions on Google Maven, Maven Central and the Gradle Plugin Portal in the background and mark outdated versions</string>
+</resources>

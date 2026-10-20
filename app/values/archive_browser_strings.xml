@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ab_zip">ZIP · Files</string>
+    <string name="ab_jar">JAR · Packages and resources</string>
+    <string name="ab_files">All files</string>
+    <string name="ab_packages">Packages</string>
+    <string name="ab_resources">Resources</string>
+    <string name="ab_search">Search names or paths</string>
+    <string name="ab_up">Go up or clear search</string>
+    <string name="ab_default_package">Default package</string>
+    <string name="ab_package">Package</string>
+    <string name="ab_class">Class file</string>
+    <string name="ab_source">Source file</string>
+    <string name="ab_resource">Resource</string>
+    <string name="ab_directory">Directory</string>
+    <string name="ab_summary">Indexed: %1$d · Hidden unsafe or ambiguous entries: %2$d</string>
+    <string name="ab_partial">Only the first %1$d entries were indexed.</string>
+    <string name="ab_results_limit">Showing up to %1$d results. Refine the search.</string>
+    <string name="ab_empty">No matching entries.</string>
+    <string name="ab_error_zip">Cannot browse this ZIP archive: invalid data, unsupported encoding or index limits.</string>
+    <string name="ab_error_jar">Cannot browse this JAR: invalid archive, unsupported encoding or index limits.</string>
+    <string name="ab_class_notice">Class structure only — not original source or decompiled method bodies.</string>
+    <string name="ab_class_error">Cannot preview this class: damaged, unsupported or beyond the preview limits.</string>
+    <string name="ab_nested_notice">Nested archives are not expanded. Open the original archive externally if needed.</string>
+    <string name="ab_version">Java %1$d · %2$s</string>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="xml_preview_title">Preview XML graphic</string>
+    <string name="xml_preview_zoom_in">Zoom in</string>
+    <string name="xml_preview_zoom_out">Zoom out</string>
+    <string name="xml_preview_fit">Fit to area</string>
+    <string name="xml_preview_background">Preview background</string>
+    <string name="xml_preview_checker">Transparency checkerboard</string>
+    <string name="xml_preview_light">Light</string>
+    <string name="xml_preview_dark">Dark</string>
+    <string name="xml_preview_mask">Icon mask</string>
+    <string name="xml_preview_circle">Circle</string>
+    <string name="xml_preview_rounded">Rounded square</string>
+    <string name="xml_preview_loading">Rendering preview…</string>
+    <string name="xml_preview_error">Cannot render preview: %1$s</string>
+    <string name="xml_preview_too_large">XML exceeds the 2 MiB preview limit</string>
+    <string name="xml_preview_busy">Preview is busy. Return to source and try again.</string>
+    <string name="xml_preview_unspecified">No intrinsic size specified</string>
+    <string name="xml_preview_size">Original size: %1$s</string>
+    <string name="xml_preview_viewport">Viewport: %1$s</string>
+    <string name="xml_preview_default_state">Default state</string>
+    <string name="xml_preview_approximate">Approximate preview: first frame or full level; qualifier selection may differ from the device.</string>
+    <string name="xml_preview_fallback">Unresolved colours use grey: %1$s</string>
+</resources>

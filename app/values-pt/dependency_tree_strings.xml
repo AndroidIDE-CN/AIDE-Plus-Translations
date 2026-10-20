@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dependency_tree_info">Informações da dependência</string>
+    <string name="dependency_tree_search">Filtrar dependências ou caminhos de ficheiros</string>
+    <string name="dependency_tree_expand_all">Expandir tudo</string>
+    <string name="dependency_tree_collapse_all">Recolher tudo</string>
+    <string name="dependency_tree_expand">Expandir grupo ou dependência</string>
+    <string name="dependency_tree_collapse">Recolher grupo ou dependência</string>
+    <string name="dependency_tree_local">Ficheiros locais</string>
+    <string name="dependency_tree_repeated">(já apresentado)</string>
+    <string name="dependency_tree_empty">Nenhuma dependência correspondente</string>
+    <string name="dependency_tree_hint">Árvore de POMs em cache. As dependências Maven diretas mostram inicialmente o nível seguinte. As contagens indicam linhas diretas e entradas da árvore, incluindo referências repetidas, não bibliotecas únicas. Toque para expandir; as informações mostram a origem e o último ícone permite excluir. Guarde as propriedades do módulo para aplicar.</string>
+    <string name="dependency_tree_source">Ficheiro da declaração: %1$s</string>
+    <string name="dependency_tree_declaration">Declaração: %1$s</string>
+    <string name="dependency_tree_introduced">Introduzida por: %1$s</string>
+    <string name="dependency_tree_pom">Caminho do POM: %1$s</string>
+    <string name="dependency_tree_no_pom">POM não disponível em cache; as dependências transitivas podem estar incompletas.</string>
+    <string name="dependency_tree_requested">Versão declarada: %1$s</string>
+    <string name="dependency_tree_resolved">Versão resolvida em cache: %1$s</string>
+    <string name="dependency_tree_unresolved">Sem registo de resolução do projeto; é apresentada a versão declarada ou gerida pelo BOM.</string>
+    <string name="dependency_tree_file">Caminho do ficheiro: %1$s</string>
+    <string name="dependency_tree_versionless">Gerida / não especificada</string>
+    <string name="dependency_tree_exclude_warning">Excluir %1$s de %2$s? Os outros caminhos permanecem inalterados. Guarde as propriedades do módulo para aplicar o rascunho.</string>
+    <string name="dependency_tree_copy">Copiar coordenadas ou caminho</string>
+    <string name="dependency_tree_script">Expressão de script; não é avaliada pelo inspetor.</string>
+    <string name="dependency_tree_missing">Ficheiro ou módulo não encontrado</string>
+    <string name="dependency_tree_limit">Limite de inspeção atingido; inspecione uma dependência individual.</string>
+    <string name="dependency_tree_cycle">Referência circular; expansão interrompida</string>
+    <string name="dependency_tree_pom_error">Não foi possível ler o POM em cache</string>
+    <string name="dependency_tree_group_count">%1$s · %2$d</string>
+    <string name="dependency_tree_group_counts">%1$s · %2$d diretas · %3$d entradas</string>
+    <string name="dependency_tree_category_androidx">AndroidX</string>
+    <string name="dependency_tree_category_network">Rede</string>
+    <string name="dependency_tree_category_images">Imagens</string>
+    <string name="dependency_tree_category_database">Bases de dados</string>
+    <string name="dependency_tree_category_processors">Processadores de anotações</string>
+    <string name="dependency_tree_category_other">Outras bibliotecas</string>
+    <string name="dependency_tree_latest_tag">Última %1$s</string>
+    <string name="dependency_tree_bom_count">Coordenadas geridas: %1$d</string>
+    <string name="dependency_tree_inheritance">Os POMs ascendentes ou BOMs importados podem declarar dependências adicionais. As relações apresentadas vêm dos POMs locais; as versões resolvidas em cache têm prioridade.</string>
+    <string name="dependency_tree_actions">Ações da árvore</string>
+    <string name="dependency_tree_clear_search">Limpar pesquisa</string>
+    <string name="dependency_tree_locate_reference">Localizar a primeira ocorrência</string>
+    <string name="dependency_tree_visible_count">%1$d de %2$d entradas da árvore exibidas</string>
+    <string name="dependency_tree_via">Por %1$s</string>
+    <string name="dependency_tree_row_summary">%1$s · %2$s</string>
+</resources>

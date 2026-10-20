@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ai_managed_tools">工具</string>
+    <string name="ai_managed_c">C/C++ · 已安装 Clang</string>
+    <string name="ai_managed_aapt2">aapt2 · 内置 Android 工具</string>
+    <string name="ai_managed_custom">命令工具</string>
+    <string name="ai_managed_commands">命令工具</string>
+    <string name="ai_managed_name">工具名（custom_…）</string>
+    <string name="ai_managed_executable">可执行文件（@aapt2、@clang 或绝对路径）</string>
+    <string name="ai_managed_prefix">固定参数（JSON 字符串数组）</string>
+    <string name="ai_managed_hint">本地工具开关由 AI 助手与本机 MCP 共用。编译、Shell 等执行工具及新命令默认关闭；启用不代表批准执行。参数按原样传递，不当作 Shell 脚本，但不提供文件系统沙箱。命令使用应用 UID；现有 Shell/Shizuku 入口独立保留。@aapt2 使用内置文件，@clang 需要已安装的 Android NDK。目标、sysroot、输入与输出须明确指定，原始 Clang 调用不等于 APK 构建。关闭只阻止后续调用，不取消已接受任务。AI 下条消息刷新可见列表，MCP 下次查询刷新。MCP 执行需在可见的 AIDE+ 页面逐次确认，不继承文件写入或自动允许设置；仍遵守共用的只读/禁止策略，无可见页面、超时、暂停或切换项目会拒绝待批准请求。 此处也显示已配置的扩展。开关同时约束 AI 和子代理调用；只读模式排除待办/记忆写入。搜索每页最多 100 行。已启用扩展也可通过本机 MCP 使用。联网、委派及待办/记忆写入逐次确认，子代理执行也不例外。委派模型/API 可能收费，并向设备外发送项目数据。MCP 待办独立于 AI 聊天，切换项目或重启服务后清空。会阻止直接代理回本机 MCP 监听端口形成循环。</string>
+    <string name="ai_managed_execution">执行 · 独立审批</string>
+    <string name="ai_managed_local">本地项目能力</string>
+    <string name="ai_managed_invalid">工具配置无效，修复前已停用所有本地工具。</string>
+    <string name="ai_managed_reset">重置无效工具配置</string>
+    <string name="ai_managed_reset_warning">将工具开关与命令定义重置为默认值？安全策略、技能和对话不变。</string>
+    <string name="ai_managed_prefix_invalid">请填写只包含字符串的 JSON 数组。</string>
+    <string name="ai_managed_duplicate">此工具名已存在。</string>
+    <string name="ai_managed_invalid_command">请使用唯一的 custom_ 名称、@aapt2 / @clang / 可执行文件绝对路径及 JSON 字符串数组（最多 128 个参数、16384 字符、32 个工具）。</string>
+    <string name="ai_managed_add">添加命令工具</string>
+    <string name="ai_managed_extensions">已配置扩展</string>
+    <string name="ai_managed_extension_summary">扩展 · 同时遵守所属功能设置</string>
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="toml_diag_unexpected">意外的内容：此处应为键、[表] 头或注释</string>
+    <string name="toml_diag_bad_table_header">无效的表头</string>
+    <string name="toml_diag_unclosed_table_header">表头缺少右方括号</string>
+    <string name="toml_diag_duplicate_table">表 [%1$s] 重复定义</string>
+    <string name="toml_diag_bad_key">无效的键</string>
+    <string name="toml_diag_expected_equals">键后面应为“=”</string>
+    <string name="toml_diag_missing_value">缺少值</string>
+    <string name="toml_diag_duplicate_key">键“%1$s”重复定义</string>
+    <string name="toml_diag_bad_value">无效的值“%1$s”：字符串必须加引号</string>
+    <string name="toml_diag_unclosed_string">字符串未闭合</string>
+    <string name="toml_diag_unclosed_array">数组缺少右方括号“]”</string>
+    <string name="toml_diag_expected_comma">各项之间应使用“,”分隔</string>
+    <string name="toml_diag_unclosed_inline_table">内联表必须在同一行内以“}”结束</string>
+    <string name="toml_diag_trailing_content">值后面有多余的内容</string>
+    <string name="toml_diag_catalog_top_level_key">“%1$s”必须写在 [versions]、[libraries] 等段中</string>
+    <string name="toml_diag_catalog_unknown_section">未知的版本目录段 [%1$s]；应为 versions、libraries、bundles 或 plugins</string>
+    <string name="toml_diag_catalog_bad_alias">无效的别名“%1$s”：须以字母开头，只能包含字母、数字、“-”、“_”和“.”</string>
+    <string name="toml_diag_catalog_reserved_alias">库别名“%1$s”不能以保留名称“%2$s”开头</string>
+    <string name="toml_diag_catalog_duplicate_alias">别名“%1$s”与“%2$s”冲突（“-”“_”“.”视为相同）</string>
+    <string name="toml_diag_catalog_bad_coordinate">无效的库写法“%1$s”：应为 group:artifact 或 group:artifact:version</string>
+    <string name="toml_diag_catalog_library_type">库“%1$s”必须是字符串或内联表</string>
+    <string name="toml_diag_catalog_module_and_group">module 与 group/name 只能二选一</string>
+    <string name="toml_diag_catalog_bad_module">无效的 module“%1$s”：应为 group:artifact</string>
+    <string name="toml_diag_catalog_missing_module">库“%1$s”需要 module，或同时提供 group 和 name</string>
+    <string name="toml_diag_catalog_bad_plugin">无效的插件写法“%1$s”：应为 id:version</string>
+    <string name="toml_diag_catalog_plugin_type">插件“%1$s”必须是字符串或内联表</string>
+    <string name="toml_diag_catalog_missing_plugin_id">插件“%1$s”缺少 id</string>
+    <string name="toml_diag_catalog_version_and_ref">version 与 version.ref 只能二选一</string>
+    <string name="toml_diag_catalog_version_type">版本必须是字符串或富版本表</string>
+    <string name="toml_diag_catalog_unknown_version">版本“%1$s”未在 [versions] 中声明</string>
+    <string name="toml_diag_catalog_bundle_type">依赖组“%1$s”必须是库别名数组</string>
+    <string name="toml_diag_catalog_bundle_item">依赖组中的项必须是库别名字符串</string>
+    <string name="toml_diag_catalog_unknown_library">库“%1$s”未在 [libraries] 中声明</string>
+    <string name="toml_diag_catalog_unknown_key">未知的键“%1$s”</string>
+    <string name="toml_diag_catalog_unused_version">版本“%1$s”未被使用</string>
+    <string name="toml_diag_catalog_update_available">%1$s 有新版本：%2$s</string>
+    <string name="toml_completion_section">版本目录段</string>
+    <string name="toml_completion_latest">最新版本</string>
+    <string name="toml_update_check_title">检查版本目录更新</string>
+    <string name="toml_update_check_summary">在 libs.versions.toml 中后台查询 Google Maven、Maven Central 和 Gradle 插件门户上的新版本，并标出可更新的库和插件</string>
+</resources>

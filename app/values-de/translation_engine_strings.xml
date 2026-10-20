@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="tx_settings">Übersetzungsdienst</string>
+    <string name="tx_settings_summary">Modellprofil oder HTTP-JSON-Dienst für Ressourcen, Fähigkeiten und den konfigurierten Editor-/Vervollständigungsübersetzer wählen.</string>
+    <string name="tx_configured_engine">Konfigurierter Übersetzer</string>
+    <string name="tx_mode">Dienst</string>
+    <string name="tx_follow_ai">Aktuellem KI-Modell folgen</string>
+    <string name="tx_saved_profile">Gespeichertes Modellprofil</string>
+    <string name="tx_http_json">Eigener HTTP-JSON-Dienst</string>
+    <string name="tx_choose_profile">Modellprofil wählen</string>
+    <string name="tx_no_profile">Kein Profil ausgewählt</string>
+    <string name="tx_profile_empty">Zuerst ein Modellprofil in den KI-Einstellungen speichern.</string>
+    <string name="tx_search_profile">Modellprofile suchen</string>
+    <string name="tx_endpoint">Anfrage-URL</string>
+    <string name="tx_headers">Anfrageheader (Name: Wert pro Zeile)</string>
+    <string name="tx_template">JSON-Anfragevorlage</string>
+    <string name="tx_pointer">JSON-Pointer der Antwort</string>
+    <string name="tx_http_help">POST mit JSON. {{text}}, {{source}} und {{target}} werden innerhalb von Zeichenketten ersetzt. Die Vorgabe nutzt das LibreTranslate-Format und /translatedText als Antwortpfad. Der Dienst muss Text liefern und geschützte Markierungen beibehalten. Keine Weiterleitungen oder automatischen Wiederholungen.</string>
+    <string name="tx_notice">Die Übersetzung sendet ausgewählten Text an den Dienst und kann Modell-/API-Kosten verursachen. Bei automatischer Vervollständigung können Bezeichner automatisch gesendet werden. Speichern sendet keine Testanfrage.</string>
+    <string name="tx_insecure_notice">HTTP ist unverschlüsselt: Header und Text können im Netzwerk sichtbar sein. Nur vertrauenswürdige Endpunkte nutzen.</string>
+    <string name="tx_invalid">Ungültige Übersetzungseinstellungen. URL, Header, JSON-Vorlage und Antwortpfad prüfen.</string>
+    <string name="tx_unconfigured">Zuerst ein KI-Modell, gespeichertes Profil oder einen HTTP-Dienst konfigurieren.</string>
+    <string name="tx_changed">Dienst oder Eingabe geändert. Das alte Ergebnis wurde verworfen; erneut versuchen.</string>
+    <string name="tx_failed">Übersetzungsanfrage fehlgeschlagen. Der Originaltext wurde nicht ersetzt.</string>
+    <string name="tx_http_failed">Der Übersetzungsdienst meldet HTTP %1$d. Der Originaltext wurde nicht ersetzt.</string>
+    <string name="tx_invalid_response">Ungültige oder unvollständige Übersetzung. Der Originaltext wurde nicht ersetzt.</string>
+    <string name="tx_too_large">Text oder Antwort überschreitet das Limit. Anfrage verkleinern.</string>
+    <string name="tx_cancelled">Übersetzung abgebrochen.</string>
+    <string name="tx_open_settings">Übersetzungsdienst konfigurieren</string>
+    <string name="tx_profile_selected">Profil: %1$s</string>
+</resources>

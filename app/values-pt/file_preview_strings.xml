@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="fpv_title">Pré-visualização · %1$s</string>
+    <string name="fpv_back_editor">Voltar ao editor</string>
+    <string name="fpv_back_archive">Voltar ao arquivo</string>
+    <string name="fpv_actions">Ações de pré-visualização</string>
+    <string name="fpv_full_viewer">Abrir visualizador completo</string>
+</resources>

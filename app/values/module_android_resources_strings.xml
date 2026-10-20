@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="module_android_resources_title">Android resources (androidResources)</string>
+    <string name="module_android_resources_readonly">Legacy, qualified or complex declarations are read-only. Edit the Gradle file directly.</string>
+    <string name="module_android_resources_unset">Not declared</string>
+    <string name="module_android_resources_empty_extension">Empty extension (all files uncompressed)</string>
+    <string name="module_android_resources_no_compress_note">File extensions without a leading dot. An empty item disables compression for all files; deleting all items removes the declaration.</string>
+    <string name="module_android_resources_locales_note">Resource locale qualifiers, for example en, zh-rCN or b+sr+Latn.</string>
+    <string name="module_android_resources_locale_invalid">Use a valid resource locale qualifier, for example en, zh-rCN or b+sr+Latn.</string>
+    <string name="module_android_resources_parameters_note">Extra aapt2 link arguments. Add each argument separately; keep a flag and its value in separate items.</string>
+    <string name="module_android_resources_ignore_note">Separate aapt patterns with : (case-insensitive). ! suppresses messages; &lt;dir&gt;/&lt;file&gt; restrict the type; leading/trailing * matches suffix/prefix. An empty string disables filtering. AGP default: %1$s</string>
+    <string name="module_android_resources_default">Restore default / not declared</string>
+    <string name="module_android_resources_empty_pattern">Empty string (no asset filtering)</string>
+    <string name="module_android_resources_locale_config_note">When enabled, res/resources.properties must declare unqualifiedResLocale (for example en-US).</string>
+    <string name="module_android_resources_inactive_note">Stored for compatibility only; this option has no effect in aapt2/AIDE+.</string>
+    <string name="module_android_resources_add">Add item</string>
+    <string name="module_android_resources_create">Create resources.properties</string>
+    <string name="module_android_resources_open_locale">Open resources.properties</string>
+    <string name="module_android_resources_default_locale">Default locale (BCP 47)</string>
+    <string name="module_android_resources_default_locale_invalid">Enter a valid BCP 47 locale, for example en-US.</string>
+    <string name="module_android_resources_created">Created %1$s. Use Open to edit the file.</string>
+    <string name="module_android_resources_literal_invalid">Use a literal single-line value. Empty items are allowed only for noCompress; Kotlin values containing $ cannot round-trip through the build parser.</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="gradle_completion_block"> · Gradle 块 · %1$s</string>
+    <string name="gradle_completion_property"> · Gradle 属性 · %1$s</string>
+    <string name="gradle_completion_method"> · Gradle 方法 · %1$s</string>
+    <string name="gradle_completion_value"> · Gradle 值 · %1$s</string>
+    <string name="gradle_completion_coordinate"> · 本地 Maven 缓存 · %1$s</string>
+    <string name="gradle_completion_catalog"> · 版本目录 · %1$s</string>
+</resources>

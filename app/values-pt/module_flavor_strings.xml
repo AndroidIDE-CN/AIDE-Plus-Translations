@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="module_flavors_title">Variantes de compilação</string>
+    <string name="module_flavors_keep_script">Declarações de variantes complexas: manter o script. Abra o ficheiro de compilação para editar.</string>
+    <string name="module_flavors_gradle_note">O Gradle aplica as variantes; a compilação nativa do AIDE não suporta todas as opções.</string>
+    <string name="module_flavors_empty">Nenhuma variante declarada.</string>
+    <string name="module_flavor_add_dimension">Adicionar dimensão</string>
+    <string name="module_flavor_edit_dimension">Editar dimensão</string>
+    <string name="module_dimension_in_use">Esta dimensão é utilizada por uma variante. Altere primeiro a variante.</string>
+    <string name="module_flavor_add">Adicionar variante</string>
+    <string name="module_flavor_edit">Editar</string>
+    <string name="module_flavor_name">Nome da variante</string>
+    <string name="module_flavor_invalid_name">Introduza um nome único que comece por uma letra ou sublinhado.</string>
+    <string name="module_flavor_dimension_required">Adicione uma dimensão e atribua-a à variante.</string>
+    <string name="module_flavor_delete_confirm">Eliminar esta variante e a respetiva configuração?</string>
+    <string name="module_integer_required">%1$s tem de ser um número inteiro não negativo. As expressões existentes podem ser mantidas.</string>
+    <string name="module_boolean_required">Selecione true, false ou Não declarado.</string>
+    <string name="module_installed_select">Selecionar %1$s instalado</string>
+    <string name="module_installed_title">Versões instaladas</string>
+    <string name="module_installed_empty">Não há instalações completas. Instale uma versão no gestor de NDK / CMake ou introduza a versão manualmente.</string>
+    <string name="module_toolchain_manage">Gestor de NDK / CMake</string>
+    <string name="module_cmake_version">Versão do CMake</string>
+    <string name="module_dependency_exclusions">Exclusões: %1$d</string>
+    <string name="module_kotlin_effective_target">Destino JVM do AIDE+: %1$s</string>
+    <string name="module_dependency_maven">Dependências Maven</string>
+    <string name="module_dependency_script">Expressão de script</string>
+</resources>

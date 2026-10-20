@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="manifest_editor_title">Manifest Editor</string>
+    <string name="manifest_editor_permissions">Permissions</string>
+    <string name="manifest_editor_components">Components</string>
+    <string name="manifest_editor_application">Application</string>
+    <string name="manifest_editor_other">Other</string>
+    <string name="manifest_editor_search">Search names, labels and attributes</string>
+    <string name="manifest_editor_add">Add element</string>
+    <string name="manifest_editor_edit">Edit attributes</string>
+    <string name="manifest_editor_children">Child elements</string>
+    <string name="manifest_editor_delete">Delete element</string>
+    <string name="manifest_editor_launcher">Set as launcher Activity</string>
+    <string name="manifest_editor_launcher_confirm">Remove LAUNCHER from other MAIN filters, preserve other contents, and set this component exported=true?</string>
+    <string name="manifest_editor_save">Save</string>
+    <string name="manifest_editor_saved">Saved and refreshed the editor</string>
+    <string name="manifest_editor_unsaved">The editor has unsaved changes. Save them first and load that version? No changes will be discarded.</string>
+    <string name="manifest_editor_save_first">Save and open</string>
+    <string name="manifest_editor_discard">Discard changes</string>
+    <string name="manifest_editor_leave">There are unsaved manifest edits. Leave without saving?</string>
+    <string name="manifest_editor_conflict">The file or editor changed while this page was open. Reopen Manifest Editor to avoid overwriting changes.</string>
+    <string name="manifest_editor_error">Operation failed: %1$s</string>
+    <string name="manifest_editor_loading">Loading…</string>
+    <string name="manifest_editor_pending">Changes pending · %1$d items</string>
+    <string name="manifest_editor_count">%1$d items · Tap an element to edit attributes or children</string>
+    <string name="manifest_editor_empty">No matching items</string>
+    <string name="manifest_editor_present">Keep this attribute (uncheck to remove)</string>
+    <string name="manifest_editor_custom_attribute">Custom attribute</string>
+    <string name="manifest_editor_attribute_name">Attribute name (e.g. tools:node)</string>
+    <string name="manifest_editor_value">Value</string>
+    <string name="manifest_editor_required_name">Name must not be empty</string>
+    <string name="manifest_editor_permission_catalog">System / installed permissions</string>
+    <string name="manifest_editor_permission_declared">Existing permission elements</string>
+    <string name="manifest_editor_custom_permission">Custom permission</string>
+    <string name="manifest_editor_details">Attributes</string>
+    <string name="manifest_editor_preview">View source fragment</string>
+    <string name="manifest_editor_delete_confirm">Delete this element and its children? %1$s</string>
+    <string name="manifest_editor_add_application">Add application</string>
+    <string name="manifest_editor_namespace_readonly">Namespace declarations are preserved and read-only</string>
+    <string name="manifest_editor_catalog_error">Permission catalog unavailable; existing and custom permissions can still be edited.</string>
+</resources>

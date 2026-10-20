@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="vc_title">Versionskataloge</string>
+    <string name="vc_loading">Versionskatalog wird geladen…</string>
+    <string name="vc_versions">Versionen</string>
+    <string name="vc_libraries">Bibliotheken</string>
+    <string name="vc_bundles">Bundles</string>
+    <string name="vc_plugins">Plugins</string>
+    <string name="vc_search">Aliasse und Werte suchen</string>
+    <string name="vc_empty">Keine passenden Einträge</string>
+    <string name="vc_add">Hinzufügen</string>
+    <string name="vc_save">Speichern</string>
+    <string name="vc_edit">Eintrag bearbeiten</string>
+    <string name="vc_alias">Alias</string>
+    <string name="vc_toml_value">TOML-Wert</string>
+    <string name="vc_edit_note">Der ursprüngliche TOML-Wert erhält komplexe Versionsbedingungen. Eine leere direkte Version kann aus einer BOM stammen. Änderungen bleiben bis zum Speichern der Datei ein Entwurf.</string>
+    <string name="vc_module">Modul (group:name)</string>
+    <string name="vc_version_mode">Versionsmodus</string>
+    <string name="vc_raw_mode">Ursprünglichen TOML-Wert verwenden</string>
+    <string name="vc_direct_version">Direkte Version</string>
+    <string name="vc_version_ref">Versionsreferenz (version.ref)</string>
+    <string name="vc_version_value">Version oder Versionsalias</string>
+    <string name="vc_apply">In Entwurf übernehmen</string>
+    <string name="vc_delete">Löschen</string>
+    <string name="vc_delete_confirm">%1$s löschen? Verweise in Modulen und anderen Katalogeinträgen werden nicht geändert.</string>
+    <string name="vc_duplicate">Dieser Alias oder sein Accessor ist bereits vorhanden.</string>
+    <string name="vc_unknown_ref">Einen vorhandenen Versionsalias wählen.</string>
+    <string name="vc_invalid">Ungültiger Eintrag: %1$s</string>
+    <string name="vc_saving">Wird gespeichert…</string>
+    <string name="vc_saved">Katalog gespeichert; Projekt und Dateibrowser aktualisiert.</string>
+    <string name="vc_conflict">Die Datei wurde außerhalb dieses Fensters geändert. Vor dem Speichern neu laden; der Entwurf wurde nicht geschrieben.</string>
+    <string name="vc_conflict_path">Externe Änderung · %1$s</string>
+    <string name="vc_unsaved_path">Ungespeicherter Entwurf · %1$s</string>
+    <string name="vc_path">Datei · %1$s</string>
+    <string name="vc_error">Katalog kann nicht gelesen oder gespeichert werden: %1$s</string>
+    <string name="vc_reload">Neu laden</string>
+    <string name="vc_reload_confirm">Datei neu laden und aktuellen Entwurf verwerfen?</string>
+    <string name="vc_leave_confirm">Katalogänderungen vor dem Verlassen speichern?</string>
+    <string name="vc_discard">Verwerfen</string>
+    <string name="vc_all">Alle</string>
+    <string name="vc_choose_file">Katalog auswählen</string>
+    <string name="vc_search_files">Katalognamen oder Pfade suchen</string>
+    <string name="vc_no_files">Keine passenden Katalogdateien</string>
+    <string name="vc_current_file">Aktueller Katalog</string>
+    <string name="vc_entry_details">Eintragsdetails</string>
+    <string name="vc_clear_search">Suche löschen</string>
+    <string name="vc_section_count">%1$s %2$d</string>
+    <string name="vc_unresolved">Nicht aufgelöster Verweis · Details öffnen</string>
+    <string name="vc_rich_summary">Erweiterte Versionsregeln</string>
+    <string name="vc_reference_summary">%1$s · Verweis %2$s</string>
+    <string name="vc_pair">%1$s · %2$s</string>
+    <string name="vc_choose_section">Eintragstyp auswählen</string>
+    <string name="vc_switch_confirm">Aktuellen Katalog vor dem Dateiwechsel speichern?</string>
+    <string name="vc_unsaved">Ungespeicherter Entwurf</string>
+    <string name="vc_ready">Gespeicherte Datei</string>
+    <string name="vc_catalog_help">Katalogdateien</string>
+    <string name="vc_file_hint">Zeigt lokale TOML-Dateien im gradle-Ordner und wörtliche from(files(...))-Importe aus settings. Dynamische oder veröffentlichte Kataloge werden nicht ausgewertet. Die Dateibearbeitung registriert keinen Katalog und ergänzt keine eigenen Accessors im Abhängigkeitsprüfer. Langes Drücken zeigt den vollständigen Pfad.</string>
+    <plurals name="vc_entry_count"><item quantity="one">%1$d Eintrag</item><item quantity="other">%1$d Einträge</item></plurals>
+    <plurals name="vc_members"><item quantity="one">%1$d Bibliothek</item><item quantity="other">%1$d Bibliotheken</item></plurals>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="sdk_project_title">Android SDK platforms</string>
+    <string name="sdk_project_summary">Search and pre-download stable platform versions without opening a project. The project compileSdk is only a recommendation; custom android.jar stays preferred.</string>
+    <string name="sdk_project_unknown">No literal stable compileSdk was found in the current module. Resolve variables or preview SDK settings first.</string>
+    <string name="sdk_project_confirm">Download SDK Platform %1$d from Google? This downloads only the platform archive, not a JDK. By continuing you accept the Android SDK license. Your custom android.jar, if set, remains preferred.</string>
+    <string name="sdk_license">SDK license</string>
+    <string name="sdk_download">Accept and download</string>
+    <string name="sdk_downloading">Downloading SDK Platform %1$d…</string>
+    <string name="sdk_downloaded">SDK Platform %1$d is installed. Project analysis will refresh.</string>
+    <string name="sdk_download_failed">SDK download failed: %1$s</string>
+    <string name="kotlin_fix_import">Import %1$s</string>
+</resources>

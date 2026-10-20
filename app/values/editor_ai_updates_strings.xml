@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="editor_mcp_discover">Find local MCP services</string>
+    <string name="editor_mcp_discover_help">Checks only loopback addresses and the listed ports, for up to six seconds. Recognized HTTP/SSE endpoints open for review before adding. Authenticated services, custom paths and other devices may need manual configuration. No token is sent to unknown services.</string>
+    <string name="editor_mcp_ports">Local ports (up to 24)</string>
+    <string name="editor_mcp_scan">Scan</string>
+    <string name="editor_mcp_invalid_ports">Enter 1–24 port numbers from 1 to 65535.</string>
+    <string name="editor_mcp_none">No accessible MCP service found. Check the port, path and authorization, or add it manually.</string>
+    <string name="editor_quick_actions">Editor actions in symbol bar</string>
+    <string name="editor_quick_actions_help">Show undo, redo and save in the new symbol bar, using the original editor commands.</string>
+    <string name="editor_hide_menu_actions">Hide editor actions in top menu</string>
+    <string name="editor_hide_menu_actions_help">Hide top-menu undo, redo and save only while the new symbol-bar actions are enabled. Trainer mode is unchanged.</string>
+    <string name="editor_move_left">Move left; hold to repeat</string>
+    <string name="editor_move_right">Move right; hold to repeat</string>
+    <string name="editor_move_up">Move up; hold to repeat</string>
+    <string name="editor_move_down">Move down; hold to repeat</string>
+    <string name="editor_move_home">Move to line start; hold to repeat</string>
+    <string name="editor_move_end">Move to line end; hold to repeat</string>
+    <string name="editor_key_tab">Tab</string>
+    <string name="editor_ai_project_switching">Switching project: saving the previous conversation and preparing a new one…</string>
+</resources>

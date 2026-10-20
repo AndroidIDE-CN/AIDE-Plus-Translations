@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="vc_title">Catálogos de versões</string>
+    <string name="vc_loading">A carregar o catálogo de versões…</string>
+    <string name="vc_versions">Versões</string>
+    <string name="vc_libraries">Bibliotecas</string>
+    <string name="vc_bundles">Conjuntos</string>
+    <string name="vc_plugins">Plugins</string>
+    <string name="vc_search">Pesquisar nomes alternativos e valores</string>
+    <string name="vc_empty">Nenhuma entrada correspondente</string>
+    <string name="vc_add">Adicionar</string>
+    <string name="vc_save">Guardar</string>
+    <string name="vc_edit">Editar entrada</string>
+    <string name="vc_alias">Nome alternativo</string>
+    <string name="vc_toml_value">Valor TOML</string>
+    <string name="vc_edit_note">O valor TOML original preserva as restrições de versão avançadas. Uma versão direta vazia permite usar a versão de uma BOM. As alterações ficam num rascunho até guardar o ficheiro.</string>
+    <string name="vc_module">Módulo (group:name)</string>
+    <string name="vc_version_mode">Modo de versão</string>
+    <string name="vc_raw_mode">Usar o valor TOML original</string>
+    <string name="vc_direct_version">Versão direta</string>
+    <string name="vc_version_ref">Referência de versão (version.ref)</string>
+    <string name="vc_version_value">Versão ou nome alternativo da versão</string>
+    <string name="vc_apply">Aplicar ao rascunho</string>
+    <string name="vc_delete">Eliminar</string>
+    <string name="vc_delete_confirm">Eliminar %1$s? As referências nos módulos e noutras entradas do catálogo não serão alteradas.</string>
+    <string name="vc_duplicate">Este nome alternativo ou o respetivo accessor já existe.</string>
+    <string name="vc_unknown_ref">Escolha um nome alternativo de versão existente.</string>
+    <string name="vc_invalid">Entrada inválida: %1$s</string>
+    <string name="vc_saving">A guardar…</string>
+    <string name="vc_saved">Catálogo guardado; projeto e explorador de ficheiros atualizados.</string>
+    <string name="vc_conflict">O ficheiro foi alterado fora deste painel. Recarregue-o antes de guardar; o rascunho não foi escrito.</string>
+    <string name="vc_conflict_path">Alteração externa · %1$s</string>
+    <string name="vc_unsaved_path">Rascunho por guardar · %1$s</string>
+    <string name="vc_path">Ficheiro · %1$s</string>
+    <string name="vc_error">Não foi possível ler ou guardar o catálogo: %1$s</string>
+    <string name="vc_reload">Recarregar</string>
+    <string name="vc_reload_confirm">Recarregar o ficheiro e descartar o rascunho atual?</string>
+    <string name="vc_leave_confirm">Guardar as alterações do catálogo antes de sair?</string>
+    <string name="vc_discard">Descartar</string>
+    <string name="vc_all">Todos</string>
+    <string name="vc_choose_file">Escolher catálogo</string>
+    <string name="vc_search_files">Pesquisar nomes ou caminhos</string>
+    <string name="vc_no_files">Nenhum arquivo de catálogo correspondente</string>
+    <string name="vc_current_file">Catálogo atual</string>
+    <string name="vc_entry_details">Detalhes da entrada</string>
+    <string name="vc_clear_search">Limpar pesquisa</string>
+    <string name="vc_section_count">%1$s %2$d</string>
+    <string name="vc_unresolved">Referência não resolvida · ver detalhes</string>
+    <string name="vc_rich_summary">Restrições de versão avançadas</string>
+    <string name="vc_reference_summary">%1$s · ref. %2$s</string>
+    <string name="vc_pair">%1$s · %2$s</string>
+    <string name="vc_choose_section">Escolher tipo de entrada</string>
+    <string name="vc_switch_confirm">Salvar o catálogo atual antes de trocar de arquivo?</string>
+    <string name="vc_unsaved">Rascunho não salvo</string>
+    <string name="vc_ready">Arquivo salvo</string>
+    <string name="vc_catalog_help">Arquivos de catálogo</string>
+    <string name="vc_file_hint">Lista arquivos TOML locais da pasta gradle e importações literais from(files(...)) em settings. Catálogos dinâmicos ou publicados não são avaliados. Editar um arquivo não registra um catálogo nem adiciona acessores personalizados ao inspetor de dependências. Mantenha o arquivo pressionado para ver o caminho completo.</string>
+    <plurals name="vc_entry_count"><item quantity="one">%1$d entrada</item><item quantity="other">%1$d entradas</item></plurals>
+    <plurals name="vc_members"><item quantity="one">%1$d biblioteca</item><item quantity="other">%1$d bibliotecas</item></plurals>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="module_flavors_title">Produktvarianten</string>
+    <string name="module_flavors_keep_script">Komplexe Variantendeklarationen: Skript beibehalten. Zum Bearbeiten die Build-Datei öffnen.</string>
+    <string name="module_flavors_gradle_note">Gradle wendet Varianten an; native AIDE-Builds unterstützen nicht alle Variantenoptionen.</string>
+    <string name="module_flavors_empty">Keine Produktvarianten deklariert.</string>
+    <string name="module_flavor_add_dimension">Dimension hinzufügen</string>
+    <string name="module_flavor_edit_dimension">Dimension bearbeiten</string>
+    <string name="module_dimension_in_use">Diese Dimension wird von einer Variante verwendet. Zuerst die Variante ändern.</string>
+    <string name="module_flavor_add">Variante hinzufügen</string>
+    <string name="module_flavor_edit">Bearbeiten</string>
+    <string name="module_flavor_name">Variantenname</string>
+    <string name="module_flavor_invalid_name">Einen eindeutigen Namen mit Buchstaben oder Unterstrich am Anfang eingeben.</string>
+    <string name="module_flavor_dimension_required">Eine Dimension hinzufügen und der Variante zuweisen.</string>
+    <string name="module_flavor_delete_confirm">Diese Variante mit ihrer Konfiguration löschen?</string>
+    <string name="module_integer_required">%1$s muss eine nicht negative Ganzzahl sein. Vorhandene Skriptausdrücke können bleiben.</string>
+    <string name="module_boolean_required">true, false oder Nicht deklariert auswählen.</string>
+    <string name="module_installed_select">Installiertes %1$s auswählen</string>
+    <string name="module_installed_title">Installierte Versionen</string>
+    <string name="module_installed_empty">Keine vollständige Installation gefunden. Eine Version in der NDK-/CMake-Verwaltung installieren oder manuell eingeben.</string>
+    <string name="module_toolchain_manage">NDK-/CMake-Verwaltung</string>
+    <string name="module_cmake_version">CMake-Version</string>
+    <string name="module_dependency_exclusions">Ausschlüsse: %1$d</string>
+    <string name="module_kotlin_effective_target">AIDE+-JVM-Ziel: %1$s</string>
+    <string name="module_dependency_maven">Maven-Abhängigkeiten</string>
+    <string name="module_dependency_script">Skriptausdruck</string>
+</resources>

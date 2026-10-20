@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="iyutong_translate_yq_xs">
+        <item>Bing Translate</item>
+        <item>Google CN Translate</item>
+        <item>Yandex Translate</item>
+        <item>Baidu Translate</item>
+    </string-array>
+    <string-array name="iyutong_translate_yq_lx">
+        <item>Auto -> Chinese</item>
+        <item>Auto -> English</item>
+        <item>English -> Chinese</item>
+        <item>Chinese -> English</item>
+    </string-array>
+    <string-array name="zero_aicy_quick_key_rows_entries">
+        <item>1 row</item>
+        <item>2 rows</item>
+        <item>3 rows</item>
+        <item>4 rows</item>
+    </string-array>
+    <string-array name="zero_aicy_layout_designer_labels_entries">
+        <item>Original names (TextView, layout_width)</item>
+        <item>Original names + localized labels (TextView · Text view)</item>
+        <item>Localized labels (Text view)</item>
+    </string-array>
+</resources>

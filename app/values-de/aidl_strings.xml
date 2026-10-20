@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="aidl_diag_missing_package">Paketdeklaration fehlt</string>
+    <string name="aidl_diag_package_mismatch">Paket „%1$s“ passt nicht zum Ordner (erwartet „%2$s“)</string>
+    <string name="aidl_diag_no_declaration">Erwartet wird eine interface-, parcelable-, enum- oder union-Deklaration</string>
+    <string name="aidl_diag_bad_method">Ungültige Methodendeklaration: erwartet „Rückgabetyp name(Parameter);“</string>
+    <string name="aidl_diag_bad_parameter">Ungültiger Parameter: erwartet „[in|out|inout] Typ name“</string>
+    <string name="aidl_diag_overload">AIDL unterstützt kein Überladen von Methoden: „%1$s“ ist mehrfach deklariert</string>
+    <string name="aidl_diag_oneway_return">oneway-Methode „%1$s“ muss void zurückgeben</string>
+    <string name="aidl_diag_oneway_out">oneway-Methode „%1$s“ darf keine out- oder inout-Parameter haben</string>
+    <string name="aidl_diag_primitive_direction">Primitiver Parameter „%1$s“ kann nur in sein</string>
+    <string name="aidl_diag_missing_direction">Parameter „%1$s“ benötigt eine Richtung: in, out oder inout</string>
+    <string name="aidl_diag_unknown_type">Typ „%1$s“ kann nicht aufgelöst werden: importieren oder als parcelable deklarieren</string>
+    <string name="aidl_diag_unmatched">Überzähliges „%1$s“</string>
+    <string name="aidl_diag_unclosed">„%1$s“ ist nicht geschlossen</string>
+</resources>

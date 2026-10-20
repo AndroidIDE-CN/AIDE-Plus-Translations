@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="format_kotlin_category_indentation">Kotlin indentation options</string>
+    <string name="format_kotlin_category_spacing">Kotlin spacing options</string>
+    <string name="format_kotlin_category_blank_lines">Kotlin blank lines options</string>
+    <string name="format_kotlin_option_continuation_indent">Continuation indent</string>
+    <string name="format_kotlin_option_when_branch_indent">Indent \'when\' branches</string>
+    <string name="format_kotlin_option_adjust_spaces">Adjust spaces on autoformat</string>
+    <string name="format_kotlin_option_space_around_binary_ops">Insert space around binary operators</string>
+    <string name="format_kotlin_option_space_around_assignment_ops">Insert space around assignment operators</string>
+    <string name="format_kotlin_option_space_after_comma">Insert space after comma</string>
+    <string name="format_kotlin_option_space_after_colon">Insert space after colon</string>
+    <string name="format_kotlin_option_space_before_extend_colon">Insert space before inheritance colon</string>
+    <string name="format_kotlin_option_space_before_type_colon">Insert space before type colon</string>
+    <string name="format_kotlin_option_space_around_arrow">Insert space around \'-&gt;\'</string>
+    <string name="format_kotlin_option_space_after_keyword">Insert space after control flow keywords</string>
+    <string name="format_kotlin_option_space_inside_braces">Insert space inside braces</string>
+    <string name="format_kotlin_option_space_inside_parentheses">Insert space inside parentheses</string>
+    <string name="format_kotlin_option_space_around_range_op">Insert space around range operator \'..\'</string>
+    <string name="format_kotlin_option_keep_max_blank_lines">Keep maximum blank lines (2)</string>
+    <string name="format_kotlin_option_final_newline">Ensure newline at end of file</string>
+    <string name="format_kotlin_example_versus">“%1$s” versus “%2$s”</string>
+</resources>

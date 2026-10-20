@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="module_ui_settings">Definições</string>
+    <string name="module_ui_configured">Configurado</string>
+    <string name="module_ui_not_configured">Não configurado</string>
+    <string name="module_ui_read_only">Só de leitura</string>
+    <string name="module_ui_draft">Rascunho</string>
+    <string name="module_ui_declaration">Declaração</string>
+    <string name="module_ui_help">Ajuda</string>
+    <string name="module_ui_info_title">Detalhes</string>
+    <string name="module_ui_add">Adicionar</string>
+    <string name="module_ui_info">Informações sobre %1$s</string>
+    <string name="module_ui_actions">Ações para %1$s</string>
+    <string name="module_ui_edit">Editar %1$s</string>
+    <string name="module_ui_delete_confirm">Eliminar este item do rascunho? O script só é alterado ao guardar.</string>
+    <plurals name="module_ui_item_count">
+        <item quantity="one">%1$d item</item>
+        <item quantity="other">%1$d itens</item>
+    </plurals>
+    <plurals name="module_ui_flavor_count">
+        <item quantity="one">%1$d variante</item>
+        <item quantity="other">%1$d variantes</item>
+    </plurals>
+    <string name="module_common_undeclared">Não declarado</string>
+    <string name="module_common_enabled">Ativado</string>
+    <string name="module_common_disabled">Desativado</string>
+    <string name="module_common_desugar_help">O desugaring da biblioteca principal requer a dependência %1$s na configuração coreLibraryDesugaring. Pode adicioná-la abaixo; as alterações só são aplicadas ao guardar.</string>
+    <string name="module_common_desugar_add">Adicionar dependência de desugaring</string>
+    <string name="module_common_desugar_added">Dependência de desugaring adicionada ao rascunho. Guarde para aplicar.</string>
+    <string name="module_common_desugar_present">Já existe uma dependência de desugaring declarada. A versão mantém-se.</string>
+    <string name="module_common_dsl_help">Edite apenas as declarações DSL selecionadas. buildConfigField utiliza chamadas completas; manifestPlaceholders aceita atribuições de mapas ou entradas por chave. Os filtros ABI utilizam valores entre aspas em Groovy e setOf(...) em Kotlin DSL. As outras instruções e os comentários no fim das linhas são mantidos.</string>
+    <string name="module_common_only_declarations">Só são permitidas declarações de %1$s.</string>
+</resources>

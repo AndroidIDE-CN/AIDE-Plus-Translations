@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="sdk_project_title">Android SDK 平台</string>
+    <string name="sdk_project_summary">搜索稳定平台版本并提前下载，无需打开项目。项目 compileSdk 仅用于推荐，自定义 android.jar 仍优先。</string>
+    <string name="sdk_project_unknown">未找到当前模块明确的稳定版 compileSdk。请先解析变量或预览版 SDK 设置。</string>
+    <string name="sdk_project_confirm">从 Google 下载 SDK Platform %1$d？仅下载平台归档，不安装 JDK。继续即表示接受 Android SDK 许可；已有自选 android.jar 仍优先。</string>
+    <string name="sdk_license">SDK 许可</string>
+    <string name="sdk_download">接受并下载</string>
+    <string name="sdk_downloading">正在下载 SDK Platform %1$d…</string>
+    <string name="sdk_downloaded">SDK Platform %1$d 已安装，将刷新项目分析。</string>
+    <string name="sdk_download_failed">SDK 下载失败：%1$s</string>
+    <string name="kotlin_fix_import">导入 %1$s</string>
+</resources>

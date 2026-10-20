@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ai_undo_menu">Undo last file changes</string>
+    <string name="ai_undo_title">Undo file changes</string>
+    <string name="ai_undo_action">Undo</string>
+    <plurals name="ai_undo_message">
+        <item quantity="one">Restore %1$d file changed by the assistant for “%2$s” to its previous content? Files it created are deleted.</item>
+        <item quantity="other">Restore %1$d files changed by the assistant for “%2$s” to their previous content? Files it created are deleted.</item>
+    </plurals>
+    <string name="ai_undo_done">Restored %1$d file(s), deleted %2$d new file(s).</string>
+    <string name="ai_undo_failed">These files could not be restored (too large or not readable):%1$s</string>
+    <string name="ai_undo_nothing">No file changes to undo.</string>
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ab_zip">ZIP · Ficheiros</string>
+    <string name="ab_jar">JAR · Pacotes e recursos</string>
+    <string name="ab_files">Todos os ficheiros</string>
+    <string name="ab_packages">Pacotes</string>
+    <string name="ab_resources">Recursos</string>
+    <string name="ab_search">Pesquisar nomes ou caminhos</string>
+    <string name="ab_up">Subir ou limpar a pesquisa</string>
+    <string name="ab_default_package">Pacote predefinido</string>
+    <string name="ab_package">Pacote</string>
+    <string name="ab_class">Ficheiro de classe</string>
+    <string name="ab_source">Ficheiro fonte</string>
+    <string name="ab_resource">Recurso</string>
+    <string name="ab_directory">Diretório</string>
+    <string name="ab_summary">Indexados: %1$d · Entradas inseguras ou ambíguas ocultas: %2$d</string>
+    <string name="ab_partial">Só foram indexadas as primeiras %1$d entradas.</string>
+    <string name="ab_results_limit">Até %1$d resultados. Refine a pesquisa.</string>
+    <string name="ab_empty">Nenhuma entrada correspondente.</string>
+    <string name="ab_error_zip">Não é possível explorar este ZIP: dados inválidos, codificação não suportada ou limite do índice.</string>
+    <string name="ab_error_jar">Não é possível explorar este JAR: arquivo inválido, codificação não suportada ou limite do índice.</string>
+    <string name="ab_class_notice">Apenas a estrutura da classe — não é o código-fonte original nem corpos de métodos descompilados.</string>
+    <string name="ab_class_error">Não é possível pré-visualizar esta classe: danificada, não suportada ou acima dos limites.</string>
+    <string name="ab_nested_notice">Os arquivos aninhados não são expandidos. Se necessário, abra o arquivo original externamente.</string>
+    <string name="ab_version">Java %1$d · %2$s</string>
+</resources>

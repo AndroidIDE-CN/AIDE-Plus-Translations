@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="format_kotlin_category_indentation">Opções de indentação do Kotlin</string>
+    <string name="format_kotlin_category_spacing">Opções de espaçamento do Kotlin</string>
+    <string name="format_kotlin_category_blank_lines">Opções de linhas em branco do Kotlin</string>
+    <string name="format_kotlin_option_continuation_indent">Indentação de continuação</string>
+    <string name="format_kotlin_option_when_branch_indent">Indentar ramificações \'when\'</string>
+    <string name="format_kotlin_option_adjust_spaces">Ajustar espaços na formatação automática</string>
+    <string name="format_kotlin_option_space_around_binary_ops">Inserir espaços ao redor de operadores binários</string>
+    <string name="format_kotlin_option_space_around_assignment_ops">Inserir espaços ao redor de operadores de atribuição</string>
+    <string name="format_kotlin_option_space_after_comma">Inserir espaço após vírgula</string>
+    <string name="format_kotlin_option_space_after_colon">Inserir espaço após dois-pontos</string>
+    <string name="format_kotlin_option_space_before_extend_colon">Inserir espaço antes de dois-pontos de herança</string>
+    <string name="format_kotlin_option_space_before_type_colon">Inserir espaço antes de dois-pontos de tipo</string>
+    <string name="format_kotlin_option_space_around_arrow">Inserir espaços ao redor de \'-&gt;\'</string>
+    <string name="format_kotlin_option_space_after_keyword">Inserir espaço após palavras-chave de controle de fluxo</string>
+    <string name="format_kotlin_option_space_inside_braces">Inserir espaços dentro de chaves</string>
+    <string name="format_kotlin_option_space_inside_parentheses">Inserir espaços dentro de parênteses</string>
+    <string name="format_kotlin_option_space_around_range_op">Inserir espaços ao redor do operador de intervalo \'..\'</string>
+    <string name="format_kotlin_option_keep_max_blank_lines">Manter linhas em branco máximas (2)</string>
+    <string name="format_kotlin_option_final_newline">Garantir quebra de linha no fim do arquivo</string>
+    <string name="format_kotlin_example_versus">“%1$s” versus “%2$s”</string>
+</resources>

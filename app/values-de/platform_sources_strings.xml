@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="sdk_xml_data_title">XML-Daten der SDK-Plattform</string>
+    <string name="sdk_xml_data_summary">Android-XML mit den Plattformdaten der compileSdk des Projekts vervollständigen und prüfen (im SDK-Manager herunterladen). Aus: integrierte Daten verwenden.</string>
+    <string name="sdk_xml_data_missing_badge">XML-Daten fehlen</string>
+    <string name="sdk_xml_data_prompt_title">XML-Daten der Plattform nicht heruntergeladen</string>
+    <string name="sdk_xml_data_prompt_message">Die XML-Daten für Android SDK %1$s (compileSdk des Projekts) sind nicht heruntergeladen. Im SDK-Manager herunterladen oder die Funktion ausschalten, um die integrierten Daten zu verwenden.</string>
+    <string name="sdk_xml_data_prompt_download">SDK-Manager öffnen</string>
+    <string name="sdk_xml_data_prompt_disable">Ausschalten</string>
+    <string name="sdk_xml_data_prompt_later">Später</string>
+    <string name="library_sources_title">Zum Quellcode von Bibliotheken springen</string>
+    <string name="library_sources_summary">Beim Auflösen von Maven-Abhängigkeiten -sources.jar herunterladen und statt der Klassenübersicht den Quellcode (mit Dokumentation) öffnen. Aus: Klassenübersicht wie bisher.</string>
+    <string name="library_doc_command">Dokumentation anzeigen</string>
+    <string name="library_doc_open">Zur Deklaration</string>
+    <string name="library_doc_none">Kein Dokumentationskommentar.</string>
+    <string name="library_doc_no_source">Für diese Deklaration ist kein Quellcode verfügbar, daher gibt es keine Dokumentation.</string>
+    <string name="library_doc_enable_sources">Die Dokumentation von Bibliotheksklassen benötigt deren Quellcode. Einstellungen → Zum Quellcode von Bibliotheken springen einschalten.</string>
+    <string name="library_sources_not_found">Deklaration nicht gefunden</string>
+    <string name="library_sources_missing_title">Quellcode der Bibliothek nicht heruntergeladen</string>
+    <string name="library_sources_missing_message">Der Quellcode von %1$s ist nicht heruntergeladen. Jetzt herunterladen, die Klassenübersicht anzeigen oder das Springen zum Quellcode ausschalten.</string>
+    <string name="library_sources_download">Herunterladen</string>
+    <string name="library_sources_download_failed">Der Quellcode konnte nicht heruntergeladen werden; die Repositorys veröffentlichen für diese Bibliothek möglicherweise keine Quellen.</string>
+    <string name="library_sources_disable">Ausschalten</string>
+    <string name="library_sources_outline">Klassenübersicht</string>
+</resources>

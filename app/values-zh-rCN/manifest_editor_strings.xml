@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="manifest_editor_title">清单编辑</string>
+    <string name="manifest_editor_permissions">权限</string>
+    <string name="manifest_editor_components">组件</string>
+    <string name="manifest_editor_application">应用</string>
+    <string name="manifest_editor_other">其它</string>
+    <string name="manifest_editor_search">搜索名称、标签和属性</string>
+    <string name="manifest_editor_add">新增元素</string>
+    <string name="manifest_editor_edit">编辑属性</string>
+    <string name="manifest_editor_children">子元素</string>
+    <string name="manifest_editor_delete">删除元素</string>
+    <string name="manifest_editor_launcher">设为启动 Activity</string>
+    <string name="manifest_editor_launcher_confirm">移除其它 MAIN 过滤器中的 LAUNCHER，保留其余内容，并将此组件设为 exported=true？</string>
+    <string name="manifest_editor_save">保存</string>
+    <string name="manifest_editor_saved">已保存并刷新编辑器</string>
+    <string name="manifest_editor_unsaved">编辑器有未保存的改动。是否先保存，再以该版本打开？不会丢弃现有修改。</string>
+    <string name="manifest_editor_save_first">保存并打开</string>
+    <string name="manifest_editor_discard">放弃本页修改</string>
+    <string name="manifest_editor_leave">清单编辑有未保存的修改，是否放弃并离开？</string>
+    <string name="manifest_editor_conflict">文件或编辑器内容在本页打开后已变化，请重新打开清单编辑，以免覆盖修改。</string>
+    <string name="manifest_editor_error">操作失败：%1$s</string>
+    <string name="manifest_editor_loading">正在加载…</string>
+    <string name="manifest_editor_pending">尚未保存 · %1$d 项</string>
+    <string name="manifest_editor_count">%1$d 项 · 点击元素编辑属性或子元素</string>
+    <string name="manifest_editor_empty">没有匹配项</string>
+    <string name="manifest_editor_present">保留此属性（取消勾选则删除）</string>
+    <string name="manifest_editor_custom_attribute">自定义属性</string>
+    <string name="manifest_editor_attribute_name">属性名（例如 tools:node）</string>
+    <string name="manifest_editor_value">属性值</string>
+    <string name="manifest_editor_required_name">名称不能为空</string>
+    <string name="manifest_editor_permission_catalog">系统 / 已安装应用权限</string>
+    <string name="manifest_editor_permission_declared">已有权限元素</string>
+    <string name="manifest_editor_custom_permission">自定义权限</string>
+    <string name="manifest_editor_details">属性</string>
+    <string name="manifest_editor_preview">查看原文片段</string>
+    <string name="manifest_editor_delete_confirm">删除此元素及其子元素？%1$s</string>
+    <string name="manifest_editor_add_application">新增 application</string>
+    <string name="manifest_editor_namespace_readonly">命名空间声明保持原样，只读展示</string>
+    <string name="manifest_editor_catalog_error">无法读取系统权限目录；已有权限和自定义权限仍可编辑。</string>
+</resources>

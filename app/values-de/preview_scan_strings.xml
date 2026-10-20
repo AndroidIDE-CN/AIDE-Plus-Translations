@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="preview_scan_title">Code-Prüfung benutzerdefinierter Views</string>
+    <string name="preview_scan_message">Diese benutzerdefinierten Views laufen in der Vorschau innerhalb von AIDE+, mit dessen Berechtigungen und Daten. Ihr Code enthält möglicherweise riskante Aufrufe:\n\n%1$s\n\nFühre sie nur aus, wenn du diesem Code vertraust. Andernfalls werden Platzhalter angezeigt.</string>
+    <string name="preview_scan_allow">Vorschau ausführen</string>
+    <string name="preview_scan_block">Platzhalter anzeigen</string>
+    <string name="preview_scan_blocked_reason">Nicht ausgeführt: Die Code-Prüfung fand %1$s</string>
+    <string name="preview_risk_separator">", "</string>
+    <string name="preview_risk_exec">Systembefehle</string>
+    <string name="preview_risk_native">Laden nativer Bibliotheken</string>
+    <string name="preview_risk_dynamic_code">Laden externen Codes</string>
+    <string name="preview_risk_file_write">Schreiben oder Löschen von Dateien</string>
+    <string name="preview_risk_network">Netzwerkzugriff</string>
+    <string name="preview_risk_app_data">Zugriff auf App-Daten oder Starten von Komponenten</string>
+    <string name="preview_risk_process">Beenden des Prozesses</string>
+    <string name="preview_risk_system_data">Ändern von Systemdaten oder SMS-Versand</string>
+    <string name="preview_risk_reflection">Zugriff auf Systeminterna</string>
+</resources>

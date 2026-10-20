@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="highlight_kind_editor_background">Editor-Hintergrund</string>
+    <string name="highlight_kind_editor_selection">Hintergrund markierter Text</string>
+    <string name="highlight_kind_plain">Text</string>
+    <string name="highlight_kind_keyword">Schlüsselwörter</string>
+    <string name="highlight_kind_identifier">Bezeichner</string>
+    <string name="highlight_kind_namespace_identifier">Paketnamen</string>
+    <string name="highlight_kind_type_identifier">Typnamen</string>
+    <string name="highlight_kind_operator">Operatoren</string>
+    <string name="highlight_kind_separator">Klammern und Satzzeichen</string>
+    <string name="highlight_kind_literal">Zeichenketten, Zahlen und Wahrheitswerte</string>
+    <string name="highlight_kind_comment">Kommentare</string>
+    <string name="highlight_kind_unused">Ungenutzte Variablen</string>
+    <string name="highlight_kind_argument_identifier">Parameter</string>
+    <string name="highlight_kind_delegate_identifier">Methodennamen</string>
+    <string name="highlight_kind_doc_comment">Dokumentationskommentare</string>
+    <string name="highlight_kind_field">Felder</string>
+    <string name="highlight_kind_static_field">Statische Felder</string>
+    <string name="highlight_kind_constant">Konstanten (static final)</string>
+    <string name="highlight_kind_enum_constant">Enum-Konstanten</string>
+    <string name="highlight_kind_annotation">Annotationen</string>
+    <string name="highlight_kind_local_variable">Lokale Variablen</string>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ai_mcp_category">AI and MCP</string>
+    <string name="ai_mcp_enable_title">Local MCP server</string>
+    <string name="ai_mcp_enable_summary">Serve MCP on 127.0.0.1 so AI clients such as Claude Code or Codex in Termux can inspect the open project, read files and get AIDE+ code errors</string>
+    <string name="ai_mcp_writes_title">Allow file changes</string>
+    <string name="ai_mcp_writes_summary">Let MCP clients call edit_file and write_file to modify project files</string>
+    <string name="ai_mcp_port_title">Port</string>
+    <string name="ai_mcp_port_summary">Default 8765; the server only listens on 127.0.0.1</string>
+    <string name="ai_mcp_connection_title">Connection info</string>
+    <string name="ai_mcp_connection_summary">Address, authentication mode and client configuration</string>
+    <string name="ai_mcp_status_running">Status: running · %1$s</string>
+    <string name="ai_mcp_status_stopped">Status: not running</string>
+    <string name="ai_mcp_status_failed">Status: failed to start (%1$s)</string>
+    <string name="ai_mcp_token_label">Access token: %1$s</string>
+    <string name="ai_mcp_copy_config">Copy configuration</string>
+    <string name="ai_mcp_copied">Configuration copied</string>
+    <string name="ai_mcp_regenerate_token">Regenerate token</string>
+    <string name="ai_mcp_token_regenerated">Token regenerated. Update the configuration of connected clients.</string>
+    <string name="ai_mcp_require_token_title">Require access token</string>
+    <string name="ai_mcp_require_token_summary">Recommended. Disable only on a trusted device.</string>
+    <string name="ai_mcp_noauth_confirm_title">Disable MCP token authentication?</string>
+    <string name="ai_mcp_noauth_warning">Other apps on this device that can reach the loopback port may access the open project through enabled MCP tools. The server stays local; file-write permission and execution approvals remain separate. Continue only on a trusted device.</string>
+    <string name="ai_mcp_disable_token">Disable</string>
+    <string name="ai_mcp_noauth_status">Token authentication is disabled (local-only).</string>
+    <string name="ai_mcp_approval_title">MCP tool request</string>
+    <string name="ai_mcp_approval_summary">Tool: %1$s · Project: %2$s</string>
+    <string name="ai_mcp_approval_warning">Network and delegated agents can send project/skill/memory content off-device and incur configured model/API charges. Planning and memory writes, including global memory shared with AI chats, need confirmation too. MCP has separate planning and no AI chat history. Review the full project path and arguments below. Allow only this request. Execution is not a filesystem sandbox; shell commands may use app/Shizuku access, and IDE builds may install or launch apps. Leaving this screen, changing project or waiting 45 seconds cancels pending approval. Already accepted jobs are not rolled back.</string>
+    <string name="ai_mcp_approval_once">Allow this request</string>
+    <string name="ai_mcp_approval_deny">Deny</string>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ai_mcp_category">KI und MCP</string>
+    <string name="ai_mcp_enable_title">Lokaler MCP-Server</string>
+    <string name="ai_mcp_enable_summary">MCP auf 127.0.0.1 bereitstellen, damit KI-Clients wie Claude Code oder Codex in Termux das geöffnete Projekt untersuchen, Dateien lesen und AIDE+-Codefehler abrufen können</string>
+    <string name="ai_mcp_writes_title">Dateiänderungen erlauben</string>
+    <string name="ai_mcp_writes_summary">MCP-Clients dürfen edit_file und write_file aufrufen, um Projektdateien zu ändern</string>
+    <string name="ai_mcp_port_title">Port</string>
+    <string name="ai_mcp_port_summary">Standard 8765; der Server lauscht nur auf 127.0.0.1</string>
+    <string name="ai_mcp_connection_title">Verbindungsinfo</string>
+    <string name="ai_mcp_connection_summary">Adresse, Authentifizierungsmodus und Client-Konfiguration</string>
+    <string name="ai_mcp_status_running">Status: läuft · %1$s</string>
+    <string name="ai_mcp_status_stopped">Status: läuft nicht</string>
+    <string name="ai_mcp_status_failed">Status: Start fehlgeschlagen (%1$s)</string>
+    <string name="ai_mcp_token_label">Zugriffstoken: %1$s</string>
+    <string name="ai_mcp_copy_config">Konfiguration kopieren</string>
+    <string name="ai_mcp_copied">Konfiguration kopiert</string>
+    <string name="ai_mcp_regenerate_token">Token neu erzeugen</string>
+    <string name="ai_mcp_token_regenerated">Token neu erzeugt. Aktualisiere die Konfiguration verbundener Clients.</string>
+    <string name="ai_mcp_require_token_title">Zugriffstoken erforderlich</string>
+    <string name="ai_mcp_require_token_summary">Empfohlen. Nur auf vertrauenswürdigen Geräten ausschalten.</string>
+    <string name="ai_mcp_noauth_confirm_title">MCP-Token-Authentifizierung deaktivieren?</string>
+    <string name="ai_mcp_noauth_warning">Andere Apps auf diesem Gerät, die den Loopback-Port erreichen, können über aktivierte MCP-Werkzeuge auf das geöffnete Projekt zugreifen. Der Server bleibt lokal; Schreibrechte und Ausführungsfreigaben bleiben getrennt. Nur auf einem vertrauenswürdigen Gerät fortfahren.</string>
+    <string name="ai_mcp_disable_token">Deaktivieren</string>
+    <string name="ai_mcp_noauth_status">Token-Authentifizierung deaktiviert (nur lokal).</string>
+    <string name="ai_mcp_approval_title">MCP-Werkzeuganfrage</string>
+    <string name="ai_mcp_approval_summary">Werkzeug: %1$s · Projekt: %2$s</string>
+    <string name="ai_mcp_approval_warning">Netzwerk und Unteragenten können Projekt-, Fähigkeiten- und Speicherinhalte übertragen und Kosten beim konfigurierten Modell/API verursachen. Aufgaben-/Speicheränderungen einschließlich des mit KI geteilten globalen Speichers erfordern ebenfalls Bestätigung. MCP hat eigene Aufgaben und keinen KI-Chatverlauf. Vollständigen Projektpfad und Argumente prüfen. Nur diese Anfrage erlauben. Keine Dateisystem-Sandbox: Shell kann App-/Shizuku-Zugriff nutzen, IDE-Builds können Apps installieren oder starten. Verlassen des Bildschirms, Projektwechsel oder 45 Sekunden Wartezeit brechen die ausstehende Bestätigung ab. Angenommene Aufträge werden nicht zurückgerollt.</string>
+    <string name="ai_mcp_approval_once">Diese Anfrage erlauben</string>
+    <string name="ai_mcp_approval_deny">Ablehnen</string>
+</resources>

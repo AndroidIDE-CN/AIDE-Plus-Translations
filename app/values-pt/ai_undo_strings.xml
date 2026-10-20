@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ai_undo_menu">Desfazer últimas alterações de ficheiros</string>
+    <string name="ai_undo_title">Desfazer alterações de ficheiros</string>
+    <string name="ai_undo_action">Desfazer</string>
+    <plurals name="ai_undo_message">
+        <item quantity="one">Repor %1$d ficheiro alterado pelo assistente para “%2$s” ao conteúdo anterior? Os ficheiros que ele criou são eliminados.</item>
+        <item quantity="other">Repor %1$d ficheiros alterados pelo assistente para “%2$s” ao conteúdo anterior? Os ficheiros que ele criou são eliminados.</item>
+    </plurals>
+    <string name="ai_undo_done">%1$d ficheiro(s) reposto(s), %2$d ficheiro(s) novo(s) eliminado(s).</string>
+    <string name="ai_undo_failed">Não foi possível repor estes ficheiros (demasiado grandes ou ilegíveis):%1$s</string>
+    <string name="ai_undo_nothing">Não há alterações de ficheiros para desfazer.</string>
+</resources>

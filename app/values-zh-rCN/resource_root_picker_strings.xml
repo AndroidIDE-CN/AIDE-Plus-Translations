@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rm_root_choose">资源目录</string>
+    <string name="rm_root_search">搜索模块、依赖坐标或路径</string>
+    <string name="rm_root_all">全部</string>
+    <string name="rm_root_modules">模块</string>
+    <string name="rm_root_dependencies">依赖</string>
+    <string name="rm_root_empty">没有匹配的目录，请调整搜索或过滤条件。</string>
+    <string name="rm_root_project">项目模块</string>
+    <string name="rm_root_dependency">依赖库</string>
+    <string name="rm_root_editable">可编辑</string>
+    <string name="rm_root_summary">%1$s · %2$s</string>
+    <string name="rm_root_accessibility">选择资源目录。当前：%1$s。%2$s。</string>
+    <string name="rm_root_current_row">当前目录：%1$s。%2$s。</string>
+    <string name="rm_root_row">%1$s。%2$s。</string>
+</resources>

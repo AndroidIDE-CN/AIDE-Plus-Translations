@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="sdk_xml_data_title">Dados XML da plataforma do SDK</string>
+    <string name="sdk_xml_data_summary">Completar e verificar XML Android com os dados da plataforma do compileSdk do projeto (transferidos no gestor de SDK). Desligado: usar os dados incorporados.</string>
+    <string name="sdk_xml_data_missing_badge">Faltam dados XML</string>
+    <string name="sdk_xml_data_prompt_title">Dados XML da plataforma não transferidos</string>
+    <string name="sdk_xml_data_prompt_message">Os dados XML do Android SDK %1$s (compileSdk do projeto) não foram transferidos. Transfira-os no gestor de SDK ou desligue esta funcionalidade para usar os dados incorporados.</string>
+    <string name="sdk_xml_data_prompt_download">Abrir gestor de SDK</string>
+    <string name="sdk_xml_data_prompt_disable">Desligar</string>
+    <string name="sdk_xml_data_prompt_later">Mais tarde</string>
+    <string name="library_sources_title">Ir para o código-fonte das bibliotecas</string>
+    <string name="library_sources_summary">Transferir -sources.jar ao resolver dependências Maven e abrir o código-fonte (com documentação) em vez do resumo da classe. Desligado: manter o resumo da classe.</string>
+    <string name="library_doc_command">Mostrar documentação</string>
+    <string name="library_doc_open">Ir para a declaração</string>
+    <string name="library_doc_none">Sem comentário de documentação.</string>
+    <string name="library_doc_no_source">Não há código-fonte disponível para esta declaração, por isso não há documentação.</string>
+    <string name="library_doc_enable_sources">A documentação das classes de bibliotecas precisa do seu código-fonte. Ative Definições → Ir para o código-fonte das bibliotecas.</string>
+    <string name="library_sources_not_found">Declaração não encontrada</string>
+    <string name="library_sources_missing_title">Código-fonte da biblioteca não transferido</string>
+    <string name="library_sources_missing_message">O código-fonte de %1$s não foi transferido. Transfira-o agora, mostre o resumo da classe ou desligue a ida ao código-fonte.</string>
+    <string name="library_sources_download">Transferir</string>
+    <string name="library_sources_download_failed">Não foi possível transferir o código-fonte; os repositórios podem não publicar o código desta biblioteca.</string>
+    <string name="library_sources_disable">Desligar</string>
+    <string name="library_sources_outline">Resumo da classe</string>
+</resources>

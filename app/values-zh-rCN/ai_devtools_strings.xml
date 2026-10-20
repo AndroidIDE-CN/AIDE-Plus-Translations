@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ai_devtools_latest">回到最新消息</string>
+    <string name="ai_devtools_message_actions">消息操作</string>
+    <string name="ai_devtools_status">状态</string>
+    <string name="ai_devtools_error">错误</string>
+    <string name="ai_devtools_environment">Android 开发工具与环境</string>
+    <string name="ai_devtools_shizuku_authorize">授权 Shizuku</string>
+    <string name="ai_devtools_shizuku_unavailable">请先启动 Shizuku，再向 AIDE+ 授权。</string>
+    <string name="ai_devtools_help">助手可读取 IDE 错误、启动并查询当前构建、独立编译 Java/Kotlin 源文件，以及运行非交互 Shell 命令。编译和 Shell 任务返回编号，可查询或请求取消。\n\n应用 Shell 使用应用 UID。Shizuku 需单独授权；shell UID 不等于 root，无法读取应用私有目录，不会自动切换权限来源。编译产物存入隔离目录，独立编译不等于完整 APK 构建。编译器取消采用协作中断。应用进程结束后任务编号失效。</string>
+    <string name="ai_devtools_execution_warning">此工具执行代码或控制构建，不只是编辑文件。Shell 命令可访问所选 UID 获准的内容；项目工作目录不是文件系统沙箱。IDE 构建可能安装或启动当前项目。请核对具体命令、权限来源和参数后再允许。“总是允许修改文件”不会授权此工具。</string>
+</resources>

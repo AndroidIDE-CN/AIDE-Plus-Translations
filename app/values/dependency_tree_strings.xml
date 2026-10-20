@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dependency_tree_info">Dependency information</string>
+    <string name="dependency_tree_search">Filter dependencies or file paths</string>
+    <string name="dependency_tree_expand_all">Expand all</string>
+    <string name="dependency_tree_collapse_all">Collapse all</string>
+    <string name="dependency_tree_expand">Expand group or dependency</string>
+    <string name="dependency_tree_collapse">Collapse group or dependency</string>
+    <string name="dependency_tree_local">Local files</string>
+    <string name="dependency_tree_repeated">(already listed)</string>
+    <string name="dependency_tree_empty">No matching dependencies</string>
+    <string name="dependency_tree_hint">Cached POM tree. Direct Maven dependencies initially show their next level. Counts show direct rows and tree entries, including repeated references, not unique libraries. Tap to expand; use information for sources and the last icon to exclude. Save module properties to apply changes.</string>
+    <string name="dependency_tree_source">Declaration file: %1$s</string>
+    <string name="dependency_tree_declaration">Declaration: %1$s</string>
+    <string name="dependency_tree_introduced">Introduced by: %1$s</string>
+    <string name="dependency_tree_pom">POM path: %1$s</string>
+    <string name="dependency_tree_no_pom">POM not cached; transitive dependencies may be incomplete.</string>
+    <string name="dependency_tree_requested">Requested version: %1$s</string>
+    <string name="dependency_tree_resolved">Cached resolved version: %1$s</string>
+    <string name="dependency_tree_unresolved">No project resolution record; showing declared or BOM-managed version.</string>
+    <string name="dependency_tree_file">File path: %1$s</string>
+    <string name="dependency_tree_versionless">Managed / unspecified</string>
+    <string name="dependency_tree_exclude_warning">Exclude %1$s from %2$s? Other paths remain unchanged. Save module properties to apply the draft.</string>
+    <string name="dependency_tree_copy">Copy coordinates or path</string>
+    <string name="dependency_tree_script">Script expression; not evaluated by the inspector.</string>
+    <string name="dependency_tree_missing">File or module not found</string>
+    <string name="dependency_tree_limit">Inspection limit reached; inspect an individual dependency.</string>
+    <string name="dependency_tree_cycle">Cycle; expansion stopped</string>
+    <string name="dependency_tree_pom_error">Cannot read cached POM</string>
+    <string name="dependency_tree_group_count">%1$s · %2$d</string>
+    <string name="dependency_tree_group_counts">%1$s · %2$d direct · %3$d entries</string>
+    <string name="dependency_tree_category_androidx">AndroidX</string>
+    <string name="dependency_tree_category_network">Networking</string>
+    <string name="dependency_tree_category_images">Images</string>
+    <string name="dependency_tree_category_database">Databases</string>
+    <string name="dependency_tree_category_processors">Annotation processors</string>
+    <string name="dependency_tree_category_other">Other libraries</string>
+    <string name="dependency_tree_latest_tag">Latest %1$s</string>
+    <string name="dependency_tree_bom_count">Managed coordinates: %1$d</string>
+    <string name="dependency_tree_inheritance">Parent POMs or imported BOMs may declare additional dependencies. Edges shown here come from local POMs; cached project versions take precedence.</string>
+    <string name="dependency_tree_actions">Tree actions</string>
+    <string name="dependency_tree_clear_search">Clear search</string>
+    <string name="dependency_tree_locate_reference">Locate the first occurrence</string>
+    <string name="dependency_tree_visible_count">%1$d of %2$d tree entries shown</string>
+    <string name="dependency_tree_via">Via %1$s</string>
+    <string name="dependency_tree_row_summary">%1$s · %2$s</string>
+</resources>

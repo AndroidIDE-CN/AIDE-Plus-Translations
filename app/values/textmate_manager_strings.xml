@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="tm_title">TextMate grammars</string>
+    <string name="tm_summary">Manage file mappings and import local JSON or XML plist grammars</string>
+    <string name="tm_import">Import grammar</string>
+    <string name="tm_add_mapping">Add file mapping</string>
+    <string name="tm_refresh">Reload configuration</string>
+    <string name="tm_help">Help</string>
+    <string name="tm_group_builtin">Built-in grammars</string>
+    <string name="tm_group_external">External grammars</string>
+    <string name="tm_group_mappings">File mappings</string>
+    <string name="tm_filter">Search scopes, names or file mappings</string>
+    <string name="tm_loading">Working…</string>
+    <string name="tm_saved">Saved. Changes apply on the next analysis. Refresh the project to register new file types.</string>
+    <string name="tm_idle">Choose a grammar or file mapping to edit.</string>
+    <string name="tm_error">Operation failed (%1$s). Reload after a configuration conflict; check Help for formats and limits.</string>
+    <string name="tm_scope">Grammar scope</string>
+    <string name="tm_patterns">File mappings</string>
+    <string name="tm_patterns_help">One exact file name or *.extension per line. Java, Kotlin and other existing semantic languages stay protected.</string>
+    <string name="tm_sample">Preview sample</string>
+    <string name="tm_preview">Validate and preview</string>
+    <string name="tm_confirm_import">Import reviewed grammar</string>
+    <string name="tm_replace_import">Replace and import</string>
+    <string name="tm_conflicts">The existing grammar scope or selected file mappings will be replaced. Other settings and built-in assets are kept.</string>
+    <string name="tm_missing">Missing local includes: %1$s. They will not be downloaded.</string>
+    <string name="tm_enabled">Enabled</string>
+    <string name="tm_disabled">Disabled</string>
+    <string name="tm_empty">No matching entries</string>
+    <string name="tm_details">Details</string>
+    <string name="tm_remove">Uninstall external grammar</string>
+    <string name="tm_restore">Restore built-in grammar</string>
+    <string name="tm_remove_confirm">Remove this external grammar? Its own mappings are removed only when no built-in grammar replaces it.</string>
+    <string name="tm_restore_mapping">Reset file mapping</string>
+    <string name="tm_refresh_project">Refresh project</string>
+    <string name="tm_refresh_confirm">Refresh the current project (%1$s) to register changed file types? This uses the normal project reload and dependency checks.</string>
+    <string name="tm_refresh_started">Project refresh requested.</string>
+    <string name="tm_no_project">No open project to refresh.</string>
+    <string name="tm_discard">Discard preview</string>
+    <string name="tm_discard_confirm">Discard this unsaved import preview?</string>
+    <string name="tm_cancel_task">Cancel operation</string>
+    <string name="tm_count">%1$s · %2$d</string>
+    <string name="tm_choose_scope">Choose grammar scope</string>
+    <string name="tm_notice">Import only grammars you trust. Regex engines differ; not every TextMate/VS Code grammar is compatible, and time budgets cannot forcibly stop every slow regex. Imports are copied into app-private storage, not into your project or built-in assets. Unknown includes never trigger a download. Root switches affect file highlighting, not includes used by another grammar. The existing global TextMate switch still applies. Saving does not reload the project automatically.</string>
+    <string name="tm_limits">Supported: UTF-8 JSON and XML plist (not binary plist, YAML or ZIP). Input ≤512 KiB; canonical grammar ≤1 MiB; 32 external grammars, 256 mappings and 8 MiB stored grammar data. Preview: ≤4096 characters, 20 lines, 512 characters per line; soft 1-second budget. Configuration conflicts never overwrite newer changes.</string>
+    <string name="tm_draft_lost">The process was restarted. Reselect the grammar file to rebuild the unsaved preview.</string>
+</resources>
